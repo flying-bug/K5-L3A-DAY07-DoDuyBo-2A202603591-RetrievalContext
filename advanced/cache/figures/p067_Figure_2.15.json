@@ -1,0 +1,36 @@
+{
+ "kind": "map",
+ "axes_units": "",
+ "legend": [
+  "Annual mean concentration of fine particulate matter (PM2.5): >35 (dark red)",
+  "26–35 (red-orange)",
+  "16–25 (orange)",
+  "11–15 (light orange)",
+  "6–10 (pale yellow)",
+  "≤5 (very pale yellow)",
+  "No data available (light grey)",
+  "Not applicable (grey)",
+  "Annual mean concentration of fine particulate matter (PM2.5) in rural areas higher than towns (purple circle)",
+  "Annual mean concentration of fine particulate matter (PM2.5) in rural areas higher than cities (blue dot)"
+ ],
+ "values": [
+  "Legend | >35 : dark red",
+  "Legend | 26–35 : red-orange",
+  "Legend | 16–25 : orange",
+  "Legend | 11–15 : light orange",
+  "Legend | 6–10 : pale yellow",
+  "Legend | ≤5 : very pale yellow",
+  "Legend | No data available : light grey",
+  "Legend | Not applicable : grey",
+  "Rural PM2.5 higher than towns : purple circle",
+  "Rural PM2.5 higher than cities : blue dot"
+ ],
+ "summary": "The figure is a world map showing the annual mean concentrations of fine particulate matter (PM2.5) at the national level for 2019, with countries color-coded by concentration ranges. It also indicates whether rural areas have higher PM2.5 concentrations than towns or cities using purple circles and blue dots respectively. The highest concentrations (>35 µg/m³) are mainly observed in parts of Asia and Africa. Some countries have rural areas with higher PM2.5 than urban areas, as marked by the symbols.",
+ "text_in_image": "Figure 2.15 Annual mean concentrations of fine particulate matter (PM2.5) at national level, and in rural areas as compared to towns and cities, by country/territory, 2019\nAnnual mean concentration of fine particulate matter (PM2.5) in rural areas\nHigher than towns (purple circle)\nHigher than cities (blue dot)\nAnnual mean concentration of fine particulate matter (PM2.5)\n>35\n26–35\n16–25\n11–15\n6–10\n≤5\nNo data available\nNot applicable\nSource: Ref. (32).\nScale bar: 0 1000 2000 4000 km",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.58,
+  "input_tokens": 2481,
+  "output_tokens": 538
+ }
+}

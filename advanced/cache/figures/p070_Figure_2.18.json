@@ -1,0 +1,43 @@
+{
+ "kind": "line_chart",
+ "axes_units": "x-axis: Year (2000 to 2021), y-axis: Percentage (%) from 0 to 100",
+ "legend": [
+  "DTP3 (blue line)",
+  "HPV (green line)",
+  "MCV2 (red line)",
+  "PCV3 (yellow line)"
+ ],
+ "values": [
+  "DTP3 | 2000 : ~72",
+  "DTP3 | 2010 : ~83",
+  "DTP3 | 2021 : ~81",
+  "HPV | 2010 : ~2",
+  "HPV | 2019 : ~13",
+  "HPV | 2021 : ~12",
+  "MCV2 | 2000 : ~17",
+  "MCV2 | 2010 : ~41",
+  "MCV2 | 2019 : ~72",
+  "MCV2 | 2021 : ~71",
+  "PCV3 | 2008 : ~4",
+  "PCV3 | 2010 : ~10",
+  "PCV3 | 2019 : ~50",
+  "PCV3 | 2021 : ~51"
+ ],
+ "summary": "The figure shows global immunization rates from 2000 to 2021 for four vaccines: DTP3, MCV2, PCV3, and HPV. DTP3 coverage started high (~72%) and remained relatively stable around 80-85%. MCV2 coverage increased steadily from about 17% in 2000 to over 70% by 2019. PCV3 and HPV vaccines were introduced later, with PCV3 coverage rising from near zero in 2008 to about 50% by 2019, and HPV coverage increasing gradually from around 2% in 2010 to about 12-13% by 2019-2021. Overall, immunization rates for all vaccines show upward trends, with DTP3 having the highest coverage throughout the period.",
+ "text_in_image": [
+  "Figure 2.18 Global immunization rates against diphtheria, tetanus toxoid and pertussis (DTP3), measles (MCV2), pneumococcal infections (PCV3) and human papillomavirus (HPV), 2000–2021",
+  "Percentage (%)",
+  "DTP3",
+  "HPV",
+  "MCV2",
+  "PCV3",
+  "Note: DTP = diphtheria, tetanus toxoid and pertussis vaccine; HPV = human papillomavirus vaccine; MCV = measles vaccine; PCV = pneumococcal conjugate vaccine.",
+  "Source: Ref. (43)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 5.54,
+  "input_tokens": 2611,
+  "output_tokens": 595
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "config": "W4_dense_images_4.1",
+  "pass": "29/30",
+  "pass_rate": 96.7,
+  "threshold": "27/30 (90%)",
+  "by_group": {
+    "table": "6/6",
+    "chart": "5/5",
+    "image": "5/5",
+    "text": "4/4",
+    "multihop": "4/4",
+    "unanswerable": "5/6"
+  },
+  "fails": [
+    "T29"
+  ],
+  "system_errors": [],
+  "median_latency_s": 3.4,
+  "cost_usd": 0.4729,
+  "tokens_in": 219976,
+  "tokens_out": 4123,
+  "images_sent": 44
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-14T09:17:49Z",
+  "store": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "embedding_column": "vector(768)",
+    "indexes": {
+      "fixed800o100": {
+        "rows": 157,
+        "distinct_ids": 157,
+        "embedding_model": [
+          "E:\\Vin\\models\\embeddinggemma-300m"
+        ]
+      },
+      "para800": {
+        "rows": 186,
+        "distinct_ids": 186,
+        "embedding_model": [
+          "E:\\Vin\\models\\embeddinggemma-300m"
+        ]
+      }
+    }
+  },
+  "embedder": {
+    "model": "embeddinggemma-300m",
+    "path": "E:\\Vin\\models\\embeddinggemma-300m",
+    "dimensions": 768,
+    "query_prompt": "task: search result | query: ",
+    "document_prompt": "title: none | text: ",
+    "sentence_transformers": "6.3.0",
+    "torch": "2.15.0+cpu"
+  },
+  "db_ms": 343.2,
+  "model_load_ms": 11267.5,
+  "indexes": {
+    "para800": {
+      "chunks": 186,
+      "pages": 41,
+      "chars_total": 98849,
+      "reembed_cosine_min": 1.0,
+      "reembed_cosine_mean": 1.0,
+      "evidence_containable": "22/22",
+      "not_containable": []
+    },
+    "fixed800o100": {
+      "chunks": 157,
+      "pages": 41,
+      "chars_total": 110676,
+      "reembed_cosine_min": 1.0,
+      "reembed_cosine_mean": 1.0,
+      "evidence_containable": "21/22",
+      "not_containable": [
+        "q10"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "kind": "line_chart",
+ "axes_units": "x-axis: years from 2015 to 2030; y-axis: Number of new infections or deaths (thousands), scale from 0 to 1800",
+ "legend": [
+  {
+   "series": "Number of new infections under the strategy",
+   "colour": "solid light blue"
+  },
+  {
+   "series": "Number of new infections without new actions",
+   "colour": "dashed light blue"
+  },
+  {
+   "series": "Number of deaths under the strategy",
+   "colour": "solid purple"
+  },
+  {
+   "series": "Number of deaths without new actions",
+   "colour": "dashed purple"
+  }
+ ],
+ "values": [
+  "Number of new infections under the strategy | 2020 : 1500",
+  "Number of deaths under the strategy | 2020 : 820",
+  "Number of new infections under the strategy | 2025 : 850",
+  "Number of deaths under the strategy | 2025 : 530",
+  "Number of new infections under the strategy | 2030 : 170",
+  "Number of deaths under the strategy | 2030 : 310"
+ ],
+ "summary": "The figure shows trends in hepatitis B new infections and deaths from 2015 to 2030, comparing scenarios with new global health sector strategies versus no new actions. Under the strategy, both new infections and deaths decline significantly, reaching targets of 170,000 infections and 310,000 deaths by 2030. Without new actions, the number of new infections remains relatively stable and deaths increase slightly over time.",
+ "text_in_image": "Figure 2.6 Hepatitis B incidence and mortality trends from new actions implemented under global health sector strategies versus no new actions, 2020–2030; Progress in 2020 1.5 million infections; Progress in 2020 820 000 deaths; Target in 2025 850 000 infections; Target in 2025 530 000 deaths; Target in 2030 170 000 infections; Target in 2030 310 000 deaths; Number of new infections or deaths (thousands)",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 3.97,
+  "input_tokens": 2584,
+  "output_tokens": 452
+ }
+}

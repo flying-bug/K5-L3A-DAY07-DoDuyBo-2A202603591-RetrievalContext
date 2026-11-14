@@ -1,0 +1,34 @@
+{
+ "kind": "bar_chart",
+ "axes_units": "Y-axis: Proportion of the population (%) from 0 to 100",
+ "legend": [
+  "Safely-managed drinking-water services (blue)",
+  "Safely-managed sanitation services (green)",
+  "Hand-washing facility with soap and water (purple)"
+ ],
+ "values": [
+  "Safely-managed drinking-water services | African Region : 32",
+  "Safely-managed sanitation services | African Region : 23",
+  "Hand-washing facility with soap and water | African Region : 28",
+  "Safely-managed drinking-water services | Region of the Americas : 81",
+  "Safely-managed sanitation services | Region of the Americas : 52",
+  "Safely-managed drinking-water services | Eastern Mediterranean Region : 56",
+  "Hand-washing facility with soap and water | Eastern Mediterranean Region : 81",
+  "Safely-managed drinking-water services | European Region : 92",
+  "Safely-managed sanitation services | European Region : 70",
+  "Safely-managed sanitation services | South-East Asia Region : 46",
+  "Hand-washing facility with soap and water | South-East Asia Region : 71",
+  "Safely-managed sanitation services | Western Pacific Region : 65",
+  "Safely-managed drinking-water services | Global : 74",
+  "Safely-managed sanitation services | Global : 54",
+  "Hand-washing facility with soap and water | Global : 71"
+ ],
+ "summary": "The figure shows the proportion of the population using safely-managed drinking-water services, sanitation services, and hand-washing facilities with soap and water across WHO regions and globally in 2020. The European Region has the highest proportion of safely-managed drinking-water services (92%) and sanitation services (70%). The Eastern Mediterranean Region has a high proportion of hand-washing facilities (81%). The African Region has the lowest proportions across all three services. Globally, about 74% have safely-managed drinking-water, 54% have sanitation services, and 71% have hand-washing facilities.",
+ "text_in_image": "Figure 2.13 Proportion of population using WASH services, globally and by WHO region, 2020 | Proportion of the population (%) | 71 74 | European | South-East Asia | Western Pacific | Global | African Region Region of the | Eastern Mediterranean | Region | Region | Region | Americas | Region | Safely-managed drinking-water services Safely-managed sanitation services Hand-washing facility with soap and water | Note: Absence of bar means no aggregate statistics are available for the region. Source: Ref. (29).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 5.35,
+  "input_tokens": 2649,
+  "output_tokens": 554
+ }
+}

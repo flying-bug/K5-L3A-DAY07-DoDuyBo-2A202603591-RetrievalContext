@@ -1,0 +1,59 @@
+{
+  "split": "test",
+  "index": "para800",
+  "created_at": "2026-11-14T08:44:58Z",
+  "configs": {
+    "dense_f": {
+      "note": "Day 6 strategy C: + user-supplied function filter",
+      "retriever": "dense[para800]",
+      "method": "dense",
+      "filter": true,
+      "ctx_k": 3,
+      "budget": 3000,
+      "neighbours": 0,
+      "N": 8,
+      "hit1": 4,
+      "hit3": 6,
+      "hit5": 6,
+      "mrr10": 0.6458,
+      "context_hit": 6,
+      "avg_context_chars": 1946,
+      "median_latency_ms": 111.2,
+      "cost_usd": 0.0,
+      "misses_hit3": [
+        "t05",
+        "t06"
+      ],
+      "misses_context": [
+        "t05",
+        "t06"
+      ]
+    },
+    "dense_rerank_f": {
+      "note": "dense top-20 -> cross-encoder rerank",
+      "retriever": "rerank[mmarco-mMiniLMv2-L12-H384-v1](dense[para800],n=20)",
+      "method": "dense_rerank",
+      "filter": true,
+      "ctx_k": 3,
+      "budget": 3000,
+      "neighbours": 0,
+      "N": 8,
+      "hit1": 6,
+      "hit3": 6,
+      "hit5": 6,
+      "mrr10": 0.7708,
+      "context_hit": 6,
+      "avg_context_chars": 2001,
+      "median_latency_ms": 912.6,
+      "cost_usd": 0.0,
+      "misses_hit3": [
+        "t01",
+        "t05"
+      ],
+      "misses_context": [
+        "t01",
+        "t05"
+      ]
+    }
+  }
+}

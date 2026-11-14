@@ -1,0 +1,86 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng một phần: nêu quá trình MAP cung cấp hiểu biết để ra quyết định go/no-go ban đầu (p30, có căn cứ), nhưng không nêu ý đáp án 'explicit processes for go/no-go commissioning and deployment decisions' (p24); context không có gold.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u05",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u06",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ }
+]

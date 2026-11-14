@@ -1,0 +1,19 @@
+{
+ "columns": [
+  "Total population (000s) | Comparable estimates | Male | 2021",
+  "Total population (000s) | Comparable estimates | Female | 2021",
+  "Total population (000s) | Comparable estimates | Both sexes | 2021",
+  "Life expectancy at birth (years) | Comparable estimates | Male | 2019",
+  "Life expectancy at birth (years) | Comparable estimates | Female | 2019",
+  "Life expectancy at birth (years) | Comparable estimates | Both sexes | 2019",
+  "Healthy life expectancy at birth (years) | Comparable estimates | Male | 2019",
+  "Healthy life expectancy at birth (years) | Comparable estimates | Female | 2019",
+  "Healthy life expectancy at birth (years) | Comparable estimates | Both sexes | 2019"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 2.38,
+  "input_tokens": 1419,
+  "output_tokens": 183
+ }
+}

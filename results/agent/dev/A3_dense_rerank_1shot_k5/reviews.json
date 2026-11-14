@@ -1,0 +1,200 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Nêu MANAGE 1.1 (không đạt mục đích → không tiếp tục) và 2.4, có trong chunk; thiếu điều kiện chính ở p13.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng (monitored as part of regular monitoring and maintenance); nhầm số hiệu MANAGE 3.1/3.2 nhưng cả hai ý đều có trong chunk.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "note": "Sai: giải thích bằng việc cập nhật metric/đo lường mới theo thời gian (MEASURE 1.2, 4.2), không phải lý do trong tài liệu; citation không hỗ trợ ý trả lời.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Trả lời bằng MEASURE 1.3/2.3 (+ ghi lại dữ liệu kiểm thử, chỉ số, công cụ) — gần ý đáp án nhưng không nói về accuracy và tập kiểm thử đại diện ở p19.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ }
+]

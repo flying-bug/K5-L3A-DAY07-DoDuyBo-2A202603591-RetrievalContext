@@ -1,0 +1,43 @@
+{
+ "kind": "line_chart",
+ "axes_units": "Incidence rate per 100 000 population per year (log scale) on vertical axis; Years 2000 to 2021 on horizontal axis",
+ "legend": [
+  "Incidence (light blue line with shaded 95% uncertainty interval)",
+  "2020 milestone (red dashed horizontal line)",
+  "New and relapse case notifications (purple line)"
+ ],
+ "values": [
+  "Incidence | African Region 2000 : ~320",
+  "Incidence | African Region 2021 : ~160",
+  "New and relapse case notifications | African Region 2000 : ~120",
+  "New and relapse case notifications | African Region 2021 : ~140",
+  "Incidence | Region of the Americas 2000 : ~40",
+  "Incidence | Region of the Americas 2021 : ~30",
+  "New and relapse case notifications | Region of the Americas 2000 : ~30",
+  "New and relapse case notifications | Region of the Americas 2021 : ~20",
+  "Incidence | Eastern Mediterranean Region 2000 : ~140",
+  "Incidence | Eastern Mediterranean Region 2021 : ~90",
+  "New and relapse case notifications | Eastern Mediterranean Region 2000 : ~30",
+  "New and relapse case notifications | Eastern Mediterranean Region 2021 : ~70",
+  "Incidence | European Region 2000 : ~50",
+  "Incidence | European Region 2021 : ~25",
+  "New and relapse case notifications | European Region 2000 : ~40",
+  "New and relapse case notifications | European Region 2021 : ~15",
+  "Incidence | South-East Asia Region 2000 : ~320",
+  "Incidence | South-East Asia Region 2021 : ~160",
+  "New and relapse case notifications | South-East Asia Region 2000 : ~80",
+  "New and relapse case notifications | South-East Asia Region 2021 : ~160",
+  "Incidence | Western Pacific Region 2000 : ~140",
+  "Incidence | Western Pacific Region 2021 : ~80",
+  "New and relapse case notifications | Western Pacific Region 2000 : ~50",
+  "New and relapse case notifications | Western Pacific Region 2021 : ~50"
+ ],
+ "summary": "The figure shows trends in tuberculosis (TB) incidence rates and new and relapse case notifications from 2000 to 2021 across six WHO regions. Incidence rates generally declined over time in all regions, with the African and South-East Asia regions having the highest incidence rates throughout the period. New and relapse case notifications show varied trends, with some regions like South-East Asia and Eastern Mediterranean showing increases, while others like the European and Americas regions show declines. The 2020 milestone incidence rate is marked by a red dashed line in each region, indicating target levels for TB incidence.",
+ "text_in_image": "Figure 2.4 Trends in TB incidence rates by WHO region, 2000–2021; Incidence rate per 100 000 population per year (log scale); African Region; Region of the Americas; Eastern Mediterranean Region; European Region; South-East Asia Region; Western Pacific Region; Incidence; 2020 milestone; New and relapse case notifications; Note: Shaded areas represent 95% uncertainty intervals; Source: Ref. (10).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 6.75,
+  "input_tokens": 4533,
+  "output_tokens": 717
+ }
+}

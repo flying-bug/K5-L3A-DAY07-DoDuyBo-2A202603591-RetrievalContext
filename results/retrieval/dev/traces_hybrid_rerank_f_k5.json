@@ -1,0 +1,6228 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What does risk tolerance refer to in the AI RMF?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 1045.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 10.837352,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.763024
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 8.309728
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p012:para800:04",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 6.237478,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.739921
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 8.301423
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 4.318384,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.597413
+          },
+          "bm25": {
+            "rank": 26,
+            "score": 2.405743
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.026779,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 4.1151,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.6125
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 6.894567
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 2.242646,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.618542
+          },
+          "bm25": {
+            "rank": 24,
+            "score": 2.707307
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.027778,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 2.125561,
+        "components": {
+          "dense": {
+            "rank": 16,
+            "score": 0.554432
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 3.817157
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.027651,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 1.804287,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.594568
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 3.624746
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.029211,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 1.664418,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.611915
+          },
+          "bm25": {
+            "rank": 30,
+            "score": 2.17944
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.026496,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.830678,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.571619
+          },
+          "bm25": {
+            "rank": 18,
+            "score": 3.086461
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.027106,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p015:para800:01",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.77115,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.569059
+          },
+          "bm25": {
+            "rank": 33,
+            "score": 2.072677
+          }
+        },
+        "first_stage": {
+          "rank": 17,
+          "score": 0.024837,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p012:para800:00",
+      "nist-ai-100-1:p012:para800:04",
+      "nist-ai-100-1:p009:para800:02",
+      "nist-ai-100-1:p038:para800:02",
+      "nist-ai-100-1:p013:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 3446,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "question": "How does the AI RMF define risk?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 956.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 9.993768,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.699111
+          },
+          "bm25": {
+            "rank": 24,
+            "score": 2.405743
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.028298,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p013:para800:04",
+        "page": 13,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": 8.377699,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.623379
+          },
+          "bm25": {
+            "rank": 40,
+            "score": 1.626643
+          }
+        },
+        "first_stage": {
+          "rank": 20,
+          "score": 0.023699,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 8.053994,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.672432
+          },
+          "bm25": {
+            "rank": 22,
+            "score": 2.707307
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.028068,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 7.172931,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.673344
+          },
+          "bm25": {
+            "rank": 28,
+            "score": 2.17944
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.027493,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 6.922292,
+        "components": {
+          "dense": {
+            "rank": 22,
+            "score": 0.591287
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 6.649439
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.028589,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 6.299498,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.61977
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 3.624746
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.027826,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 6.252414,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.642443
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 3.086461
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.028309,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p012:para800:04",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 5.124074,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.658306
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 3.721182
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.030331,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 4.816939,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.639316
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 3.01163
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.02748,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 4.365077,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.628202
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 4.401817
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.029911,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p009:para800:02",
+      "nist-ai-100-1:p013:para800:04",
+      "nist-ai-100-1:p013:para800:00",
+      "nist-ai-100-1:p009:para800:05",
+      "nist-ai-100-1:p045:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 3690,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "question": "Under what circumstances should the development and deployment of an AI system be stopped?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 998.6,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 8.23977,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.635751
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 5.989547
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p019:para800:04",
+        "page": 19,
+        "section": "3.2 Safe",
+        "function": null,
+        "score": 2.243997,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.513899
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 4.971754
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.030622,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p022:para800:02",
+        "page": 22,
+        "section": "3.6 Privacy-Enhanced",
+        "function": null,
+        "score": 0.562211,
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.458615
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 4.992784
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.028219,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -1.431594,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.46945
+          },
+          "bm25": {
+            "rank": 39,
+            "score": 2.234802
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.025253,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p043:para800:01",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -1.513826,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.468711
+          },
+          "bm25": {
+            "rank": 26,
+            "score": 2.982546
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.026334,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p028:para800:03",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": -1.563133,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.456149
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.237757
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.028485,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p045:para800:03",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -1.605848,
+        "components": {
+          "dense": {
+            "rank": 25,
+            "score": 0.44331
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 4.052173
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.024923,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p018:para800:04",
+        "page": 18,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -1.646657,
+        "components": {
+          "dense": {
+            "rank": 19,
+            "score": 0.448469
+          },
+          "bm25": {
+            "rank": 34,
+            "score": 2.550029
+          }
+        },
+        "first_stage": {
+          "rank": 13,
+          "score": 0.023297,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.187627,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.482874
+          },
+          "bm25": {
+            "rank": 19,
+            "score": 3.292109
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.028531,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.466466,
+        "components": {
+          "dense": {
+            "rank": 36,
+            "score": 0.426155
+          },
+          "bm25": {
+            "rank": 48,
+            "score": 1.370838
+          }
+        },
+        "first_stage": {
+          "rank": 18,
+          "score": 0.019676,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:00",
+      "nist-ai-100-1:p019:para800:04",
+      "nist-ai-100-1:p022:para800:02",
+      "nist-ai-100-1:p037:para800:02",
+      "nist-ai-100-1:p043:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3515,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "question": "Which kinds of AI systems might justify a lower initial priority in risk management?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 1011.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 8.83188,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.719883
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 10.934607
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 3.719101,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.6787
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 6.645451
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p044:para800:01",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.171157,
+        "components": {
+          "dense": {
+            "rank": 24,
+            "score": 0.528209
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 3.519614
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.025238,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p019:para800:05",
+        "page": 19,
+        "section": "3.2 Safe",
+        "function": null,
+        "score": 0.100445,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.602106
+          },
+          "bm25": {
+            "rank": 26,
+            "score": 3.068505
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.027013,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p009:para800:01",
+        "page": 9,
+        "section": "1. Framing Risk",
+        "function": null,
+        "score": -0.114297,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.546144
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 3.604934
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.027032,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -0.374829,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.555339
+          },
+          "bm25": {
+            "rank": 39,
+            "score": 2.726397
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.024186,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p011:para800:04",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": -0.637708,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.587437
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 3.424467
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.028139,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -0.893564,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.560334
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.077517
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.029857,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -1.131889,
+        "components": {
+          "dense": {
+            "rank": 40,
+            "score": 0.494099
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 3.947135
+          }
+        },
+        "first_stage": {
+          "rank": 17,
+          "score": 0.024085,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p009:para800:04",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": -1.201823,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.550869
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 3.851592
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.027588,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:01",
+      "nist-ai-100-1:p013:para800:00",
+      "nist-ai-100-1:p044:para800:01",
+      "nist-ai-100-1:p019:para800:05",
+      "nist-ai-100-1:p009:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3180,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "question": "What is residual risk?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 895.4,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:02",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 6.517763,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.586017
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 6.768322
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -1.63091,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.374316
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 3.794262
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p009:para800:01",
+        "page": 9,
+        "section": "1. Framing Risk",
+        "function": null,
+        "score": -3.031099,
+        "components": {
+          "dense": {
+            "rank": 24,
+            "score": 0.287344
+          },
+          "bm25": {
+            "rank": 19,
+            "score": 1.164123
+          }
+        },
+        "first_stage": {
+          "rank": 20,
+          "score": 0.024563,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p010:para800:04",
+        "page": 10,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": -3.722877,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.322887
+          },
+          "bm25": {
+            "rank": 33,
+            "score": 1.080314
+          }
+        },
+        "first_stage": {
+          "rank": 18,
+          "score": 0.024837,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": -4.125853,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.349589
+          },
+          "bm25": {
+            "rank": 47,
+            "score": 0.947791
+          }
+        },
+        "first_stage": {
+          "rank": 19,
+          "score": 0.02473,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p038:para800:04",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": -5.566156,
+        "components": {
+          "dense": {
+            "rank": 29,
+            "score": 0.278135
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 1.323329
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.024935,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p012:para800:01",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": -5.735837,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.332344
+          },
+          "bm25": {
+            "rank": 27,
+            "score": 1.135279
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.02578,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p009:para800:04",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": -5.832077,
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.320823
+          },
+          "bm25": {
+            "rank": 23,
+            "score": 1.15383
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.025937,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": -5.835402,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.338837
+          },
+          "bm25": {
+            "rank": 30,
+            "score": 1.106401
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.026263,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p009:para800:03",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": -6.091854,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.357051
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 1.401808
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031025,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:02",
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p009:para800:01",
+      "nist-ai-100-1:p010:para800:04",
+      "nist-ai-100-1:p009:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3035,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "question": "What are the characteristics of trustworthy AI systems?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 865.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p017:para800:02",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 10.86606,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.735619
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.154848
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p017:para800:00",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 10.81695,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.730433
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 8.469014
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p018:para800:03",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 9.843339,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.686481
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 4.508833
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.030798,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p017:para800:03",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 7.563269,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.680715
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 4.014454
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.029911,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p018:para800:02",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 6.223972,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.576189
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 3.919436
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.028169,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 4.286389,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.558592
+          },
+          "bm25": {
+            "rank": 27,
+            "score": 2.343998
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.025193,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p024:para800:01",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": 4.191956,
+        "components": {
+          "dense": {
+            "rank": 24,
+            "score": 0.514719
+          },
+          "bm25": {
+            "rank": 28,
+            "score": 2.201546
+          }
+        },
+        "first_stage": {
+          "rank": 19,
+          "score": 0.023268,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p019:para800:00",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 3.89764,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.635872
+          },
+          "bm25": {
+            "rank": 33,
+            "score": 1.495402
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.026137,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p034:para800:01",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 3.347688,
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.555233
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 4.558126
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.028898,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p022:para800:02",
+        "page": 22,
+        "section": "3.6 Privacy-Enhanced",
+        "function": null,
+        "score": 3.254054,
+        "components": {
+          "dense": {
+            "rank": 23,
+            "score": 0.518697
+          },
+          "bm25": {
+            "rank": 18,
+            "score": 3.052373
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.024869,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p017:para800:02",
+      "nist-ai-100-1:p017:para800:00",
+      "nist-ai-100-1:p018:para800:03",
+      "nist-ai-100-1:p017:para800:03",
+      "nist-ai-100-1:p018:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3353,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "question": "Transparency, explainability và interpretability khác nhau thế nào, mỗi khái niệm trả lời câu hỏi gì?",
+    "answerable": true,
+    "type": "paraphrase_vi",
+    "filter": null,
+    "latency_ms": 968.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p022:para800:00",
+        "page": 22,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": 9.311164,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.704805
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 16.317231
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p021:para800:04",
+        "page": 21,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": 2.25572,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.564656
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.44371
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p017:para800:01",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": -2.494928,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.312179
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 3.3297
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.028778,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p017:para800:04",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": -2.993583,
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.281989
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 5.652171
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.029139,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p020:para800:04",
+        "page": 20,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": -3.088734,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.428103
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 4.12128
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.03055,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p020:para800:05",
+        "page": 20,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": -3.619534,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.38418
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 3.853228
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.03009,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p018:para800:03",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": -3.695056,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.341438
+          }
+        },
+        "first_stage": {
+          "rank": 17,
+          "score": 0.014925,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p021:para800:02",
+        "page": 21,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": -3.973327,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.308198
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 3.605145
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.028778,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p021:para800:00",
+        "page": 21,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": -4.584914,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.428912
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.015873,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p021:para800:05",
+        "page": 21,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": -4.820963,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.363091
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 4.508884
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030536,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p022:para800:00",
+      "nist-ai-100-1:p021:para800:04",
+      "nist-ai-100-1:p017:para800:01",
+      "nist-ai-100-1:p017:para800:04",
+      "nist-ai-100-1:p020:para800:04"
+    ],
+    "context_dropped": [],
+    "context_chars": 3365,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "question": "What are the three major categories of AI bias identified by NIST?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 1051.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p023:para800:00",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 10.523356,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.830103
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 19.281724
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p023:para800:02",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 2.304357,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.66394
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.359258
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 2.232563,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.540569
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.954201
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 1.021251,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.531651
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.067906
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030331,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p044:para800:01",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -0.898824,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.456313
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 3.796119
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.026857,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p032:para800:00",
+        "page": 32,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -1.234802,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.469591
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 4.646722
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.028571,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -1.72937,
+        "components": {
+          "dense": {
+            "rank": 32,
+            "score": 0.428361
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.778821
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.026021,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p014:para800:02",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": -2.649817,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.500688
+          },
+          "bm25": {
+            "rank": 20,
+            "score": 3.181907
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.027652,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p022:para800:04",
+        "page": 22,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": -2.661462,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.520822
+          },
+          "bm25": {
+            "rank": 14,
+            "score": 3.850313
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.028898,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p035:para800:01",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -3.099849,
+        "components": {
+          "dense": {
+            "rank": 30,
+            "score": 0.430864
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.02589
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.026984,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p023:para800:00",
+      "nist-ai-100-1:p023:para800:02",
+      "nist-ai-100-1:p034:para800:00",
+      "nist-ai-100-1:p037:para800:00",
+      "nist-ai-100-1:p044:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3848,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "question": "How does security differ from resilience for AI systems?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 958.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p020:para800:01",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 6.469737,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.684493
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 3.319373
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030282,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p020:para800:03",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 5.508759,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.653038
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 11.73983
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 2.76453,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.537142
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 5.775284
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031746,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p043:para800:00",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 2.24521,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.49339
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 6.707343
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.030835,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p044:para800:01",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 1.794792,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.509342
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 3.183165
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.029083,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p022:para800:02",
+        "page": 22,
+        "section": "3.6 Privacy-Enhanced",
+        "function": null,
+        "score": 0.930643,
+        "components": {
+          "dense": {
+            "rank": 31,
+            "score": 0.440203
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 4.882893
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.025914,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p017:para800:00",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": -0.495695,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.509453
+          },
+          "bm25": {
+            "rank": 46,
+            "score": 1.10058
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.025059,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p013:para800:04",
+        "page": 13,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": -0.572002,
+        "components": {
+          "dense": {
+            "rank": 19,
+            "score": 0.462101
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 5.026533
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.028043,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": -0.595232,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.486242
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 4.737648
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.028992,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p019:para800:00",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -1.954369,
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.468529
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 1.495402
+          }
+        },
+        "first_stage": {
+          "rank": 13,
+          "score": 0.026501,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p020:para800:01",
+      "nist-ai-100-1:p020:para800:03",
+      "nist-ai-100-1:p035:para800:00",
+      "nist-ai-100-1:p043:para800:00",
+      "nist-ai-100-1:p044:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3913,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "question": "In the MAP function, what decision should the gathered context knowledge support once MAP is completed?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "MAP"
+    },
+    "latency_ms": 769.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 8.289626,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.565913
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 14.683072
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p030:para800:00",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 4.403264,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.543946
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 16.861064
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032266,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p031:para800:00",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -1.638711,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.556028
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 8.883984
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031514,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p029:para800:02",
+        "page": 29,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -2.153328,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.501245
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 7.260706
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.02967,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p031:para800:02",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -3.209427,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.384083
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.077833
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030366,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p030:para800:01",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -3.248132,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.5077
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 8.362701
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.030118,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p033:para800:00",
+        "page": 33,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -3.814804,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.456461
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 8.657574
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.029851,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p032:para800:03",
+        "page": 32,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -3.928697,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.357287
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 4.501179
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.028175,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p032:para800:00",
+        "page": 32,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -4.128956,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.462781
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 8.370638
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.029857,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p031:para800:01",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -4.191174,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.419752
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 8.868583
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.029857,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p030:para800:04",
+      "nist-ai-100-1:p030:para800:00",
+      "nist-ai-100-1:p031:para800:00",
+      "nist-ai-100-1:p029:para800:02",
+      "nist-ai-100-1:p031:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3961,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "question": "Under the GOVERN function, which group is accountable for decisions about risks from AI development and deployment?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "GOVERN"
+    },
+    "latency_ms": 773.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p028:para800:01",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 7.271902,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.643262
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 10.18056
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031545,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p029:para800:00",
+        "page": 29,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 6.917011,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.681007
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.409643
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.031754,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p026:para800:03",
+        "page": 26,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 4.977438,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.707669
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.698703
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031545,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p027:para800:00",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 2.390049,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.647148
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 5.456664
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.03031,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p028:para800:02",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 2.381693,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.567056
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.211974
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.029199,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p029:para800:01",
+        "page": 29,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 2.020029,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.618666
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 5.079869
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.029418,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p027:para800:02",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.650608,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.658836
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.565297
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p028:para800:00",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.453732,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.672785
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.343633
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.031258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p028:para800:03",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.002733,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.535604
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 8.281315
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.030214,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p027:para800:01",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": -0.516018,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.544296
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 0.130934
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.028175,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p028:para800:01",
+      "nist-ai-100-1:p029:para800:00",
+      "nist-ai-100-1:p026:para800:03",
+      "nist-ai-100-1:p027:para800:00",
+      "nist-ai-100-1:p028:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3536,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "question": "Within the MANAGE function, what response options are listed for high-priority AI risks?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "MANAGE"
+    },
+    "latency_ms": 430.4,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 10.802369,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.768124
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 18.563957
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 4.0367,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.692953
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.974397
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031754,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p038:para800:00",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 3.228107,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.654407
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.872827
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p036:para800:03",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 2.847962,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.611039
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.008834
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031025,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p036:para800:02",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 1.120532,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.63585
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.032064
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030769,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.411972,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.638004
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.671552
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.030777,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p038:para800:01",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -2.443609,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.457625
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 2.799887
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.029851,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p037:para800:00",
+      "nist-ai-100-1:p038:para800:00",
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p036:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3713,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "question": "In the MEASURE function, what must be demonstrated about the safety of an AI system that is going to be deployed?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "MEASURE"
+    },
+    "latency_ms": 785.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 10.745934,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.749081
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 16.714405
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 8.934873,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.717994
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 14.839153
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 5.554664,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.74488
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 5.805684
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031054,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 3.502359,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.595115
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 4.005544
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.028992,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 3.224979,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.638226
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.259059
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030777,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p035:para800:01",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 2.94909,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.583143
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.684445
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030366,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.88797,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.667147
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 3.950412
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.02971,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p035:para800:02",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.807834,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.56763
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.385443
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.028992,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p034:para800:01",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.54008,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.537829
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.181876
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.029469,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.448262,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.60982
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 4.748337
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.029418,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p035:para800:00",
+      "nist-ai-100-1:p034:para800:02",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p036:para800:01",
+      "nist-ai-100-1:p036:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 3220,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "question": "In which lifecycle phases are AI Design tasks performed?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 908.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p040:para800:00",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 10.784303,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.703996
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 15.318495
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p040:para800:02",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 7.158716,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.591781
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 7.832326
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p040:para800:04",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 6.283194,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.558503
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 7.888335
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.03101,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p040:para800:03",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 6.06342,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.599254
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 7.401743
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031054,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p041:para800:02",
+        "page": 41,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 4.656831,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.577309
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 10.653751
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031754,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p015:para800:00",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": 2.560356,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.534952
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 6.464783
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.02904,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p040:para800:05",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 1.955892,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.480579
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 8.918258
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030366,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p014:para800:04",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.551552,
+        "components": {
+          "dense": {
+            "rank": 21,
+            "score": 0.42475
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 7.248655
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.026838,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p025:para800:02",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": -0.484721,
+        "components": {
+          "dense": {
+            "rank": 17,
+            "score": 0.446416
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 5.147254
+          }
+        },
+        "first_stage": {
+          "rank": 13,
+          "score": 0.026686,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p045:para800:03",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -0.702626,
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.471931
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 7.776342
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.02904,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p040:para800:00",
+      "nist-ai-100-1:p040:para800:02",
+      "nist-ai-100-1:p040:para800:04",
+      "nist-ai-100-1:p040:para800:03",
+      "nist-ai-100-1:p041:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3548,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "question": "Which machine learning attacks are existing security frameworks unable to comprehensively address?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 980.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p044:para800:03",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 9.438067,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.58005
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 35.452681
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p043:para800:00",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -2.966178,
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.34568
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.116275
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.029643,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p047:para800:03",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -5.524082,
+        "components": {
+          "dense": {
+            "rank": 21,
+            "score": 0.323516
+          },
+          "bm25": {
+            "rank": 20,
+            "score": 2.599833
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.024846,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p013:para800:04",
+        "page": 13,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": -5.921255,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.383309
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 7.182819
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030777,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p020:para800:01",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": -5.966202,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.371388
+          },
+          "bm25": {
+            "rank": 26,
+            "score": 2.31668
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.026553,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -6.158685,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.394007
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 8.587387
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p030:para800:03",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -6.18198,
+        "components": {
+          "dense": {
+            "rank": 24,
+            "score": 0.316079
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 2.969061
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.025238,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p008:para800:00",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -6.427841,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.362005
+          },
+          "bm25": {
+            "rank": 18,
+            "score": 2.680713
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.027106,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p035:para800:02",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -6.523071,
+        "components": {
+          "dense": {
+            "rank": 22,
+            "score": 0.321695
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 2.809461
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.025353,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p044:para800:04",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -6.591009,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.399984
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.553594
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031054,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p044:para800:03",
+      "nist-ai-100-1:p043:para800:00",
+      "nist-ai-100-1:p047:para800:03",
+      "nist-ai-100-1:p013:para800:04",
+      "nist-ai-100-1:p020:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3748,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q16",
+    "question": "Must the four AI RMF functions be carried out in a fixed order?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 1024.4,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 2.867454,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.604531
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.122034
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p026:para800:01",
+        "page": 26,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 1.828353,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.658118
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.326792
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032522,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p025:para800:02",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.947256,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.54275
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 12.264756
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032266,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p015:para800:01",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": -1.23197,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.52034
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 4.478752
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.028485,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -1.325831,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.518772
+          },
+          "bm25": {
+            "rank": 37,
+            "score": 2.245837
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.025235,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p008:para800:00",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -1.885078,
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.499896
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 7.548931
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.029274,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -2.092202,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.525877
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 5.602784
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.030118,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p047:para800:04",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -2.252407,
+        "components": {
+          "dense": {
+            "rank": 17,
+            "score": 0.484392
+          },
+          "bm25": {
+            "rank": 36,
+            "score": 2.293379
+          }
+        },
+        "first_stage": {
+          "rank": 19,
+          "score": 0.023404,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p046:para800:02",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -2.345346,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.514178
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.592035
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.029631,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -2.396133,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.497175
+          },
+          "bm25": {
+            "rank": 33,
+            "score": 2.370243
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.024451,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p025:para800:01",
+      "nist-ai-100-1:p026:para800:01",
+      "nist-ai-100-1:p025:para800:02",
+      "nist-ai-100-1:p015:para800:01",
+      "nist-ai-100-1:p007:para800:04"
+    ],
+    "context_dropped": [],
+    "context_chars": 3392,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "question": "Under the MANAGE function, how should pre-trained models used for development be handled?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "MANAGE"
+    },
+    "latency_ms": 488.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 4.846411,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.544779
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 14.26125
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p036:para800:03",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -4.106727,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.494241
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 5.539004
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031746,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -4.786301,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.499555
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.248327
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p038:para800:00",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -5.178386,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.479657
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 4.672824
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.03101,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p036:para800:02",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -5.7599,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.453441
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 4.911654
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.030777,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -6.880381,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.455319
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.657991
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030536,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p038:para800:01",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": -7.047265,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.371173
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 2.671168
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.029851,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p037:para800:02",
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p037:para800:00",
+      "nist-ai-100-1:p038:para800:00",
+      "nist-ai-100-1:p036:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 3732,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "question": "In the MEASURE function, who should take part in regular assessments and updates of the AI system?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "function": "MEASURE"
+    },
+    "latency_ms": 926.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p034:para800:01",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 10.137067,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.574783
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 15.265683
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031099,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 6.236887,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.663508
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 5.805684
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031319,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 3.287918,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.586702
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 6.123461
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.030077,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 3.195846,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.59477
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 3.950412
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.029437,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 2.892534,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.632181
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 4.748337
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030835,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.808379,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.618426
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.36008
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 1.417213,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.626232
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.259059
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p035:para800:02",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.51902,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.488604
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 3.121992
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.027973,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p035:para800:01",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -0.032723,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.552453
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.684445
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.030415,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -0.264306,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.572079
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 4.005544
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.028986,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p034:para800:01",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p034:para800:00",
+      "nist-ai-100-1:p033:para800:02",
+      "nist-ai-100-1:p033:para800:04"
+    ],
+    "context_dropped": [],
+    "context_chars": 3520,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "question": "Why can risk measurements differ depending on when in the AI lifecycle they are taken?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 1106.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p011:para800:03",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 6.506234,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.645873
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 8.412196
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p011:para800:01",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 6.361311,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.688636
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 6.053582
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031099,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p013:para800:03",
+        "page": 13,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": 2.594343,
+        "components": {
+          "dense": {
+            "rank": 25,
+            "score": 0.516388
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.68099
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.02669,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p010:para800:03",
+        "page": 10,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 2.484276,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.629521
+          },
+          "bm25": {
+            "rank": 30,
+            "score": 3.474114
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.026984,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p011:para800:00",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 2.304729,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.557878
+          },
+          "bm25": {
+            "rank": 34,
+            "score": 3.165256
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.024924,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p010:para800:02",
+        "page": 10,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 2.185146,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.604016
+          },
+          "bm25": {
+            "rank": 31,
+            "score": 3.391434
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.026614,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p043:para800:00",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 1.143708,
+        "components": {
+          "dense": {
+            "rank": 28,
+            "score": 0.500841
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 5.649644
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.025856,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.395629,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.561618
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 4.902049
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.028405,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.23495,
+        "components": {
+          "dense": {
+            "rank": 18,
+            "score": 0.533533
+          },
+          "bm25": {
+            "rank": 39,
+            "score": 2.94046
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.022922,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": -0.949686,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.558927
+          },
+          "bm25": {
+            "rank": 22,
+            "score": 4.137465
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.026688,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p011:para800:03",
+      "nist-ai-100-1:p011:para800:01",
+      "nist-ai-100-1:p013:para800:03",
+      "nist-ai-100-1:p010:para800:03",
+      "nist-ai-100-1:p011:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 3670,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "question": "Under which conditions can the AI part of a human-AI team amplify human biases?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 955.6,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p045:para800:05",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 10.779209,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.739336
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 20.379523
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p023:para800:02",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 1.433201,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.565507
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 6.688953
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.029911,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p045:para800:03",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 1.134589,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.578609
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 10.07039
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031746,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p046:para800:00",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -0.247018,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.466153
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 9.289592
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.029911,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p023:para800:01",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": -0.592008,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.58686
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 10.348033
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p023:para800:00",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": -0.671596,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.523554
+          },
+          "bm25": {
+            "rank": 14,
+            "score": 6.262533
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.028898,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p006:para800:04",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -2.695425,
+        "components": {
+          "dense": {
+            "rank": 18,
+            "score": 0.440699
+          },
+          "bm25": {
+            "rank": 20,
+            "score": 5.153655
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.025321,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -3.473634,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.459116
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 6.46751
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.027973,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p028:para800:02",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": -3.728535,
+        "components": {
+          "dense": {
+            "rank": 38,
+            "score": 0.397202
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 6.383132
+          }
+        },
+        "first_stage": {
+          "rank": 17,
+          "score": 0.023903,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p022:para800:04",
+        "page": 22,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": -3.810291,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.490062
+          },
+          "bm25": {
+            "rank": 32,
+            "score": 3.93218
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.026021,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p045:para800:05",
+      "nist-ai-100-1:p023:para800:02",
+      "nist-ai-100-1:p045:para800:03",
+      "nist-ai-100-1:p046:para800:00",
+      "nist-ai-100-1:p023:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 3107,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21",
+    "question": "What is the difference between an AI RMF Current Profile and a Target Profile?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 924.5,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 10.834215,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.770858
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 27.709983
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 4.649607,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.557884
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.127157
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032258,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p038:para800:04",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 1.692366,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.537212
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 7.514803
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031498,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p039:para800:00",
+        "page": 39,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 1.055397,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.469271
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 10.292784
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.031025,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.69121,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.471384
+          },
+          "bm25": {
+            "rank": 29,
+            "score": 1.998363
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.026621,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.507719,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.463197
+          },
+          "bm25": {
+            "rank": 24,
+            "score": 2.245837
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.026611,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.206329,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.499535
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 5.1887
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.03055,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -0.591485,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.437655
+          },
+          "bm25": {
+            "rank": 33,
+            "score": 1.690561
+          }
+        },
+        "first_stage": {
+          "rank": 19,
+          "score": 0.024451,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -0.91002,
+        "components": {
+          "dense": {
+            "rank": 20,
+            "score": 0.416503
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 5.70225
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.027885,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": -1.506763,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.449551
+          },
+          "bm25": {
+            "rank": 27,
+            "score": 2.061265
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.02578,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p038:para800:03",
+      "nist-ai-100-1:p038:para800:02",
+      "nist-ai-100-1:p038:para800:04",
+      "nist-ai-100-1:p039:para800:00",
+      "nist-ai-100-1:p006:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 2892,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q22",
+    "question": "Theo AI RMF, các phép đo độ chính xác (accuracy) của hệ thống AI cần đi kèm với điều gì?",
+    "answerable": true,
+    "type": "paraphrase_vi",
+    "filter": null,
+    "latency_ms": 964.5,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 4.176521,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.502365
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 3.779758
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.03101,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p019:para800:01",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 3.875851,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.496548
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 5.934895
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.031099,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p024:para800:00",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": 2.764356,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.497732
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 2.978829
+          }
+        },
+        "first_stage": {
+          "rank": 4,
+          "score": 0.029236,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 1.261586,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.494401
+          },
+          "bm25": {
+            "rank": 36,
+            "score": 1.710846
+          }
+        },
+        "first_stage": {
+          "rank": 18,
+          "score": 0.024702,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p019:para800:00",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.570716,
+        "components": {
+          "dense": {
+            "rank": 25,
+            "score": 0.461567
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 5.515254
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.027894,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.193939,
+        "components": {
+          "dense": {
+            "rank": 13,
+            "score": 0.488299
+          },
+          "bm25": {
+            "rank": 31,
+            "score": 1.855798
+          }
+        },
+        "first_stage": {
+          "rank": 19,
+          "score": 0.024688,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.124211,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.527167
+          },
+          "bm25": {
+            "rank": 23,
+            "score": 2.176991
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.028442,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.089468,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.524542
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 3.295677
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.031054,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.076911,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.508235
+          },
+          "bm25": {
+            "rank": 39,
+            "score": 1.642372
+          }
+        },
+        "first_stage": {
+          "rank": 13,
+          "score": 0.025974,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p025:para800:02",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": -0.101322,
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.491469
+          },
+          "bm25": {
+            "rank": 27,
+            "score": 2.060006
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.025383,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p019:para800:03",
+      "nist-ai-100-1:p019:para800:01",
+      "nist-ai-100-1:p024:para800:00",
+      "nist-ai-100-1:p009:para800:05",
+      "nist-ai-100-1:p019:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 3284,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "u01",
+    "question": "What minimum accuracy percentage must an AI system achieve to pass the MEASURE function?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 969.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.02466,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.562099
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.36008
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.888228,
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.501971
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 4.748337
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.028624,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.952204,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.597452
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 5.805684
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.031054,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -2.977197,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.534691
+          },
+          "bm25": {
+            "rank": 21,
+            "score": 3.950412
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.02773,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -3.331813,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.474456
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 4.62014
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.027826,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -3.696246,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.600997
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 6.350804
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032266,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": -3.794732,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.490368
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.259059
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.030331,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p019:para800:01",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -3.904866,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.519378
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.853029
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.030303,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": -4.064454,
+        "components": {
+          "dense": {
+            "rank": 20,
+            "score": 0.426749
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 5.252166
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.026786,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p019:para800:00",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": -4.097862,
+        "components": {
+          "dense": {
+            "rank": 28,
+            "score": 0.395046
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 5.339402
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.025856,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p035:para800:00",
+      "nist-ai-100-1:p033:para800:04",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p033:para800:02",
+      "nist-ai-100-1:p019:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 3346,
+    "top1_score": -2.02466
+  },
+  {
+    "query_id": "u02",
+    "question": "How many organizations submitted public comments on the drafts of the AI RMF?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 829.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p008:para800:02",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 5.556156,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.570478
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 17.811145
+          }
+        },
+        "first_stage": {
+          "rank": 1,
+          "score": 0.032787,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -0.706346,
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.522028
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 6.534768
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -1.675033,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.51599
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.099445
+          }
+        },
+        "first_stage": {
+          "rank": 3,
+          "score": 0.032002,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p024:para800:00",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": -2.273288,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.487195
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 3.965836
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.027826,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -2.60685,
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.513714
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 4.086376
+          }
+        },
+        "first_stage": {
+          "rank": 6,
+          "score": 0.029324,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p007:para800:05",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -2.61904,
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.495574
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 3.477003
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.028139,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p014:para800:00",
+        "page": 14,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": -3.37599,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.458993
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 4.566862
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.028259,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p026:para800:00",
+        "page": 26,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": -3.465803,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.470444
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.790495
+          }
+        },
+        "first_stage": {
+          "rank": 7,
+          "score": 0.029236,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p014:para800:05",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": -3.627706,
+        "components": {
+          "dense": {
+            "rank": 25,
+            "score": 0.431488
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 3.647642
+          }
+        },
+        "first_stage": {
+          "rank": 15,
+          "score": 0.024923,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": -3.731133,
+        "components": {
+          "dense": {
+            "rank": 20,
+            "score": 0.4435
+          },
+          "bm25": {
+            "rank": 18,
+            "score": 3.423331
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.025321,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p008:para800:02",
+      "nist-ai-100-1:p007:para800:02",
+      "nist-ai-100-1:p047:para800:01",
+      "nist-ai-100-1:p024:para800:00",
+      "nist-ai-100-1:p007:para800:04"
+    ],
+    "context_dropped": [],
+    "context_chars": 3386,
+    "top1_score": 5.556156
+  },
+  {
+    "query_id": "u03",
+    "question": "Which watermarking technique does the AI RMF recommend for labeling AI-generated content?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 853.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.017346,
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.404483
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 2.176991
+          }
+        },
+        "first_stage": {
+          "rank": 10,
+          "score": 0.028372,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -0.926551,
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.396487
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 2.433594
+          }
+        },
+        "first_stage": {
+          "rank": 9,
+          "score": 0.028405,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p044:para800:03",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": -1.720738,
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.395156
+          },
+          "bm25": {
+            "rank": 24,
+            "score": 1.86413
+          }
+        },
+        "first_stage": {
+          "rank": 16,
+          "score": 0.02619,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p008:para800:02",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -1.810279,
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.420671
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 2.305754
+          }
+        },
+        "first_stage": {
+          "rank": 5,
+          "score": 0.029727,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": -1.979706,
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.419416
+          },
+          "bm25": {
+            "rank": 25,
+            "score": 1.855798
+          }
+        },
+        "first_stage": {
+          "rank": 12,
+          "score": 0.027638,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -2.390244,
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.391706
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 2.552288
+          }
+        },
+        "first_stage": {
+          "rank": 8,
+          "score": 0.028595,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p047:para800:04",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -2.655056,
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.392286
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 2.48275
+          }
+        },
+        "first_stage": {
+          "rank": 11,
+          "score": 0.02837,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p047:para800:02",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -2.786054,
+        "components": {
+          "dense": {
+            "rank": 15,
+            "score": 0.384354
+          },
+          "bm25": {
+            "rank": 22,
+            "score": 1.975862
+          }
+        },
+        "first_stage": {
+          "rank": 18,
+          "score": 0.025528,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": -3.38703,
+        "components": {
+          "dense": {
+            "rank": 26,
+            "score": 0.361168
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 2.699304
+          }
+        },
+        "first_stage": {
+          "rank": 14,
+          "score": 0.026553,
+          "method": "hybrid_rrf"
+        }
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": -3.458844,
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.395748
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 3.295677
+          }
+        },
+        "first_stage": {
+          "rank": 2,
+          "score": 0.030622,
+          "method": "hybrid_rrf"
+        }
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p006:para800:01",
+      "nist-ai-100-1:p007:para800:04",
+      "nist-ai-100-1:p044:para800:03",
+      "nist-ai-100-1:p008:para800:02",
+      "nist-ai-100-1:p007:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 2940,
+    "top1_score": 0.017346
+  }
+]

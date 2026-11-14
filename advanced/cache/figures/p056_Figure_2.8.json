@@ -1,0 +1,37 @@
+{
+ "kind": "line_chart",
+ "axes_units": "x-axis: Year (2000 to 2022), y-axis: Prevalence (%)",
+ "legend": [
+  "African Region (red)",
+  "Region of the Americas (light blue)",
+  "Eastern Mediterranean Region (green)",
+  "European Region (orange-red)",
+  "South-East Asia Region (purple)",
+  "Western Pacific Region (yellow)",
+  "Global (lavender)"
+ ],
+ "values": [
+  "African Region | 2000 : ~43%",
+  "African Region | 2022 : ~31%",
+  "Region of the Americas | 2000 : ~13%",
+  "Region of the Americas | 2022 : ~9%",
+  "Eastern Mediterranean Region | 2000 : ~33%",
+  "Eastern Mediterranean Region | 2022 : ~25%",
+  "European Region | 2000 : ~11%",
+  "European Region | 2022 : ~5%",
+  "South-East Asia Region | 2000 : ~48%",
+  "South-East Asia Region | 2022 : ~30%",
+  "Western Pacific Region | 2000 : ~22%",
+  "Western Pacific Region | 2022 : ~10%",
+  "Global | 2000 : ~33%",
+  "Global | 2022 : ~22%"
+ ],
+ "summary": "The figure shows trends in the prevalence of stunting in children under 5 years of age from 2000 to 2022 globally and by WHO region. All regions show a general decline in stunting prevalence over this period. The South-East Asia Region had the highest prevalence in 2000 (~48%) and showed a significant decrease to about 30% by 2022, while the European Region had the lowest prevalence throughout, decreasing from about 11% to 5%. The global prevalence also declined steadily from about 33% to 22%.",
+ "text_in_image": "Figure 2.8 Trends in prevalence of stunting and overweight in children under 5 years of age, globally and by WHO region, 2000–2022; Stunting; Prevalence (%)",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.01,
+  "input_tokens": 3570,
+  "output_tokens": 453
+ }
+}

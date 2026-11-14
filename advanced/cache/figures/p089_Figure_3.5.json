@@ -1,0 +1,90 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "x-axis: years (2000, 2010, 2020, 2030, 2040, 2048); y-axis: Percentage (%)",
+ "legend": [
+  {
+   "label": "Communicable, maternal, perinatal and nutritional conditions",
+   "color": "blue"
+  },
+  {
+   "label": "Injuries",
+   "color": "orange"
+  },
+  {
+   "label": "Noncommunicable diseases",
+   "color": "grey"
+  }
+ ],
+ "values": [
+  "African Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~75%",
+  "African Region | 2000 | Injuries : ~7%",
+  "African Region | 2000 | Noncommunicable diseases : ~18%",
+  "African Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~32%",
+  "African Region | 2048 | Injuries : ~10%",
+  "African Region | 2048 | Noncommunicable diseases : ~58%",
+  "Region of the Americas | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~18%",
+  "Region of the Americas | 2000 | Injuries : ~12%",
+  "Region of the Americas | 2000 | Noncommunicable diseases : ~70%",
+  "Region of the Americas | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~5%",
+  "Region of the Americas | 2048 | Injuries : ~10%",
+  "Region of the Americas | 2048 | Noncommunicable diseases : ~85%",
+  "Eastern Mediterranean Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~50%",
+  "Eastern Mediterranean Region | 2000 | Injuries : ~10%",
+  "Eastern Mediterranean Region | 2000 | Noncommunicable diseases : ~40%",
+  "Eastern Mediterranean Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~12%",
+  "Eastern Mediterranean Region | 2048 | Injuries : ~12%",
+  "Eastern Mediterranean Region | 2048 | Noncommunicable diseases : ~76%",
+  "European Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "European Region | 2000 | Injuries : ~12%",
+  "European Region | 2000 | Noncommunicable diseases : ~78%",
+  "European Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~3%",
+  "European Region | 2048 | Injuries : ~5%",
+  "European Region | 2048 | Noncommunicable diseases : ~92%",
+  "South-East Asia Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~50%",
+  "South-East Asia Region | 2000 | Injuries : ~10%",
+  "South-East Asia Region | 2000 | Noncommunicable diseases : ~40%",
+  "South-East Asia Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~12%",
+  "South-East Asia Region | 2048 | Injuries : ~10%",
+  "South-East Asia Region | 2048 | Noncommunicable diseases : ~78%",
+  "Western Pacific | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~15%",
+  "Western Pacific | 2000 | Injuries : ~12%",
+  "Western Pacific | 2000 | Noncommunicable diseases : ~73%",
+  "Western Pacific | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~3%",
+  "Western Pacific | 2048 | Injuries : ~8%",
+  "Western Pacific | 2048 | Noncommunicable diseases : ~89%",
+  "Global | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~40%",
+  "Global | 2000 | Injuries : ~12%",
+  "Global | 2000 | Noncommunicable diseases : ~48%",
+  "Global | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "Global | 2048 | Injuries : ~12%",
+  "Global | 2048 | Noncommunicable diseases : ~78%"
+ ],
+ "summary": "The figure shows the changing composition of causes of DALYs (Disability-Adjusted Life Years) across WHO regions and globally from 2000 to 2048. Noncommunicable diseases increase substantially in all regions over time, becoming the dominant cause by 2048. Communicable, maternal, perinatal, and nutritional conditions decrease markedly, especially in the African Region and globally. Injuries remain relatively stable with slight variations across regions.",
+ "text_in_image": [
+  "Figure 3.5 Composition of causes of DALYs, WHO regions and global, 2000–2048",
+  "African Region",
+  "Region of the Americas",
+  "Eastern Mediterranean Region",
+  "European Region",
+  "South-East Asia Region",
+  "Western Pacific",
+  "Global",
+  "Percentage (%)",
+  "2000",
+  "2010",
+  "2020",
+  "2030",
+  "2040",
+  "2048",
+  "Communicable, maternal, perinatal and nutritional conditions",
+  "Injuries",
+  "Noncommunicable diseases",
+  "Source: Ref. (14)"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 9.11,
+  "input_tokens": 2826,
+  "output_tokens": 1201
+ }
+}

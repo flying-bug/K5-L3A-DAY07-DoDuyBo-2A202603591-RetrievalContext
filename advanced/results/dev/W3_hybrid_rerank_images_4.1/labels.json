@@ -1,0 +1,122 @@
+[
+  {
+    "id": "D01",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D02",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D03",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D04",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D05",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D06",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D07",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D08",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D09",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D10",
+    "group": "multihop",
+    "pass": false,
+    "reason": "Không đạt: context không có dòng Thái Lan (hybrid+rerank ưu tiên chunk hình) → từ chối nhầm câu có đáp án."
+  },
+  {
+    "id": "D11",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D12",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D13",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D14",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D15",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D16",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: đúng và đủ so với đáp án; citation đúng trang/vùng evidence (đối chiếu bản gốc)."
+  },
+  {
+    "id": "D17",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối/nêu rõ báo cáo không có giá trị được hỏi, không khẳng định vô căn cứ."
+  },
+  {
+    "id": "D18",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối/nêu rõ báo cáo không có giá trị được hỏi, không khẳng định vô căn cứ."
+  },
+  {
+    "id": "D19",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối/nêu rõ báo cáo không có giá trị được hỏi, không khẳng định vô căn cứ."
+  },
+  {
+    "id": "D20",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối/nêu rõ báo cáo không có giá trị được hỏi, không khẳng định vô căn cứ."
+  }
+]

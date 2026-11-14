@@ -1,0 +1,87 @@
+{
+  "auto": {
+    "config": {
+      "name": "A1_dense_rerank",
+      "retrieval": "dense_rerank",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0
+    },
+    "retriever": "rerank[mmarco-mMiniLMv2-L12-H384-v1](dense[para800],n=20)",
+    "split": "dev",
+    "created_at": "2026-11-14T08:35:22Z",
+    "runs": 25,
+    "errors": [],
+    "tool_use": "25/25",
+    "searches_distribution": {
+      "1": 22,
+      "2": 1,
+      "3": 2
+    },
+    "mean_searches": 1.2,
+    "status_answerable": {
+      "answered": 19,
+      "abstain": 3
+    },
+    "status_unanswerable": {
+      "abstain": 3
+    },
+    "context_evidence_rate": "15/22",
+    "context_misses": [
+      "q03",
+      "q04",
+      "q15",
+      "q16",
+      "q19",
+      "q21",
+      "q22"
+    ],
+    "answered_with_citation": "19/19",
+    "invalid_citation_events": [],
+    "median_latency_s": 3.57,
+    "mean_context_chars": 2169,
+    "tokens": {
+      "input": 41912,
+      "output": 4232,
+      "thinking": 0,
+      "calls": 55
+    },
+    "cost_usd_list_price": 0.0235
+  },
+  "labels": {
+    "cases": 25,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 25,
+      "N": 25
+    },
+    "grounded_answer": {
+      "0": 4,
+      "1": 2,
+      "2": 16,
+      "N": 22,
+      "mean": 1.5454545454545454
+    },
+    "citation_validity": {
+      "n": 29,
+      "N": 30
+    },
+    "answer_citation_coverage": {
+      "n": 19,
+      "N": 19
+    },
+    "abstention": {
+      "n": 3,
+      "N": 3
+    },
+    "false_abstention": {
+      "n": 3,
+      "N": 22
+    }
+  }
+}

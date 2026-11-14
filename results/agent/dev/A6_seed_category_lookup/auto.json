@@ -1,0 +1,48 @@
+{
+  "config": {
+    "name": "A6_seed_category_lookup",
+    "retrieval": "dense_rerank",
+    "index": "para800",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "max_searches": 3,
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "thinking_budget": 512,
+    "temperature": 0.0,
+    "model_filter": false,
+    "seed_original": true,
+    "category_lookup": true
+  },
+  "retriever": "rerank[mmarco-mMiniLMv2-L12-H384-v1](dense[para800],n=20)",
+  "split": "dev",
+  "created_at": "2026-11-14T09:04:35Z",
+  "runs": 25,
+  "errors": [],
+  "tool_use": "25/25",
+  "searches_distribution": {
+    "1": 22,
+    "2": 2,
+    "3": 1
+  },
+  "mean_searches": 1.16,
+  "status_answerable": {
+    "answered": 22
+  },
+  "status_unanswerable": {
+    "abstain": 3
+  },
+  "context_evidence_rate": "22/22",
+  "context_misses": [],
+  "answered_with_citation": "22/22",
+  "invalid_citation_events": [],
+  "median_latency_s": 2.68,
+  "mean_context_chars": 2303,
+  "tokens": {
+    "input": 28330,
+    "output": 3832,
+    "thinking": 0,
+    "calls": 29
+  },
+  "cost_usd_list_price": 0.0175
+}

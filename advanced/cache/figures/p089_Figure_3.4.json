@@ -1,0 +1,90 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "x-axis: years (2000, 2010, 2020, 2030, 2040, 2048); y-axis: Percentage (%)",
+ "legend": [
+  {
+   "label": "Communicable, maternal, perinatal and nutritional conditions",
+   "color": "blue"
+  },
+  {
+   "label": "Injuries",
+   "color": "orange"
+  },
+  {
+   "label": "Noncommunicable diseases",
+   "color": "grey"
+  }
+ ],
+ "values": [
+  "African Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~70%",
+  "African Region | 2000 | Injuries : ~7%",
+  "African Region | 2000 | Noncommunicable diseases : ~23%",
+  "African Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~30%",
+  "African Region | 2048 | Injuries : ~10%",
+  "African Region | 2048 | Noncommunicable diseases : ~60%",
+  "Region of the Americas | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~15%",
+  "Region of the Americas | 2000 | Injuries : ~10%",
+  "Region of the Americas | 2000 | Noncommunicable diseases : ~75%",
+  "Region of the Americas | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~5%",
+  "Region of the Americas | 2048 | Injuries : ~7%",
+  "Region of the Americas | 2048 | Noncommunicable diseases : ~88%",
+  "Eastern Mediterranean Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~35%",
+  "Eastern Mediterranean Region | 2000 | Injuries : ~10%",
+  "Eastern Mediterranean Region | 2000 | Noncommunicable diseases : ~55%",
+  "Eastern Mediterranean Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "Eastern Mediterranean Region | 2048 | Injuries : ~10%",
+  "Eastern Mediterranean Region | 2048 | Noncommunicable diseases : ~80%",
+  "European Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~15%",
+  "European Region | 2000 | Injuries : ~25%",
+  "European Region | 2000 | Noncommunicable diseases : ~60%",
+  "European Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~5%",
+  "European Region | 2048 | Injuries : ~15%",
+  "European Region | 2048 | Noncommunicable diseases : ~80%",
+  "South-East Asia Region | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~40%",
+  "South-East Asia Region | 2000 | Injuries : ~10%",
+  "South-East Asia Region | 2000 | Noncommunicable diseases : ~50%",
+  "South-East Asia Region | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "South-East Asia Region | 2048 | Injuries : ~10%",
+  "South-East Asia Region | 2048 | Noncommunicable diseases : ~80%",
+  "Western Pacific | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "Western Pacific | 2000 | Injuries : ~10%",
+  "Western Pacific | 2000 | Noncommunicable diseases : ~80%",
+  "Western Pacific | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~5%",
+  "Western Pacific | 2048 | Injuries : ~7%",
+  "Western Pacific | 2048 | Noncommunicable diseases : ~88%",
+  "Global | 2000 | Communicable, maternal, perinatal and nutritional conditions : ~30%",
+  "Global | 2000 | Injuries : ~10%",
+  "Global | 2000 | Noncommunicable diseases : ~60%",
+  "Global | 2048 | Communicable, maternal, perinatal and nutritional conditions : ~10%",
+  "Global | 2048 | Injuries : ~10%",
+  "Global | 2048 | Noncommunicable diseases : ~80%"
+ ],
+ "summary": "The figure shows the changing composition of causes of death by WHO regions and globally from 2000 to 2048. Across all regions, the proportion of deaths due to communicable, maternal, perinatal, and nutritional conditions is projected to decline significantly, while noncommunicable diseases are expected to increase and become the dominant cause of death by 2048. Injuries remain relatively stable or slightly increase in some regions but constitute a smaller proportion compared to noncommunicable diseases. The African Region starts with the highest percentage of communicable diseases and shows the largest decline over time.",
+ "text_in_image": [
+  "Figure 3.4 Composition of causes of death, WHO regions and global, 2000–2048",
+  "African Region",
+  "Region of the Americas",
+  "Eastern Mediterranean Region",
+  "European Region",
+  "South-East Asia Region",
+  "Western Pacific",
+  "Global",
+  "Percentage (%)",
+  "2000",
+  "2010",
+  "2020",
+  "2030",
+  "2040",
+  "2048",
+  "Communicable, maternal, perinatal and nutritional conditions",
+  "Injuries",
+  "Noncommunicable diseases",
+  "Source: Ref. (3)"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 8.29,
+  "input_tokens": 2749,
+  "output_tokens": 1228
+ }
+}

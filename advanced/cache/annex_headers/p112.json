@@ -1,0 +1,17 @@
+{
+ "columns": [
+  "3.a | Age-standardized prevalence of tobacco use among persons 15 years and older (%) | Comparable estimates | 2020",
+  "3.a | Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1-year-olds (%) | Comparable estimates | 2021",
+  "3.a | Measles-containing-vaccine second-dose (MCV2) immunization coverage by the nationally recommended age (%) | Comparable estimates | 2021",
+  "3.b | Pneumococcal conjugate 3rd dose (PCV3) immunization coverage among 1-year olds (%) | Comparable estimates | 2021",
+  "3.b | Human papillomavirus (HPV) immunization coverage estimates among 15 year-old girls (%) | Comparable estimates | 2021",
+  "3.b | Total net official development assistance to medical research and basic health sectors per capita (US$), by recipient country | Primary data | 2021",
+  "3.b | Proportion of health facilities with a core set of relevant essential medicines available and affordable on a sustainable basis (%) | Primary data | 2012–2019"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 2.72,
+  "input_tokens": 1478,
+  "output_tokens": 239
+ }
+}

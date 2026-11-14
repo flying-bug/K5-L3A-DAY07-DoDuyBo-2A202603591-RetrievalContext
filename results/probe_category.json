@@ -1,0 +1,625 @@
+{
+  "created_at": "2026-11-14T09:01:33Z",
+  "configs": {
+    "A5_dense_rerank_seed": {
+      "context_coverage": "11/38",
+      "answer_coverage": "8/38",
+      "cost_usd": 0.0064,
+      "rows": [
+        {
+          "id": "p01",
+          "question": "MAP 1 là gì",
+          "status": "answered",
+          "expected": [
+            "MAP 1.1",
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "context_coverage": "1/6",
+          "answer_coverage": "1/6",
+          "missing_in_answer": [
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "n_searches": 1,
+          "elapsed_s": 3.58,
+          "cost_usd": 0.000696,
+          "answer": "MAP 1 là một phần của chức năng MAP trong khuôn khổ quản lý rủi ro AI, cụ thể là \"Context is established and understood\" (Bối cảnh được thiết lập và hiểu rõ). MAP 1.1 bao gồm việc hiểu và ghi lại các mục đích dự kiến, các sử dụng có lợi tiềm năng, các luật lệ, chuẩn mực và kỳ vọng theo bối cảnh, cũng như các môi trường triển khai hệ thống AI. Các cân nhắc bao gồm: nhóm người dùng cụ thể và kỳ vọng của họ; các tác động tích cực và tiêu cực tiềm năng đến cá nhân, cộng đồng, tổ chức, xã hội và hành tinh; các giả định và giới hạn liên quan đến mục đích, sử dụng và rủi ro của hệ thống AI trong suốt vòng đời phát triển hoặc sản phẩm AI; cùng các chỉ số TEVV và hệ thống liên quan [nist-ai-100-1:p031:para800:00].",
+          "citations": [
+            "nist-ai-100-1:p031:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "MAP 1 là gì",
+              "added": [
+                "nist-ai-100-1:p031:para800:00",
+                "nist-ai-100-1:p046:para800:01",
+                "nist-ai-100-1:p030:para800:01"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p02",
+          "question": "tất cả thông tin liên quan đến map 1",
+          "status": "answered",
+          "expected": [
+            "MAP 1.1",
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "context_coverage": "1/6",
+          "answer_coverage": "1/6",
+          "missing_in_answer": [
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "n_searches": 1,
+          "elapsed_s": 2.66,
+          "cost_usd": 0.000638,
+          "answer": "MAP 1 in the AI RMF refers to the establishment and understanding of context. Specifically, MAP 1.1 involves understanding and documenting the intended purposes, potentially beneficial uses, context-specific laws, norms, expectations, and prospective settings for AI system deployment. This includes considerations such as the types of users and their expectations, potential positive and negative impacts on individuals, communities, organizations, society, and the planet, assumptions and limitations about AI system purposes, uses, and risks across the AI lifecycle, as well as related TEVV (Testing, Evaluation, Verification, and Validation) and system metrics [nist-ai-100-1:p031:para800:00].",
+          "citations": [
+            "nist-ai-100-1:p031:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "tất cả thông tin liên quan đến map 1",
+              "added": [
+                "nist-ai-100-1:p030:para800:00",
+                "nist-ai-100-1:p031:para800:00",
+                "nist-ai-100-1:p032:para800:00"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p03",
+          "question": "What are all the subcategories of MEASURE 2?",
+          "status": "answered",
+          "expected": [
+            "MEASURE 2.1",
+            "MEASURE 2.2",
+            "MEASURE 2.3",
+            "MEASURE 2.4",
+            "MEASURE 2.5",
+            "MEASURE 2.6",
+            "MEASURE 2.7",
+            "MEASURE 2.8",
+            "MEASURE 2.9",
+            "MEASURE 2.10",
+            "MEASURE 2.11",
+            "MEASURE 2.12",
+            "MEASURE 2.13"
+          ],
+          "context_coverage": "3/13",
+          "answer_coverage": "3/13",
+          "missing_in_answer": [
+            "MEASURE 2.1",
+            "MEASURE 2.2",
+            "MEASURE 2.3",
+            "MEASURE 2.4",
+            "MEASURE 2.5",
+            "MEASURE 2.9",
+            "MEASURE 2.10",
+            "MEASURE 2.11",
+            "MEASURE 2.12",
+            "MEASURE 2.13"
+          ],
+          "n_searches": 3,
+          "elapsed_s": 6.21,
+          "cost_usd": 0.001688,
+          "answer": "The subcategories of MEASURE 2 are:\n- MEASURE 2.6: The AI system is evaluated regularly for safety risks, ensuring it is safe, its residual negative risk does not exceed risk tolerance, and it can fail safely, with safety metrics reflecting reliability, robustness, real-time monitoring, and response times for failures.\n- MEASURE 2.7: AI system security and resilience are evaluated and documented.\n- MEASURE 2.8: Risks associated with transparency and accountability are examined and documented [nist-ai-100-1:p035:para800:00].",
+          "citations": [
+            "nist-ai-100-1:p035:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "What are all the subcategories of MEASURE 2?",
+              "added": [
+                "nist-ai-100-1:p036:para800:00",
+                "nist-ai-100-1:p035:para800:00",
+                "nist-ai-100-1:p008:para800:00"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "MEASURE 2 subcategories",
+              "added": [
+                "nist-ai-100-1:p034:para800:00"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "MEASURE 2 subcategories list",
+              "added": []
+            }
+          ]
+        },
+        {
+          "id": "p04",
+          "question": "GOVERN 1 gồm những subcategory nào?",
+          "status": "abstain",
+          "expected": [
+            "GOVERN 1.1",
+            "GOVERN 1.2",
+            "GOVERN 1.3",
+            "GOVERN 1.4",
+            "GOVERN 1.5",
+            "GOVERN 1.6",
+            "GOVERN 1.7"
+          ],
+          "context_coverage": "3/7",
+          "answer_coverage": "0/7",
+          "missing_in_answer": [
+            "GOVERN 1.1",
+            "GOVERN 1.2",
+            "GOVERN 1.3",
+            "GOVERN 1.4",
+            "GOVERN 1.5",
+            "GOVERN 1.6",
+            "GOVERN 1.7"
+          ],
+          "n_searches": 3,
+          "elapsed_s": 5.75,
+          "cost_usd": 0.001504,
+          "answer": "The document excerpts provided list the general description of GOVERN 1 but do not enumerate its specific subcategories. More detailed text specifying the subcategories of GOVERN 1 is missing.",
+          "citations": [],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "GOVERN 1 gồm những subcategory nào?",
+              "added": [
+                "nist-ai-100-1:p028:para800:00",
+                "nist-ai-100-1:p027:para800:02",
+                "nist-ai-100-1:p029:para800:00"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "GOVERN 1 subcategories",
+              "added": []
+            },
+            {
+              "tool": "search_documents",
+              "query": "GOVERN 1 subcategories detailed",
+              "added": []
+            }
+          ]
+        },
+        {
+          "id": "p05",
+          "question": "What does MANAGE 4 cover?",
+          "status": "answered",
+          "expected": [
+            "MANAGE 4.1",
+            "MANAGE 4.2",
+            "MANAGE 4.3"
+          ],
+          "context_coverage": "0/3",
+          "answer_coverage": "0/3",
+          "missing_in_answer": [
+            "MANAGE 4.1",
+            "MANAGE 4.2",
+            "MANAGE 4.3"
+          ],
+          "n_searches": 1,
+          "elapsed_s": 2.73,
+          "cost_usd": 0.000676,
+          "answer": "MANAGE 4 is not explicitly detailed in the retrieved text, but the MANAGE function overall involves allocating risk resources to mapped and measured risks, prioritizing and responding to AI risks based on assessments, and managing risk treatment plans including response, recovery, and communication about incidents. It uses contextual information and systematic documentation to reduce failures and negative impacts, and includes processes for assessing emergent risks and continual improvement. Specific subcategories like MANAGE 1 focus on prioritizing and responding to AI risks based on impact, likelihood, and resources [nist-ai-100-1:p036:para800:02][nist-ai-100-1:p037:para800:00].",
+          "citations": [
+            "nist-ai-100-1:p036:para800:02",
+            "nist-ai-100-1:p037:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "What does MANAGE 4 cover?",
+              "added": [
+                "nist-ai-100-1:p008:para800:00",
+                "nist-ai-100-1:p037:para800:00",
+                "nist-ai-100-1:p036:para800:02"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p06",
+          "question": "What does MEASURE 2.6 require?",
+          "status": "answered",
+          "expected": [
+            "MEASURE 2.6"
+          ],
+          "context_coverage": "1/1",
+          "answer_coverage": "1/1",
+          "missing_in_answer": [],
+          "n_searches": 1,
+          "elapsed_s": 2.58,
+          "cost_usd": 0.000616,
+          "answer": "MEASURE 2.6 requires that the AI system is evaluated regularly for safety risks as identified in the MAP function. The AI system to be deployed must be demonstrated to be safe, with residual negative risk not exceeding the risk tolerance, and it must be able to fail safely, especially if operating beyond its knowledge limits. Safety metrics should reflect system reliability and robustness, real-time monitoring, and response times for AI system failures [nist-ai-100-1:p035:para800:00].",
+          "citations": [
+            "nist-ai-100-1:p035:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "What does MEASURE 2.6 require?",
+              "added": [
+                "nist-ai-100-1:p035:para800:00",
+                "nist-ai-100-1:p034:para800:02",
+                "nist-ai-100-1:p035:para800:01"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p07",
+          "question": "Under the GOVERN function, what does GOVERN 6 require about third parties?",
+          "status": "answered",
+          "expected": [
+            "GOVERN 6.1",
+            "GOVERN 6.2"
+          ],
+          "context_coverage": "2/2",
+          "answer_coverage": "2/2",
+          "missing_in_answer": [],
+          "n_searches": 1,
+          "elapsed_s": 2.3,
+          "cost_usd": 0.000622,
+          "answer": "Under the GOVERN function, GOVERN 6 requires that policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues. Specifically, GOVERN 6.1 requires policies and procedures to address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights. GOVERN 6.2 requires contingency processes to handle failures or incidents in third-party data or AI systems deemed to be high-risk [nist-ai-100-1:p029:para800:01].",
+          "citations": [
+            "nist-ai-100-1:p029:para800:01"
+          ],
+          "searches": [
+            {
+              "tool": "seed_original_query",
+              "query": "Under the GOVERN function, what does GOVERN 6 require about third parties?",
+              "added": [
+                "nist-ai-100-1:p029:para800:01",
+                "nist-ai-100-1:p027:para800:00",
+                "nist-ai-100-1:p029:para800:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "A6_seed_category_lookup": {
+      "context_coverage": "38/38",
+      "answer_coverage": "38/38",
+      "cost_usd": 0.0083,
+      "rows": [
+        {
+          "id": "p01",
+          "question": "MAP 1 là gì",
+          "status": "answered",
+          "expected": [
+            "MAP 1.1",
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "context_coverage": "6/6",
+          "answer_coverage": "6/6",
+          "missing_in_answer": [],
+          "n_searches": 3,
+          "elapsed_s": 4.99,
+          "cost_usd": 0.001574,
+          "answer": "MAP 1 in the AI RMF refers to the function where context is established and understood. It includes several subcategories: MAP 1.1 involves understanding and documenting intended purposes, beneficial uses, context-specific laws, norms, expectations, and deployment settings of the AI system. MAP 1.2 emphasizes the participation of interdisciplinary AI actors with diverse competencies and documented collaboration. MAP 1.3 and MAP 1.4 focus on understanding and documenting the organization's mission, AI goals, and business context. MAP 1.5 involves determining and documenting organizational risk tolerances. MAP 1.6 requires eliciting and understanding system requirements with socio-technical implications to address AI risks [nist-ai-100-1:p031:para800:00, nist-ai-100-1:p031:para800:01, nist-ai-100-1:p031:para800:02]. [nist-ai-100-1:p031:para800:00] [nist-ai-100-1:p031:para800:01] [nist-ai-100-1:p031:para800:02]",
+          "citations": [
+            "nist-ai-100-1:p031:para800:00",
+            "nist-ai-100-1:p031:para800:01",
+            "nist-ai-100-1:p031:para800:02"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "MAP 1",
+              "added": [
+                "nist-ai-100-1:p031:para800:00",
+                "nist-ai-100-1:p031:para800:01",
+                "nist-ai-100-1:p031:para800:02"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "MAP 1 là gì",
+              "added": [
+                "nist-ai-100-1:p046:para800:01",
+                "nist-ai-100-1:p030:para800:01"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "MAP 1 AI RMF",
+              "added": [
+                "nist-ai-100-1:p046:para800:02",
+                "nist-ai-100-1:p007:para800:02",
+                "nist-ai-100-1:p006:para800:01"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p02",
+          "question": "tất cả thông tin liên quan đến map 1",
+          "status": "answered",
+          "expected": [
+            "MAP 1.1",
+            "MAP 1.2",
+            "MAP 1.3",
+            "MAP 1.4",
+            "MAP 1.5",
+            "MAP 1.6"
+          ],
+          "context_coverage": "6/6",
+          "answer_coverage": "6/6",
+          "missing_in_answer": [],
+          "n_searches": 2,
+          "elapsed_s": 3.73,
+          "cost_usd": 0.001072,
+          "answer": "MAP 1: Context is established and understood.\n- MAP 1.1: Intended purposes, potentially beneficial uses, context-specific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented. This includes users and their expectations, potential impacts, assumptions and limitations about AI system purposes, uses, and risks, and related TEVV and system metrics.\n- MAP 1.2: Interdisciplinary AI actors, competencies, skills, and capacities for establishing context reflect demographic diversity and broad domain and user experience expertise, with documented participation and prioritized interdisciplinary collaboration.\n- MAP 1.3: The organization’s mission and relevant goals for AI technology are understood and documented.\n- MAP 1.4: The business value or context of business use has been clearly defined or re-evaluated for existing AI systems.\n- MAP 1.5: Organizational risk tolerances are determined and documented.\n- MAP 1.6: System requirements are elicited from and understood by relevant AI actors, with design decisions considering socio-technical implications to address AI risks [nist-ai-100-1:p031:para800:00, nist-ai-100-1:p031:para800:01, nist-ai-100-1:p031:para800:02]. [nist-ai-100-1:p031:para800:00] [nist-ai-100-1:p031:para800:01] [nist-ai-100-1:p031:para800:02]",
+          "citations": [
+            "nist-ai-100-1:p031:para800:00",
+            "nist-ai-100-1:p031:para800:01",
+            "nist-ai-100-1:p031:para800:02"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "MAP 1",
+              "added": [
+                "nist-ai-100-1:p031:para800:00",
+                "nist-ai-100-1:p031:para800:01",
+                "nist-ai-100-1:p031:para800:02"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "tất cả thông tin liên quan đến map 1",
+              "added": [
+                "nist-ai-100-1:p030:para800:00",
+                "nist-ai-100-1:p032:para800:00"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p03",
+          "question": "What are all the subcategories of MEASURE 2?",
+          "status": "answered",
+          "expected": [
+            "MEASURE 2.1",
+            "MEASURE 2.2",
+            "MEASURE 2.3",
+            "MEASURE 2.4",
+            "MEASURE 2.5",
+            "MEASURE 2.6",
+            "MEASURE 2.7",
+            "MEASURE 2.8",
+            "MEASURE 2.9",
+            "MEASURE 2.10",
+            "MEASURE 2.11",
+            "MEASURE 2.12",
+            "MEASURE 2.13"
+          ],
+          "context_coverage": "13/13",
+          "answer_coverage": "13/13",
+          "missing_in_answer": [],
+          "n_searches": 2,
+          "elapsed_s": 4.1,
+          "cost_usd": 0.001315,
+          "answer": "The subcategories of MEASURE 2 are: MEASURE 2.1: Test sets, metrics, and details about the tools used during TEVV are documented. MEASURE 2.2: Evaluations involving human subjects meet applicable requirements and are representative of the relevant population. MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment settings, with measures documented. MEASURE 2.4: The functionality and behavior of the AI system and its components are monitored in production. MEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable, with limitations documented. MEASURE 2.6: The AI system is evaluated regularly for safety risks, demonstrated to be safe, with residual risk within tolerance and ability to fail safely. MEASURE 2.7: AI system security and resilience are evaluated and documented. MEASURE 2.8: Risks associated with transparency and accountability are examined and documented. MEASURE 2.9: The AI model is explained, validated, and documented, and output is interpreted within context. MEASURE 2.10: Privacy risk is examined and documented. MEASURE 2.11: Fairness and bias are evaluated and results documented. MEASURE 2.12: Environmental impact and sustainability of AI model training and management are assessed and documented. MEASURE 2.13: Effectiveness of TEVV metrics and processes are evaluated and documented [nist-ai-100-1:p034:para800:01, nist-ai-100-1:p035:para800:00, nist-ai-100-1:p035:para800:01]. [nist-ai-100-1:p034:para800:01] [nist-ai-100-1:p034:para800:02] [nist-ai-100-1:p035:para800:00] [nist-ai-100-1:p035:para800:01]",
+          "citations": [
+            "nist-ai-100-1:p034:para800:01",
+            "nist-ai-100-1:p034:para800:02",
+            "nist-ai-100-1:p035:para800:00",
+            "nist-ai-100-1:p035:para800:01"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "MEASURE 2",
+              "added": [
+                "nist-ai-100-1:p034:para800:01",
+                "nist-ai-100-1:p034:para800:02",
+                "nist-ai-100-1:p035:para800:00",
+                "nist-ai-100-1:p035:para800:01"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "What are all the subcategories of MEASURE 2?",
+              "added": [
+                "nist-ai-100-1:p036:para800:00",
+                "nist-ai-100-1:p008:para800:00"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p04",
+          "question": "GOVERN 1 gồm những subcategory nào?",
+          "status": "answered",
+          "expected": [
+            "GOVERN 1.1",
+            "GOVERN 1.2",
+            "GOVERN 1.3",
+            "GOVERN 1.4",
+            "GOVERN 1.5",
+            "GOVERN 1.6",
+            "GOVERN 1.7"
+          ],
+          "context_coverage": "7/7",
+          "answer_coverage": "7/7",
+          "missing_in_answer": [],
+          "n_searches": 3,
+          "elapsed_s": 5.19,
+          "cost_usd": 0.001546,
+          "answer": "GOVERN 1 includes the following subcategories: GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented. GOVERN 1.2: The characteristics of trustworthy AI are integrated into organizational policies, processes, procedures, and practices. GOVERN 1.3: Processes, procedures, and practices are in place to determine the needed level of risk management activities based on the organization’s risk tolerance. GOVERN 1.4: The risk management process and its outcomes are established through transparent policies, procedures, and other controls based on organizational risk priorities. GOVERN 1.5: Ongoing monitoring and periodic review of the risk management process and its outcomes are planned and organizational roles and responsibilities clearly defined, including determining the frequency of periodic review. GOVERN 1.6: Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities. GOVERN 1.7: Processes and procedures are in place for decommissioning and phasing out AI systems safely and in a manner that does not increase risks or decrease the organization’s trustworthiness [nist-ai-100-1:p027:para800:03 nist-ai-100-1:p028:para800:00]. [nist-ai-100-1:p027:para800:03] [nist-ai-100-1:p028:para800:00]",
+          "citations": [
+            "nist-ai-100-1:p027:para800:03",
+            "nist-ai-100-1:p028:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "GOVERN 1",
+              "added": [
+                "nist-ai-100-1:p027:para800:02",
+                "nist-ai-100-1:p027:para800:03",
+                "nist-ai-100-1:p028:para800:00"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "GOVERN 1 gồm những subcategory nào?",
+              "added": [
+                "nist-ai-100-1:p029:para800:00"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "GOVERN 1 subcategories",
+              "added": []
+            }
+          ]
+        },
+        {
+          "id": "p05",
+          "question": "What does MANAGE 4 cover?",
+          "status": "answered",
+          "expected": [
+            "MANAGE 4.1",
+            "MANAGE 4.2",
+            "MANAGE 4.3"
+          ],
+          "context_coverage": "3/3",
+          "answer_coverage": "3/3",
+          "missing_in_answer": [],
+          "n_searches": 3,
+          "elapsed_s": 6.0,
+          "cost_usd": 0.00152,
+          "answer": "MANAGE 4 covers risk treatments, including response and recovery, and communication plans for the identified and measured AI risks, which are documented and monitored regularly. MANAGE 4.1 involves implementing post-deployment AI system monitoring plans with mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management. MANAGE 4.2 integrates measurable activities for continual improvements into AI system updates, including regular engagement with interested parties and relevant AI actors. MANAGE 4.3 ensures incidents and errors are communicated to relevant AI actors, including affected communities, with processes for tracking, responding to, and recovering from incidents and errors followed and documented [nist-ai-100-1:p038:para800:00, nist-ai-100-1:p038:para800:01]. [nist-ai-100-1:p038:para800:00] [nist-ai-100-1:p038:para800:01]",
+          "citations": [
+            "nist-ai-100-1:p038:para800:00",
+            "nist-ai-100-1:p038:para800:01"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "MANAGE 4",
+              "added": [
+                "nist-ai-100-1:p038:para800:00",
+                "nist-ai-100-1:p038:para800:01"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "What does MANAGE 4 cover?",
+              "added": [
+                "nist-ai-100-1:p008:para800:00",
+                "nist-ai-100-1:p037:para800:00",
+                "nist-ai-100-1:p036:para800:02"
+              ]
+            },
+            {
+              "tool": "search_documents",
+              "query": "MANAGE 4 AI RMF Core table entries",
+              "added": [
+                "nist-ai-100-1:p025:para800:01"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p06",
+          "question": "What does MEASURE 2.6 require?",
+          "status": "answered",
+          "expected": [
+            "MEASURE 2.6"
+          ],
+          "context_coverage": "1/1",
+          "answer_coverage": "1/1",
+          "missing_in_answer": [],
+          "n_searches": 2,
+          "elapsed_s": 2.46,
+          "cost_usd": 0.000618,
+          "answer": "MEASURE 2.6 requires that the AI system is evaluated regularly for safety risks as identified in the MAP function. The AI system to be deployed must be demonstrated to be safe, with residual negative risk not exceeding the risk tolerance, and it must be capable of failing safely, especially if operating beyond its knowledge limits. Safety metrics should reflect system reliability and robustness, real-time monitoring, and response times for AI system failures. [nist-ai-100-1:p035:para800:00]",
+          "citations": [
+            "nist-ai-100-1:p035:para800:00"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "MEASURE 2.6",
+              "added": [
+                "nist-ai-100-1:p035:para800:00"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "What does MEASURE 2.6 require?",
+              "added": [
+                "nist-ai-100-1:p034:para800:02",
+                "nist-ai-100-1:p035:para800:01"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p07",
+          "question": "Under the GOVERN function, what does GOVERN 6 require about third parties?",
+          "status": "answered",
+          "expected": [
+            "GOVERN 6.1",
+            "GOVERN 6.2"
+          ],
+          "context_coverage": "2/2",
+          "answer_coverage": "2/2",
+          "missing_in_answer": [],
+          "n_searches": 2,
+          "elapsed_s": 2.37,
+          "cost_usd": 0.000646,
+          "answer": "Under the GOVERN function, GOVERN 6 requires that policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues. Specifically, GOVERN 6.1 requires policies and procedures to address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights. GOVERN 6.2 requires contingency processes to handle failures or incidents in third-party data or AI systems deemed to be high-risk [nist-ai-100-1:p029:para800:01].",
+          "citations": [
+            "nist-ai-100-1:p029:para800:01"
+          ],
+          "searches": [
+            {
+              "tool": "category_lookup",
+              "query": "GOVERN 6",
+              "added": [
+                "nist-ai-100-1:p029:para800:01"
+              ]
+            },
+            {
+              "tool": "seed_original_query",
+              "query": "Under the GOVERN function, what does GOVERN 6 require about third parties?",
+              "added": [
+                "nist-ai-100-1:p027:para800:00",
+                "nist-ai-100-1:p029:para800:00"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

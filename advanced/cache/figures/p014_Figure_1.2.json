@@ -1,0 +1,45 @@
+{
+ "kind": "map",
+ "axes_units": "",
+ "legend": [
+  "≥1000 (darkest red)",
+  "500–999 (dark red)",
+  "300–499 (red)",
+  "100–299 (pink)",
+  "20–99 (light pink)",
+  "<20 (very light pink)",
+  "No data available (grey)",
+  "Not applicable (dark grey)"
+ ],
+ "values": [
+  "Legend | ≥1000 : darkest red",
+  "Legend | 500–999 : dark red",
+  "Legend | 300–499 : red",
+  "Legend | 100–299 : pink",
+  "Legend | 20–99 : light pink",
+  "Legend | <20 : very light pink",
+  "Legend | No data available : grey",
+  "Legend | Not applicable : dark grey"
+ ],
+ "summary": "The figure is a world map showing the maternal mortality ratio by country or area for the year 2020. Countries in Sub-Saharan Africa have the highest maternal mortality ratios, with several countries in the darkest red category (≥1000 per 100,000 live births). Most countries in Europe, North America, and Australia fall into the lowest categories (<20 or 20–99). Some countries have no data available or are marked as not applicable. The map visually highlights significant regional disparities in maternal mortality ratios globally.",
+ "text_in_image": [
+  "Figure 1.2 Maternal mortality ratio by country/area, 2020",
+  "Maternal mortality ratio (per 100 000 live births)",
+  "≥1000",
+  "500–999",
+  "300–499",
+  "100–299",
+  "20–99",
+  "<20",
+  "No data available",
+  "Not applicable",
+  "0 2000 4000 1000 km",
+  "Source: Ref. (1)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.69,
+  "input_tokens": 2291,
+  "output_tokens": 407
+ }
+}

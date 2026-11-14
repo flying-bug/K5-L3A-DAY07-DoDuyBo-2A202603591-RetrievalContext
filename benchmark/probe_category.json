@@ -1,0 +1,9 @@
+[
+ {"id": "p01", "question": "MAP 1 là gì", "code": "MAP 1", "source": "câu hỏi thật trên giao diện (A3 trả lời thiếu)"},
+ {"id": "p02", "question": "tất cả thông tin liên quan đến map 1", "code": "MAP 1", "source": "câu hỏi thật trên giao diện (A1 trả lời thiếu)"},
+ {"id": "p03", "question": "What are all the subcategories of MEASURE 2?", "code": "MEASURE 2", "source": "category dài nhất (13 mục, 4 chunk)"},
+ {"id": "p04", "question": "GOVERN 1 gồm những subcategory nào?", "code": "GOVERN 1", "source": "7 mục, 3 chunk, sang trang"},
+ {"id": "p05", "question": "What does MANAGE 4 cover?", "code": "MANAGE 4", "source": "2 chunk, sang trang"},
+ {"id": "p06", "question": "What does MEASURE 2.6 require?", "code": "MEASURE 2.6", "source": "một subcategory"},
+ {"id": "p07", "question": "Under the GOVERN function, what does GOVERN 6 require about third parties?", "code": "GOVERN 6", "source": "1 chunk; có filter người dùng", "filter": {"function": "GOVERN"}}
+]

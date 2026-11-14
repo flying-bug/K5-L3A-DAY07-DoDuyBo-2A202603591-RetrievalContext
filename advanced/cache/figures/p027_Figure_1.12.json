@@ -1,0 +1,39 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "x-axis: Date from 1 January 2020 to 1 March 2023; y-axis: Number of reported deaths, scale from 0 to 25,000",
+ "legend": [
+  "Region of the Americas (blue)",
+  "European Region (orange)",
+  "South-East Asia Region (purple)",
+  "Western Pacific Region (yellow)",
+  "Eastern Mediterranean Region (green)",
+  "African Region (red)"
+ ],
+ "values": [
+  "Region of the Americas : 2,936,906",
+  "European Region : 2,201,892",
+  "South-East Asia Region : 803,904",
+  "Western Pacific Region : 407,355",
+  "Eastern Mediterranean Region : 349,680",
+  "African Region : 175,315"
+ ],
+ "summary": "The figure shows the total reported COVID-19 deaths by WHO region up to 11 March 2023. The Region of the Americas has the highest number of reported deaths, followed by the European Region. The African Region has the lowest reported deaths. The stacked area chart on the right illustrates the temporal trend of reported deaths, with peaks occurring at various times across regions, notably high in early 2021 and late 2021.",
+ "text_in_image": [
+  "Figure 1.12 Reported COVID-19 deaths by WHO region, to 11 March 2023",
+  "Region of the Americas 2 936 906",
+  "European Region 2 201 892",
+  "South-East Asia Region 803 904",
+  "Western Pacific Region 407 355",
+  "Eastern Mediterranean Region 349 680",
+  "African Region 175 315",
+  "Number of reported deaths",
+  "1 January 2020 1 March 2020 1 May 2020 1 July 2020 1 September 2020 1 November 2020 1 January 2021 1 March 2021 1 May 2021 1 July 2021 1 September 2021 1 November 2021 1 January 2022 1 March 2022 1 May 2022 1 July 2022 1 September 2022 1 November 2022 1 January 2023 1 March 2023",
+  "Source: Ref. (11)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 5.14,
+  "input_tokens": 2294,
+  "output_tokens": 516
+ }
+}

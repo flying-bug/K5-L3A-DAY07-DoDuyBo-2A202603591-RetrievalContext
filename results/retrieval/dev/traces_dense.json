@@ -1,0 +1,2562 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What does risk tolerance refer to in the AI RMF?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 120.5,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.763024
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p012:para800:04",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.739921
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.618542
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.6125
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.611915
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.597413
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.594568
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p047:para800:02",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.588812
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.582694
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.571619
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p012:para800:00",
+      "nist-ai-100-1:p012:para800:04",
+      "nist-ai-100-1:p013:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 1755,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "question": "How does the AI RMF define risk?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 116.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.699111
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.673344
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.672432
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p012:para800:04",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.658306
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.657744
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.642443
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.640345
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p047:para800:02",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.639666
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.639316
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.628202
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p009:para800:02",
+      "nist-ai-100-1:p009:para800:05",
+      "nist-ai-100-1:p013:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2445,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "question": "Under what circumstances should the development and deployment of an AI system be stopped?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 112.4,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.635751
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p019:para800:04",
+        "page": 19,
+        "section": "3.2 Safe",
+        "function": null,
+        "score": 0.513899
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.482874
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.479356
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p031:para800:02",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.471176
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.46945
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.469008
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p043:para800:01",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.468711
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p043:para800:02",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.468112
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.464091
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:00",
+      "nist-ai-100-1:p019:para800:04",
+      "nist-ai-100-1:p034:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 1866,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "question": "Which kinds of AI systems might justify a lower initial priority in risk management?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 128.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.719883
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.6787
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p012:para800:05",
+        "page": 12,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.647095
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.615405
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p019:para800:05",
+        "page": 19,
+        "section": "3.2 Safe",
+        "function": null,
+        "score": 0.602106
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p011:para800:04",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.587437
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p013:para800:02",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.579217
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.560334
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.559953
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p043:para800:00",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.559116
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:01",
+      "nist-ai-100-1:p013:para800:00",
+      "nist-ai-100-1:p012:para800:05"
+    ],
+    "context_dropped": [],
+    "context_chars": 2302,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "question": "What is residual risk?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 106.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p013:para800:02",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.586017
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.374316
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p009:para800:03",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.357051
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p012:para800:00",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.350794
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p009:para800:02",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.349589
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.338837
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p012:para800:03",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.335882
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p020:para800:03",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 0.334154
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p012:para800:05",
+        "page": 12,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.332906
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p012:para800:01",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.332344
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p013:para800:02",
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p009:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 1705,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "question": "What are the characteristics of trustworthy AI systems?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 107.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p017:para800:02",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.735619
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p017:para800:00",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.730433
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p018:para800:03",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.686481
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p017:para800:03",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.680715
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p019:para800:00",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.635872
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.62439
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p018:para800:04",
+        "page": 18,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.604314
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p020:para800:01",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 0.602617
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p020:para800:04",
+        "page": 20,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": 0.599962
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p006:para800:02",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.577711
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p017:para800:02",
+      "nist-ai-100-1:p017:para800:00",
+      "nist-ai-100-1:p018:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 2527,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "question": "Transparency, explainability và interpretability khác nhau thế nào, mỗi khái niệm trả lời câu hỏi gì?",
+    "answerable": true,
+    "type": "paraphrase_vi",
+    "filter": null,
+    "latency_ms": 125.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p022:para800:00",
+        "page": 22,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": 0.704805
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p021:para800:04",
+        "page": 21,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": 0.564656
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p021:para800:00",
+        "page": 21,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": 0.428912
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p020:para800:04",
+        "page": 20,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": 0.428103
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p020:para800:05",
+        "page": 20,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": 0.38418
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p021:para800:05",
+        "page": 21,
+        "section": "3.5 Explainable and Interpretable",
+        "function": null,
+        "score": 0.363091
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p018:para800:03",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.341438
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p007:para800:00",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.330523
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p017:para800:01",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.312179
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p021:para800:02",
+        "page": 21,
+        "section": "3.4 Accountable and Transparent",
+        "function": null,
+        "score": 0.308198
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p022:para800:00",
+      "nist-ai-100-1:p021:para800:04",
+      "nist-ai-100-1:p021:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2140,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "question": "What are the three major categories of AI bias identified by NIST?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 120.5,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p023:para800:00",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.830103
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p023:para800:02",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.66394
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.540569
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.531651
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p022:para800:04",
+        "page": 22,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.520822
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p014:para800:02",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.500688
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p007:para800:05",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.484224
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p045:para800:03",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.473517
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p018:para800:03",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.471494
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p032:para800:00",
+        "page": 32,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.469591
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p023:para800:00",
+      "nist-ai-100-1:p023:para800:02",
+      "nist-ai-100-1:p034:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2282,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "question": "How does security differ from resilience for AI systems?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 114.8,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p020:para800:01",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 0.684493
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p020:para800:03",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 0.653038
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.537142
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p017:para800:00",
+        "page": 17,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.509453
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p044:para800:01",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.509342
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.497975
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p006:para800:02",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.496214
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p043:para800:00",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.49339
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p019:para800:02",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.486956
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.486242
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p020:para800:01",
+      "nist-ai-100-1:p020:para800:03",
+      "nist-ai-100-1:p035:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2214,
+    "gold_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "question": "In the MAP function, what decision should the gathered context knowledge support once MAP is completed?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 123.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.565913
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p031:para800:00",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.556028
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p030:para800:00",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.543946
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p046:para800:01",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.53397
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p030:para800:01",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.5077
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p029:para800:02",
+        "page": 29,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.501245
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p032:para800:00",
+        "page": 32,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.462781
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p033:para800:00",
+        "page": 33,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.456461
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p031:para800:01",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.419752
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p046:para800:02",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.394724
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p030:para800:04",
+      "nist-ai-100-1:p031:para800:00",
+      "nist-ai-100-1:p030:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2351,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "question": "Under the GOVERN function, which group is accountable for decisions about risks from AI development and deployment?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 110.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p026:para800:03",
+        "page": 26,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.707669
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p029:para800:00",
+        "page": 29,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.681007
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p028:para800:00",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.672785
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p027:para800:02",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.658836
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p027:para800:00",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.647148
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p028:para800:01",
+        "page": 28,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.643262
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p036:para800:02",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.6204
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p029:para800:01",
+        "page": 29,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.618666
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p027:para800:03",
+        "page": 27,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.602715
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p042:para800:00",
+        "page": 42,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.598488
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p026:para800:03",
+      "nist-ai-100-1:p029:para800:00",
+      "nist-ai-100-1:p028:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2230,
+    "gold_rank": 6,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "rr10": 0.16666666666666666,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "question": "Within the MANAGE function, what response options are listed for high-priority AI risks?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 134.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.768124
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.692953
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p038:para800:00",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.654407
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.638004
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p036:para800:02",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.63585
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p036:para800:03",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.611039
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p013:para800:00",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.587361
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.564627
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.548352
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p008:para800:00",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.547494
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p037:para800:00",
+      "nist-ai-100-1:p038:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2316,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "question": "In the MEASURE function, what must be demonstrated about the safety of an AI system that is going to be deployed?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 137.9,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.749081
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.74488
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.717994
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.667147
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.64262
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.638226
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.60982
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.595115
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p035:para800:01",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.583143
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.581722
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p035:para800:00",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p034:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 2000,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "question": "In which lifecycle phases are AI Design tasks performed?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 124.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p040:para800:00",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.703996
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p040:para800:03",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.599254
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p040:para800:02",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.591781
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p041:para800:02",
+        "page": 41,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.577309
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p040:para800:04",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.558503
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p015:para800:00",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.534952
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p026:para800:04",
+        "page": 26,
+        "section": "5.1 Govern",
+        "function": "GOVERN",
+        "score": 0.51353
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p031:para800:02",
+        "page": 31,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.511991
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p040:para800:05",
+        "page": 40,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.480579
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p018:para800:02",
+        "page": 18,
+        "section": "3. AI Risks and Trustworthiness",
+        "function": null,
+        "score": 0.479692
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p040:para800:00",
+      "nist-ai-100-1:p040:para800:03",
+      "nist-ai-100-1:p040:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 2077,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "question": "Which machine learning attacks are existing security frameworks unable to comprehensively address?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 113.4,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p044:para800:03",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.58005
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p044:para800:04",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.399984
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.394007
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p013:para800:04",
+        "page": 13,
+        "section": "1.2.4 Organizational Integration and Management of Risk",
+        "function": null,
+        "score": 0.383309
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p012:para800:02",
+        "page": 12,
+        "section": "1.2.2 Risk Tolerance",
+        "function": null,
+        "score": 0.374163
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p044:para800:01",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.371935
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p020:para800:01",
+        "page": 20,
+        "section": "3.3 Secure and Resilient",
+        "function": null,
+        "score": 0.371388
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.364343
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p039:para800:00",
+        "page": 39,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.363229
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p008:para800:00",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.362005
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p044:para800:03",
+      "nist-ai-100-1:p044:para800:04",
+      "nist-ai-100-1:p044:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 1859,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q16",
+    "question": "Must the four AI RMF functions be carried out in a fixed order?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 101.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p026:para800:01",
+        "page": 26,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.658118
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.604531
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p025:para800:02",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.54275
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.525877
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.524117
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p015:para800:01",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.52034
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.518772
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p046:para800:02",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.514178
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.512722
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.511437
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p026:para800:01",
+      "nist-ai-100-1:p025:para800:01",
+      "nist-ai-100-1:p025:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 2177,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "question": "Under the MANAGE function, how should pre-trained models used for development be handled?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 113.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p037:para800:02",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.544779
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p037:para800:00",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.499555
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p036:para800:03",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.494241
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p038:para800:00",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.479657
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p037:para800:01",
+        "page": 37,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.455319
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p036:para800:02",
+        "page": 36,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.453441
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p038:para800:01",
+        "page": 38,
+        "section": "5.4 Manage",
+        "function": "MANAGE",
+        "score": 0.371173
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p030:para800:04",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.367615
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p026:para800:01",
+        "page": 26,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.360444
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p043:para800:02",
+        "page": 43,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.358511
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p037:para800:02",
+      "nist-ai-100-1:p037:para800:00",
+      "nist-ai-100-1:p036:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 2137,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "question": "In the MEASURE function, who should take part in regular assessments and updates of the AI system?",
+    "answerable": true,
+    "type": "filter",
+    "filter": null,
+    "latency_ms": 107.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.663508
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.632181
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.626232
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.618426
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.599886
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.59477
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.586702
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p034:para800:01",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.574783
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.572079
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p035:para800:01",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.552453
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p033:para800:04",
+      "nist-ai-100-1:p036:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 1900,
+    "gold_rank": 8,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "rr10": 0.125,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "question": "Why can risk measurements differ depending on when in the AI lifecycle they are taken?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "latency_ms": 122.8,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p011:para800:01",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.688636
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p011:para800:03",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.645873
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p010:para800:03",
+        "page": 10,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.629521
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p010:para800:02",
+        "page": 10,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.604016
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p035:para800:02",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.586247
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p029:para800:02",
+        "page": 29,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.578214
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.562068
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.561618
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p013:para800:01",
+        "page": 13,
+        "section": "1.2.3 Risk Prioritization",
+        "function": null,
+        "score": 0.558927
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p011:para800:00",
+        "page": 11,
+        "section": "1.2.1 Risk Measurement",
+        "function": null,
+        "score": 0.557878
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p011:para800:01",
+      "nist-ai-100-1:p011:para800:03",
+      "nist-ai-100-1:p010:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 2098,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "question": "Under which conditions can the AI part of a human-AI team amplify human biases?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "latency_ms": 126.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p045:para800:05",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.739336
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p023:para800:01",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.58686
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p045:para800:03",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.578609
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p023:para800:02",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.565507
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p023:para800:00",
+        "page": 23,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.523554
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p022:para800:04",
+        "page": 22,
+        "section": "3.7 Fair – with Harmful Bias Managed",
+        "function": null,
+        "score": 0.490062
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p045:para800:01",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.483836
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p046:para800:03",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.480536
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p030:para800:02",
+        "page": 30,
+        "section": "5.2 Map",
+        "function": "MAP",
+        "score": 0.473303
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p046:para800:00",
+        "page": 46,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.466153
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p045:para800:05",
+      "nist-ai-100-1:p023:para800:01",
+      "nist-ai-100-1:p045:para800:03"
+    ],
+    "context_dropped": [],
+    "context_chars": 1739,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q21",
+    "question": "What is the difference between an AI RMF Current Profile and a Target Profile?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "latency_ms": 109.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p038:para800:03",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.770858
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p038:para800:02",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.557884
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p038:para800:04",
+        "page": 38,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.537212
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.499535
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.471384
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p039:para800:00",
+        "page": 39,
+        "section": "6. AI RMF Profiles",
+        "function": null,
+        "score": 0.469271
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p014:para800:01",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.466096
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.463197
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p014:para800:03",
+        "page": 14,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.46081
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p025:para800:01",
+        "page": 25,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.449551
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p038:para800:03",
+      "nist-ai-100-1:p038:para800:02",
+      "nist-ai-100-1:p038:para800:04"
+    ],
+    "context_dropped": [],
+    "context_chars": 1937,
+    "gold_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "rr10": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q22",
+    "question": "Theo AI RMF, các phép đo độ chính xác (accuracy) của hệ thống AI cần đi kèm với điều gì?",
+    "answerable": true,
+    "type": "paraphrase_vi",
+    "filter": null,
+    "latency_ms": 137.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.527167
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.524542
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.508235
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.502365
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.501924
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p024:para800:00",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": 0.497732
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p047:para800:02",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.49655
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p019:para800:01",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.496548
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p045:para800:00",
+        "page": 45,
+        "section": "Appendix C:",
+        "function": null,
+        "score": 0.495222
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p009:para800:05",
+        "page": 9,
+        "section": "1.1 Understanding and Addressing Risks, Impacts, and Harms",
+        "function": null,
+        "score": 0.494401
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p006:para800:01",
+      "nist-ai-100-1:p047:para800:00",
+      "nist-ai-100-1:p034:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 1886,
+    "gold_rank": 8,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "rr10": 0.125,
+    "context_hit": false
+  },
+  {
+    "query_id": "u01",
+    "question": "What minimum accuracy percentage must an AI system achieve to pass the MEASURE function?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 123.9,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p034:para800:02",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.600997
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p033:para800:01",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.597452
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p035:para800:00",
+        "page": 35,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.562099
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.5376
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p033:para800:02",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.534691
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p019:para800:01",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.519378
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p033:para800:04",
+        "page": 33,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.501971
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p036:para800:00",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.490368
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p019:para800:03",
+        "page": 19,
+        "section": "3.1 Valid and Reliable",
+        "function": null,
+        "score": 0.474456
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p036:para800:01",
+        "page": 36,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.470913
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p034:para800:02",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p035:para800:00"
+    ],
+    "context_dropped": [],
+    "context_chars": 2000,
+    "top1_score": 0.600997
+  },
+  {
+    "query_id": "u02",
+    "question": "How many organizations submitted public comments on the drafts of the AI RMF?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 126.8,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p008:para800:02",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.570478
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.522028
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p047:para800:01",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.51599
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.513714
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.503622
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p007:para800:05",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.495574
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p015:para800:01",
+        "page": 15,
+        "section": "2. Audience",
+        "function": null,
+        "score": 0.493641
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p044:para800:03",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.492795
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p024:para800:00",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": 0.487195
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p042:para800:03",
+        "page": 42,
+        "section": "Appendix A:",
+        "function": null,
+        "score": 0.476556
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p008:para800:02",
+      "nist-ai-100-1:p007:para800:02",
+      "nist-ai-100-1:p047:para800:01"
+    ],
+    "context_dropped": [],
+    "context_chars": 2177,
+    "top1_score": 0.570478
+  },
+  {
+    "query_id": "u03",
+    "question": "Which watermarking technique does the AI RMF recommend for labeling AI-generated content?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "latency_ms": 114.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "nist-ai-100-1:p008:para800:02",
+        "page": 8,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.420671
+      },
+      {
+        "rank": 2,
+        "id": "nist-ai-100-1:p026:para800:00",
+        "page": 26,
+        "section": "5. AI RMF Core",
+        "function": null,
+        "score": 0.420562
+      },
+      {
+        "rank": 3,
+        "id": "nist-ai-100-1:p007:para800:02",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.419416
+      },
+      {
+        "rank": 4,
+        "id": "nist-ai-100-1:p044:para800:02",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.405994
+      },
+      {
+        "rank": 5,
+        "id": "nist-ai-100-1:p006:para800:01",
+        "page": 6,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.404483
+      },
+      {
+        "rank": 6,
+        "id": "nist-ai-100-1:p024:para800:00",
+        "page": 24,
+        "section": "4. Effectiveness of the AI RMF",
+        "function": null,
+        "score": 0.404427
+      },
+      {
+        "rank": 7,
+        "id": "nist-ai-100-1:p034:para800:00",
+        "page": 34,
+        "section": "5.3 Measure",
+        "function": "MEASURE",
+        "score": 0.399024
+      },
+      {
+        "rank": 8,
+        "id": "nist-ai-100-1:p007:para800:04",
+        "page": 7,
+        "section": "Executive Summary",
+        "function": null,
+        "score": 0.396487
+      },
+      {
+        "rank": 9,
+        "id": "nist-ai-100-1:p047:para800:00",
+        "page": 47,
+        "section": "Appendix D:",
+        "function": null,
+        "score": 0.395748
+      },
+      {
+        "rank": 10,
+        "id": "nist-ai-100-1:p044:para800:03",
+        "page": 44,
+        "section": "Appendix B:",
+        "function": null,
+        "score": 0.395156
+      }
+    ],
+    "context_ids": [
+      "nist-ai-100-1:p008:para800:02",
+      "nist-ai-100-1:p026:para800:00",
+      "nist-ai-100-1:p007:para800:02"
+    ],
+    "context_dropped": [],
+    "context_chars": 2329,
+    "top1_score": 0.420671
+  }
+]

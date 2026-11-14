@@ -1,0 +1,206 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: dừng an toàn khi rủi ro tiêu cực không chấp nhận được (p13, gold) — trước đây trượt do filter MANAGE model tự gắn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: hệ thống chỉ tương tác với hệ thống tính toán, dữ liệu không nhạy cảm (p13 gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: evasion, model extraction, membership inference, availability (p44 gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: không theo thứ tự cố định (p25, evidence thay thế hợp lệ; context không có câu gold p26).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: rủi ro tiềm ẩn tăng khi hệ thống thay đổi; đo sớm vs muộn cho kết quả khác (p11 gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: Current = cách quản lý hiện tại/kết quả hiện tại; Target = kết quả cần để đạt mục tiêu (p38 gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: tập kiểm thử rõ ràng, thực tế, đại diện điều kiện sử dụng + chi tiết phương pháp (p19 gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ }
+]

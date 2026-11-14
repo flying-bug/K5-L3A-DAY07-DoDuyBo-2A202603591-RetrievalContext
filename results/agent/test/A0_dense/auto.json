@@ -1,0 +1,51 @@
+{
+  "config": {
+    "name": "A0_dense",
+    "retrieval": "dense",
+    "index": "para800",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "max_searches": 3,
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "thinking_budget": 512,
+    "temperature": 0.0,
+    "model_filter": true,
+    "seed_original": false
+  },
+  "retriever": "dense[para800]",
+  "split": "test",
+  "created_at": "2026-11-14T08:46:01Z",
+  "runs": 11,
+  "errors": [],
+  "tool_use": "11/11",
+  "searches_distribution": {
+    "1": 10,
+    "2": 1
+  },
+  "mean_searches": 1.09,
+  "status_answerable": {
+    "answered": 8
+  },
+  "status_unanswerable": {
+    "abstain": 3
+  },
+  "context_evidence_rate": "4/8",
+  "context_misses": [
+    "t02",
+    "t05",
+    "t06",
+    "t07"
+  ],
+  "answered_with_citation": "8/8",
+  "invalid_citation_events": [],
+  "median_latency_s": 3.17,
+  "mean_context_chars": 2036,
+  "tokens": {
+    "input": 17140,
+    "output": 1984,
+    "thinking": 0,
+    "calls": 23
+  },
+  "cost_usd_list_price": 0.01
+}

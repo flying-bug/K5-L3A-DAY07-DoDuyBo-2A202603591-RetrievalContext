@@ -1,0 +1,17 @@
+{
+ "columns": [
+  "3.7 | Adolescent birth rate (per 1000 women aged 10–14 years) | Primary data | 2013–2021",
+  "3.8 | UHC: Service coverage index | Comparable estimates | 2021",
+  "3.8 | Population with household expenditures on health > 10% of total household expenditure or income (%) | Primary data | 2013–2021",
+  "3.8 | Population with household expenditures on health > 25% of total household expenditure or income (%) | Primary data | 2013–2021",
+  "3.9 | Age-standardized mortality rate attributed to household and ambient air pollution (per 100 000 population) | Comparable estimates | 2019",
+  "3.9 | Mortality rate attributed to exposure to unsafe WASH services (per 100 000 population) | Comparable estimates | 2019",
+  "3.9 | Mortality rate from unintentional poisoning (per 100 000 population) | Comparable estimates | 2019"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 2.56,
+  "input_tokens": 1436,
+  "output_tokens": 216
+ }
+}

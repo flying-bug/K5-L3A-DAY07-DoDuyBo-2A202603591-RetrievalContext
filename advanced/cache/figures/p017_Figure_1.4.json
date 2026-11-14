@@ -1,0 +1,28 @@
+{
+ "kind": "line_chart",
+ "axes_units": "X-axis: Year (2000 to 2021); Y-axis: Mortality rate (per 1000 live births), scale 0 to 80",
+ "legend": [
+  "U5MR (under-five mortality rate) - light blue line",
+  "NMR (neonatal mortality rate) - purple line"
+ ],
+ "values": [
+  "U5MR | 2000 : ~77",
+  "U5MR | 2005 : ~65",
+  "U5MR | 2010 : ~53",
+  "U5MR | 2015 : ~44",
+  "U5MR | 2021 : ~38",
+  "NMR | 2000 : ~30",
+  "NMR | 2005 : ~27",
+  "NMR | 2010 : ~23",
+  "NMR | 2015 : ~19",
+  "NMR | 2021 : ~18"
+ ],
+ "summary": "The figure shows declining trends in both the global under-five mortality rate (U5MR) and neonatal mortality rate (NMR) from 2000 to 2021. The U5MR decreased from about 77 to 38 deaths per 1000 live births, while the NMR decreased from about 30 to 18 deaths per 1000 live births. The average annual rate of reduction (ARR) was higher in the earlier period (2000-2010) compared to the later period (2010-2021) for both mortality rates.",
+ "text_in_image": "Figure 1.4 Trends in the global under-five mortality rate and neonatal mortality rate, 2000–2021; Mortality rate (per 1000 live births); ARR: 4.0%; ARR: 2.7%; ARR: 3.2%; ARR: 2.2%; 2005; 2010; 2015; 2000; 2021; U5MR; NMR; Note: ARR = average annual rate of reduction; U5MR = under-five mortality rate; NMR = neonatal mortality rate. Source: Ref. (4).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.18,
+  "input_tokens": 2591,
+  "output_tokens": 470
+ }
+}

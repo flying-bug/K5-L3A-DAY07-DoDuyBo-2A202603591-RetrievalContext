@@ -1,0 +1,40 @@
+{
+ "kind": "scatter_chart",
+ "axes_units": "X-axis: Crude excess death (per 100 000 population), scale from -100 to 500; Y-axis: Age-standardized excess death rate (per 100 000 population), scale from -100 to 500",
+ "legend": [
+  "African Region (red)",
+  "Region of the Americas (blue)",
+  "Eastern Mediterranean Region (green)",
+  "European Region (orange)",
+  "South-East Asia Region (purple)",
+  "Western Pacific Region (yellow)"
+ ],
+ "values": [
+  "~African Region | Crude excess death: 0 to 200, Age-standardized excess death rate: 0 to 250",
+  "~Region of the Americas | Crude excess death: 0 to 250, Age-standardized excess death rate: 0 to 350",
+  "~Eastern Mediterranean Region | Crude excess death: 0 to 150, Age-standardized excess death rate: 0 to 270",
+  "~European Region | Crude excess death: 0 to 450, Age-standardized excess death rate: 0 to 250",
+  "~South-East Asia Region | Crude excess death: 0 to 100, Age-standardized excess death rate: 0 to 150",
+  "~Western Pacific Region | Crude excess death: -50 to 50, Age-standardized excess death rate: -50 to 50"
+ ],
+ "summary": "The scatter plot compares crude excess death rates to age-standardized excess death rates per 100,000 population across WHO regions for 2020–2021. Most data points lie below the diagonal line, indicating that crude excess death rates tend to be higher than age-standardized rates in many regions. The European Region shows the highest crude excess death rates, while the Region of the Americas shows relatively high age-standardized excess death rates. The Western Pacific Region has the lowest excess death rates overall.",
+ "text_in_image": [
+  "Figure 1.14 Crude versus age-standardized excess mortality rate per 100 000 population, WHO regions, 2020–2021",
+  "Age-standardized excess death rate (per 100 000 population)",
+  "-100 0 100 200 300 400 500",
+  "Crude excess death (per 100 000 population)",
+  "African Region",
+  "Region of the Americas",
+  "Eastern Mediterranean Region",
+  "European Region",
+  "South-East Asia Region",
+  "Western Pacific Region",
+  "Source: Ref. (14)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.56,
+  "input_tokens": 3213,
+  "output_tokens": 544
+ }
+}

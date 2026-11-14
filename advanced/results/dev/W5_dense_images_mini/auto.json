@@ -1,0 +1,37 @@
+{
+  "config": {
+    "name": "W5_dense_images_mini",
+    "retrieval": "dense",
+    "index": "whs2023",
+    "top_k": 5,
+    "budget_chars": 14000,
+    "max_searches": 3,
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "thinking_budget": 512,
+    "temperature": 0.0,
+    "model_filter": false,
+    "seed_original": false,
+    "category_lookup": false,
+    "attach_images": 4,
+    "image_dpi": 150
+  },
+  "split": "dev",
+  "created_at": "2026-11-14T10:20:31Z",
+  "n": 20,
+  "errors": [],
+  "status": {
+    "answered": 19,
+    "abstain": 1
+  },
+  "context_page_coverage": "16/16",
+  "coverage_misses": [],
+  "searches": {
+    "1": 20
+  },
+  "images": 21,
+  "median_latency_s": 3.16,
+  "tokens_in": 109187,
+  "tokens_out": 2648,
+  "cost_usd": 0.0479
+}

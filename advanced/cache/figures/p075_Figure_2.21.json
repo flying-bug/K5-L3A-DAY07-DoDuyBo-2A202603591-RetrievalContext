@@ -1,0 +1,44 @@
+{
+ "kind": "bar_chart",
+ "axes_units": "Per 10 000 population",
+ "legend": [
+  "Medical doctors",
+  "Nursing and midwifery personnel",
+  "Dentists",
+  "Pharmacists"
+ ],
+ "values": [
+  "Medical doctors | African Region : 2.9",
+  "Medical doctors | South-East Asia Region : 7.7",
+  "Medical doctors | Eastern Mediterranean Region : 11.2",
+  "Medical doctors | Western Pacific Region : 20.9",
+  "Medical doctors | Region of the Americas : 24.5",
+  "Medical doctors | European Region : 36.6",
+  "Nursing and midwifery personnel | African Region : 12.9",
+  "Nursing and midwifery personnel | South-East Asia Region : 20.4",
+  "Nursing and midwifery personnel | Eastern Mediterranean Region : 16.5",
+  "Nursing and midwifery personnel | Western Pacific Region : 40.0",
+  "Nursing and midwifery personnel | Region of the Americas : 82.1",
+  "Nursing and midwifery personnel | European Region : 83.4",
+  "Dentists | African Region : 0.3",
+  "Dentists | South-East Asia Region : 1.5",
+  "Dentists | Eastern Mediterranean Region : 2.6",
+  "Dentists | Western Pacific Region : 4.5",
+  "Dentists | Region of the Americas : 5.9",
+  "Dentists | European Region : 6.2",
+  "Pharmacists | African Region : 0.8",
+  "Pharmacists | South-East Asia Region : 6.6",
+  "Pharmacists | Eastern Mediterranean Region : 3.3",
+  "Pharmacists | Western Pacific Region : 4.4",
+  "Pharmacists | Region of the Americas : 5.1",
+  "Pharmacists | European Region : 6.5"
+ ],
+ "summary": "The figure shows the density of select health professionals per 10,000 population across six WHO regions from 2014 to 2021. The European Region has the highest density of medical doctors (36.6) and nursing and midwifery personnel (83.4), while the African Region has the lowest densities across all categories. Nursing and midwifery personnel have the highest densities overall compared to other health professionals in all regions.",
+ "text_in_image": "Figure 2.21 Density of select health professionals per 10 000 population, 2014–2021; Medical doctors; Nursing and midwifery personnel; Dentists; Pharmacists; Per 10 000 population; African Region; South-East Asia Region; Eastern Mediterranean Region; Western Pacific Region; Region of the Americas; European Region; Source: Ref. (60).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.79,
+  "input_tokens": 2984,
+  "output_tokens": 623
+ }
+}

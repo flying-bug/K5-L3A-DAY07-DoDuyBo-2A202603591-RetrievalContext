@@ -9,3 +9,11 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Day 7: private UI question log and raw run logs
+results/ui_log.jsonl
+logs/
+
+# Bonus: source PDF and rendered pages are not redistributed (CC BY-NC-SA; fetch from WHO)
+advanced/source/
+advanced/pages/

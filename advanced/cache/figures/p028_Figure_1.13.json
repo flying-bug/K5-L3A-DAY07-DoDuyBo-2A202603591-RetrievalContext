@@ -1,0 +1,30 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "Deaths (in millions) on the vertical axis",
+ "legend": [
+  "Reported COVID-19 (blue)",
+  "Excess deaths not captured in reported COVID-19 deaths (orange)"
+ ],
+ "values": [
+  "Reported COVID-19 | African Region : 0.2",
+  "Excess deaths not captured in reported COVID-19 deaths | African Region : 0.8 (UI 0.5–1.1)",
+  "Reported COVID-19 | Region of the Americas : 2.4",
+  "Excess deaths not captured in reported COVID-19 deaths | Region of the Americas : 3.2 (UI 3.2–3.3)",
+  "Reported COVID-19 | Eastern Mediterranean Region : 0.3",
+  "Excess deaths not captured in reported COVID-19 deaths | Eastern Mediterranean Region : 1.3 (UI 1.1–1.5)",
+  "Reported COVID-19 | European Region : 1.7",
+  "Excess deaths not captured in reported COVID-19 deaths | European Region : 3.2 (UI 3.1–3.2)",
+  "Reported COVID-19 | South-East Asia Region : 0.7",
+  "Excess deaths not captured in reported COVID-19 deaths | South-East Asia Region : 6.1 (UI 4.7–7.8)",
+  "Reported COVID-19 | Western Pacific Region : 0.2",
+  "Excess deaths not captured in reported COVID-19 deaths | Western Pacific Region : 0.2 (UI 0–0.4)"
+ ],
+ "summary": "The figure shows total excess deaths by WHO region from 1 January 2020 to 31 December 2021, divided into reported COVID-19 deaths and excess deaths not captured in reported COVID-19 deaths. The South-East Asia Region has the highest total excess deaths, followed by the Region of the Americas and the European Region. The Western Pacific Region has the lowest total excess deaths. Excess deaths not captured in reported COVID-19 deaths constitute a significant portion of total excess deaths in most regions.",
+ "text_in_image": "Figure 1.13 Total excess deaths by WHO region, 1 January 2020 to 31 December 2021; Deaths (in millions); African Region; Region of the Americas; Eastern Mediterranean Region; European Region; South-East Asia Region; Western Pacific Region; Reported COVID-19; Excess deaths not captured in reported COVID-19 deaths; 6.1 (UI 4.7–7.8); 3.2 (UI 3.2–3.3); 0.8 (UI 0.5–1.1); 1.3 (UI 1.1–1.5); 3.2 (UI 3.1–3.2); 0.2 (UI 0–0.4); Source: Ref. (14).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 5.81,
+  "input_tokens": 2419,
+  "output_tokens": 640
+ }
+}

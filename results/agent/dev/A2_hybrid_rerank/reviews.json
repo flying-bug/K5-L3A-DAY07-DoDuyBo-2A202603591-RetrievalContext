@@ -1,0 +1,195 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true
+  ],
+  "note": "Nêu điều kiện MANAGE 2.4 (hiệu năng trái mục đích → supersede/deactivate), có trong chunk; thiếu điều kiện chính ở p13 (rủi ro tiêu cực không chấp nhận được → dừng an toàn). Context không có gold.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: không theo thứ tự cố định ('not a checklist / ordered set of steps', p25) — evidence thay thế hợp lệ, không phải câu gold p26; thiếu chi tiết 'thường bắt đầu MAP sau GOVERN'.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng (monitored as part of regular monitoring and maintenance); nhầm số hiệu MANAGE 3.1/3.2 nhưng cả hai ý đều có trong chunk.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [],
+  "note": "Bị chặn: model trích ID p036:02 không có trong context (citation_not_in_context); bản gốc cũng sai hướng như A1.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [],
+  "note": "Từ chối nhầm câu có đáp án: context cuối không chứa evidence (do filter model tự gắn/ query viết lại).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Trả lời bằng MEASURE 2.3 (đo trong điều kiện giống môi trường triển khai, ghi chép) — gần ý 'đại diện điều kiện sử dụng' nhưng thiếu 'tập kiểm thử rõ ràng + chi tiết phương pháp' ở p19. Context không có gold.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ }
+]

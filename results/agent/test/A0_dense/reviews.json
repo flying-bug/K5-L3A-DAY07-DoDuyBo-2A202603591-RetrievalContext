@@ -1,0 +1,91 @@
+[
+ {
+  "query_id": "t01",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "citation_support": [
+   true
+  ],
+  "note": "Kết luận 'không' đúng nhưng câu then chốt (không đo được ≠ rủi ro cao/thấp, p10) không có trong chunk được trích; chỉ ý 'cân nhắc risk tracking' (MEASURE 3.1, p35) có căn cứ.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "t03",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "note": "Sai chủ đề: mô tả kế hoạch giám sát/ứng phó của MANAGE; không nêu 'explicit processes for go/no-go decisions' (p24). Câu 'supports go/no-go decisions' không có căn cứ trong chunk.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t06",
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "note": "Sai: liệt kê phản ứng rủi ro MANAGE 1.3/2.x; đáp án là điều chỉnh tương xứng, chủ động thực hành minh bạch và trách nhiệm giải trình (p21).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t07",
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "note": "Sai nguồn: mô tả giám sát hậu triển khai của MANAGE, không phải mô tả TEVV cho vận hành ở Appendix A (p41); context không có gold.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "t08",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng và đủ ý chính so với đáp án; nội dung có trong chunk được trích.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u05",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u06",
+  "citation_support": [],
+  "note": "Từ chối, nêu rõ tài liệu không có thông tin; không thêm khẳng định vô căn cứ.",
+  "abstention_correct": true
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "columns": [
+  "3.1 | Maternal mortality ratio (per 100 000 live births) | Comparable estimates | 2020",
+  "3.1 | Proportion of births attended by skilled health personnel (%) | Primary data | 2013–2022",
+  "3.2 | Under-five mortality rate (per 1000 live births) | Comparable estimates | 2021",
+  "3.2 | Neonatal mortality rate (per 1000 live births) | Comparable estimates | 2021",
+  "3.3 | New HIV infections (per 1000 uninfected population) | Comparable estimates | 2021",
+  "3.3 | Tuberculosis incidence (per 100 000 population) | Comparable estimates | 2021",
+  "3.3 | Malaria incidence (per 1000 population at risk) | Comparable estimates | 2021",
+  "3.3 | Hepatitis B surface antigen (HBsAg) prevalence among children under 5 years (%) | Comparable estimates | 2020",
+  "3.3 | Reported number of people requiring interventions against NTDs | Primary data | 2021"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 2.73,
+  "input_tokens": 1531,
+  "output_tokens": 236
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "kind": "mixed",
+ "axes_units": "Left Y-axis: Mortality rate (per 100,000 population) from 0 to 50; Right Y-axis: Cumulative share of number of deaths (%) from 0 to 100; X-axis: WHO regions (African Region, South-East Asia Region, Eastern Mediterranean Region, Region of the Americas, Western Pacific Region, European Region)",
+ "legend": [
+  "Mortality rate (blue bars)",
+  "Cumulative share of number of deaths (purple line)"
+ ],
+ "values": [
+  "Mortality rate | African Region : 46",
+  "Mortality rate | South-East Asia Region : 29",
+  "Mortality rate | Eastern Mediterranean Region : 18",
+  "Mortality rate | Region of the Americas : 5",
+  "Mortality rate | Western Pacific Region : 5",
+  "Mortality rate | European Region : 3",
+  "Cumulative share of number of deaths | African Region : ~37%",
+  "Cumulative share of number of deaths | South-East Asia Region : ~79%",
+  "Cumulative share of number of deaths | Eastern Mediterranean Region : ~90%",
+  "Cumulative share of number of deaths | Region of the Americas : ~95%",
+  "Cumulative share of number of deaths | Western Pacific Region : ~99%",
+  "Cumulative share of number of deaths | European Region : 100%"
+ ],
+ "summary": "The figure shows mortality rates attributed to unsafe WASH services and the cumulative share of deaths by WHO region in 2019. The African Region has the highest mortality rate (~46 per 100,000 population) and contributes about 37% of cumulative deaths. South-East Asia and Eastern Mediterranean Regions follow with lower mortality rates but higher cumulative shares of deaths. The European Region has the lowest mortality rate (~3) and completes the cumulative share to 100%.",
+ "text_in_image": "Figure 2.14 Mortality rate and cumulative share of deaths attributed to exposure to unsafe WASH services, by WHO region, 2019; Mortality rate (per 100 000 population); Cumulative share of number of deaths (%); African Region; South-East Asia Region; Eastern Mediterranean Region; Region of the Americas; Western Pacific Region; European Region; Mortality rate; Cumulative share of number of deaths; Source: Ref. (32).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.67,
+  "input_tokens": 2359,
+  "output_tokens": 500
+ }
+}

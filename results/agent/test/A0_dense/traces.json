@@ -1,0 +1,1548 @@
+[
+  {
+    "query_id": "t01",
+    "question": "How does the AI RMF define validation?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1492.5,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "definition of validation in AI RMF",
+              "function_filter": null
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "definition of validation in AI RMF",
+        "filter": null,
+        "model_function_filter": null,
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 249.0,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p018:para800:04",
+            "page": 18,
+            "rank": 1,
+            "score": 0.521451
+          },
+          {
+            "id": "nist-ai-100-1:p006:para800:01",
+            "page": 6,
+            "rank": 2,
+            "score": 0.505539
+          },
+          {
+            "id": "nist-ai-100-1:p012:para800:04",
+            "page": 12,
+            "rank": 3,
+            "score": 0.481801
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p018:para800:04",
+          "nist-ai-100-1:p006:para800:01",
+          "nist-ai-100-1:p012:para800:04"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 1500
+      },
+      {
+        "event": "model_call",
+        "ms": 1987.3,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "The AI RMF defines validation as the “confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled” (Source: ISO 9000:2015). This means ensuring that an AI system meets its intended purpose accurately and reliably before deployment. Validation is crucial to avoid deploying AI systems that are inaccurate, unreliable, or poorly generalized, which can increase negative AI risks and reduce trustworthiness [nist-ai-100-1:p018:para800:04].",
+              "citations": [
+                "nist-ai-100-1:p018:para800:04"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "The AI RMF defines validation as the “confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled” (Source: ISO 9000:2015). This means ensuring that an AI system meets its intended purpose accurately and reliably before deployment. Validation is crucial to avoid deploying AI systems that are inaccurate, unreliable, or poorly generalized, which can increase negative AI risks and reduce trustworthiness [nist-ai-100-1:p018:para800:04].",
+    "citations": [
+      "nist-ai-100-1:p018:para800:04"
+    ],
+    "usage": {
+      "input": 1325,
+      "output": 163,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "The AI RMF defines validation as the “confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled” (Source: ISO 9000:2015). This means ensuring that an AI system meets its intended purpose accurately and reliably before deployment. Validation is crucial to avoid deploying AI systems that are inaccurate, unreliable, or poorly generalized, which can increase negative AI risks and reduce trustworthiness [nist-ai-100-1:p018:para800:04].",
+      "citations": [
+        "nist-ai-100-1:p018:para800:04"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p018:para800:04",
+      "nist-ai-100-1:p006:para800:01",
+      "nist-ai-100-1:p012:para800:04"
+    ],
+    "context": "[nist-ai-100-1:p018:para800:04 | nist-ai-100-1 | page 18 | 3.1 Valid and Reliable]\n3.1 Valid and Reliable Validation is the “confirmation, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled” (Source: ISO 9000:2015). Deployment of AI systems which are inaccurate, unreliable, or poorly generalized to data and settings beyond their training creates and increases negative AI risks and reduces trustworthiness.\n\nReliability is defined in the same standard as the “ability of an item to perform as required, without failure, for a given time interval, under given conditions” (Source: ISO /IEC TS 5723:2022). Reliability is a goal for overall correctness of AI system operation under the conditions of expected use and over a given period of time, including the entire lifetime of the system.\n\n[nist-ai-100-1:p006:para800:01 | nist-ai-100-1 | page 6 | Executive Summary]\nThe AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments. AI systems are designed to operate with varying levels of autonomy (Adapted from: OECD Recommendation on AI:2019; ISO /IEC 22989:2022).\n\n[nist-ai-100-1:p012:para800:04 | nist-ai-100-1 | page 12 | 1.2.2 Risk Tolerance]\nOnce tolerance is defined, this AI RMF can be used to manage risks and to document risk management processes.",
+    "context_chars": 1500,
+    "cost_usd": 0.000791,
+    "provider_retries": [],
+    "elapsed_ms": 3739.7,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t02",
+    "question": "If an AI risk cannot be measured appropriately, does that mean the AI system is high risk?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1075.1,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "If AI risk cannot be measured appropriately, does it mean the AI system is high risk?",
+              "function_filter": "MEASURE"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "If AI risk cannot be measured appropriately, does it mean the AI system is high risk?",
+        "filter": {
+          "function": "MEASURE"
+        },
+        "model_function_filter": "MEASURE",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 131.8,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p035:para800:00",
+            "page": 35,
+            "rank": 1,
+            "score": 0.59741
+          },
+          {
+            "id": "nist-ai-100-1:p033:para800:01",
+            "page": 33,
+            "rank": 2,
+            "score": 0.590641
+          },
+          {
+            "id": "nist-ai-100-1:p035:para800:02",
+            "page": 35,
+            "rank": 3,
+            "score": 0.590555
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p035:para800:00",
+          "nist-ai-100-1:p033:para800:01",
+          "nist-ai-100-1:p035:para800:02"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 1874
+      },
+      {
+        "event": "model_call",
+        "ms": 1959.9,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "If AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available, risk tracking approaches should be considered rather than assuming the AI system is high risk. The inability to measure risk appropriately does not automatically mean the AI system is high risk; instead, it calls for alternative risk tracking methods to identify and monitor risks regularly [nist-ai-100-1:p035:para800:02].",
+              "citations": [
+                "nist-ai-100-1:p035:para800:02"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "If AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available, risk tracking approaches should be considered rather than assuming the AI system is high risk. The inability to measure risk appropriately does not automatically mean the AI system is high risk; instead, it calls for alternative risk tracking methods to identify and monitor risks regularly [nist-ai-100-1:p035:para800:02].",
+    "citations": [
+      "nist-ai-100-1:p035:para800:02"
+    ],
+    "usage": {
+      "input": 1421,
+      "output": 155,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "If AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available, risk tracking approaches should be considered rather than assuming the AI system is high risk. The inability to measure risk appropriately does not automatically mean the AI system is high risk; instead, it calls for alternative risk tracking methods to identify and monitor risks regularly [nist-ai-100-1:p035:para800:02].",
+      "citations": [
+        "nist-ai-100-1:p035:para800:02"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p035:para800:00",
+      "nist-ai-100-1:p033:para800:01",
+      "nist-ai-100-1:p035:para800:02"
+    ],
+    "context": "[nist-ai-100-1:p035:para800:00 | nist-ai-100-1 | page 35 | 5.3 Measure]\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.\n\nMEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.\n\nMEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented.\n\n[nist-ai-100-1:p033:para800:01 | nist-ai-100-1 | page 33 | 5.3 Measure]\n5.3 Measure The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts. It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function. AI systems should be tested before their deployment and regularly while in operation. AI risk measurements include documenting aspects of systems’ functionality and trustworthiness.\n\n[nist-ai-100-1:p035:para800:02 | nist-ai-100-1 | page 35 | 5.3 Measure]\nMEASURE 3.1: Approaches, personnel, and documentation are in place to regularly identify and track existing, unanticipated, and emergent AI risks based on factors such as intended and actual performance in deployed contexts.\n\nMEASURE 3.2: Risk tracking approaches are considered for settings where AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available.",
+    "context_chars": 1874,
+    "cost_usd": 0.000816,
+    "provider_retries": [],
+    "elapsed_ms": 3171.5,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t03",
+    "question": "Under the GOVERN function, what should be in place to handle failures or incidents in high-risk third-party data or AI systems?",
+    "user_filter": {
+      "function": "GOVERN"
+    },
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1166.2,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "handle failures or incidents in high-risk third-party data or AI systems under GOVERN function",
+              "function_filter": "GOVERN"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "handle failures or incidents in high-risk third-party data or AI systems under GOVERN function",
+        "filter": {
+          "function": "GOVERN"
+        },
+        "model_function_filter": "GOVERN",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 133.6,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p029:para800:01",
+            "page": 29,
+            "rank": 1,
+            "score": 0.65352
+          },
+          {
+            "id": "nist-ai-100-1:p028:para800:00",
+            "page": 28,
+            "rank": 2,
+            "score": 0.613949
+          },
+          {
+            "id": "nist-ai-100-1:p027:para800:00",
+            "page": 27,
+            "rank": 3,
+            "score": 0.603375
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p029:para800:01",
+          "nist-ai-100-1:p028:para800:00",
+          "nist-ai-100-1:p027:para800:00"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 1959
+      },
+      {
+        "event": "model_call",
+        "ms": 1532.8,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "Under the GOVERN function, contingency processes must be in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. Additionally, policies and procedures should address AI risks and benefits arising from third-party software, data, and other supply chain issues, including risks related to third-party intellectual property or other rights [nist-ai-100-1:p029:para800:01].",
+              "citations": [
+                "nist-ai-100-1:p029:para800:01"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Under the GOVERN function, contingency processes must be in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. Additionally, policies and procedures should address AI risks and benefits arising from third-party software, data, and other supply chain issues, including risks related to third-party intellectual property or other rights [nist-ai-100-1:p029:para800:01].",
+    "citations": [
+      "nist-ai-100-1:p029:para800:01"
+    ],
+    "usage": {
+      "input": 1506,
+      "output": 151,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "Under the GOVERN function, contingency processes must be in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. Additionally, policies and procedures should address AI risks and benefits arising from third-party software, data, and other supply chain issues, including risks related to third-party intellectual property or other rights [nist-ai-100-1:p029:para800:01].",
+      "citations": [
+        "nist-ai-100-1:p029:para800:01"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p029:para800:01",
+      "nist-ai-100-1:p028:para800:00",
+      "nist-ai-100-1:p027:para800:00"
+    ],
+    "context": "[nist-ai-100-1:p029:para800:01 | nist-ai-100-1 | page 29 | 5.1 Govern]\nGOVERN 5.2: Mechanisms are established to enable the team that developed or deployed AI systems to regularly incorporate adjudicated feedback from relevant AI actors into system design and implementation.\n\nGOVERN 6: Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues.\n\nGOVERN 6.1: Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights.\n\nGOVERN 6.2: Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk.\n\n[nist-ai-100-1:p028:para800:00 | nist-ai-100-1 | page 28 | 5.1 Govern]\nTable 1: Categories and subcategories for the GOVERN function. (Continued)\n\nGOVERN 1.5: Ongoing monitoring and periodic review of the risk management process and its outcomes are planned and organizational roles and responsibilities clearly defined, including determining the frequency of periodic review.\n\nGOVERN 1.6: Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities.\n\nGOVERN 1.7: Processes and procedures are in place for decommissioning and phasing out AI systems safely and in a manner that does not increase risks or decrease the organization’s trustworthiness.\n\n[nist-ai-100-1:p027:para800:00 | nist-ai-100-1 | page 27 | 5.1 Govern]\nGOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process. Aspects of GOVERN , especially those related to compliance or evaluation, should be integrated into each of the other functions. Attention to governance is a continual and intrinsic requirement for effective AI risk management over an AI system’s lifespan and the organization’s hierarchy.",
+    "context_chars": 1959,
+    "cost_usd": 0.000844,
+    "provider_retries": [],
+    "elapsed_ms": 2836.4,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t04",
+    "question": "In the MAP function, what is required of processes for human oversight?",
+    "user_filter": {
+      "function": "MAP"
+    },
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1214.1,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "processes for human oversight in MAP function",
+              "function_filter": "MAP"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "processes for human oversight in MAP function",
+        "filter": {
+          "function": "MAP"
+        },
+        "model_function_filter": "MAP",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 119.6,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p030:para800:01",
+            "page": 30,
+            "rank": 1,
+            "score": 0.538231
+          },
+          {
+            "id": "nist-ai-100-1:p032:para800:01",
+            "page": 32,
+            "rank": 2,
+            "score": 0.499091
+          },
+          {
+            "id": "nist-ai-100-1:p030:para800:00",
+            "page": 30,
+            "rank": 3,
+            "score": 0.496544
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p030:para800:01",
+          "nist-ai-100-1:p032:para800:01",
+          "nist-ai-100-1:p030:para800:00"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 1773
+      },
+      {
+        "event": "model_call",
+        "ms": 1520.9,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "In the MAP function, processes for human oversight are required to be defined, assessed, and documented in accordance with organizational policies from the GOVERN function [nist-ai-100-1:p032:para800:01].",
+              "citations": [
+                "nist-ai-100-1:p032:para800:01"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "In the MAP function, processes for human oversight are required to be defined, assessed, and documented in accordance with organizational policies from the GOVERN function [nist-ai-100-1:p032:para800:01].",
+    "citations": [
+      "nist-ai-100-1:p032:para800:01"
+    ],
+    "usage": {
+      "input": 1396,
+      "output": 104,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "In the MAP function, processes for human oversight are required to be defined, assessed, and documented in accordance with organizational policies from the GOVERN function [nist-ai-100-1:p032:para800:01].",
+      "citations": [
+        "nist-ai-100-1:p032:para800:01"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p030:para800:01",
+      "nist-ai-100-1:p032:para800:01",
+      "nist-ai-100-1:p030:para800:00"
+    ],
+    "context": "[nist-ai-100-1:p030:para800:01 | nist-ai-100-1 | page 30 | 5.2 Map]\nThe MAP function is intended to enhance an organization’s ability to identify risks and broader contributing factors.\n\n[nist-ai-100-1:p032:para800:01 | nist-ai-100-1 | page 32 | 5.2 Map]\nMAP 3.2: Potential costs, including non-monetary costs, which result from expected or realized AI errors or system functionality and trustworthiness – as connected to organizational risk tolerance – are examined and documented.\n\nMAP 3.3: Targeted application scope is specified and documented based on the system’s capability, established context, and AI system categorization.\n\nMAP 3.4: Processes for operator and practitioner proficiency with AI system performance and trustworthiness – and relevant technical standards and certifications – are defined, assessed, and documented.\n\nMAP 3.5: Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the GOVERN function.\n\n[nist-ai-100-1:p030:para800:00 | nist-ai-100-1 | page 30 | 5.2 Map]\nThis complexity and varying levels of visibility can introduce uncertainty into risk management practices. Anticipating, assessing, and otherwise addressing potential sources of negative risk can mitigate this uncertainty and enhance the integrity of the decision process. The information gathered while carrying out the MAP function enables negative risk prevention and informs decisions for processes such as model management, as well as an initial decision about appropriateness or the need for an AI solution. Outcomes in the MAP function are the basis for the MEASURE and MANAGE functions. Without contextual knowledge, and awareness of risks within the identified contexts, risk management is difficult to perform.",
+    "context_chars": 1773,
+    "cost_usd": 0.000725,
+    "provider_retries": [],
+    "elapsed_ms": 2859.2,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t05",
+    "question": "What kind of process for go/no-go decisions on commissioning and deploying a system can Framework users expect to gain?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 975.2,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "process for go/no-go decisions on commissioning and deploying a system",
+              "function_filter": "MANAGE"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "process for go/no-go decisions on commissioning and deploying a system",
+        "filter": {
+          "function": "MANAGE"
+        },
+        "model_function_filter": "MANAGE",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 125.7,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p036:para800:03",
+            "page": 36,
+            "rank": 1,
+            "score": 0.327142
+          },
+          {
+            "id": "nist-ai-100-1:p036:para800:02",
+            "page": 36,
+            "rank": 2,
+            "score": 0.311339
+          },
+          {
+            "id": "nist-ai-100-1:p038:para800:00",
+            "page": 38,
+            "rank": 3,
+            "score": 0.30498
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p036:para800:03",
+          "nist-ai-100-1:p036:para800:02",
+          "nist-ai-100-1:p038:para800:00"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2154
+      },
+      {
+        "event": "model_call",
+        "ms": 2823.1,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "Framework users can expect to gain a process that includes plans for prioritizing risk, regular monitoring, and improvement after deployment. This process enhances their capacity to manage risks of deployed AI systems and allocate risk management resources based on assessed and prioritized risks. It also involves systematic documentation, mechanisms for assessing emergent risks, and continual improvement, including post-deployment monitoring plans with mechanisms for capturing input from users and other relevant AI actors, incident response, recovery, and change management. This supports informed go/no-go decisions on commissioning and deploying AI systems [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p036:para800:03, nist-ai-100-1:p038:para800:00].",
+              "citations": [
+                "nist-ai-100-1:p036:para800:02",
+                "nist-ai-100-1:p036:para800:03",
+                "nist-ai-100-1:p038:para800:00"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "citation_markers_appended",
+        "ids": [
+          "nist-ai-100-1:p036:para800:02",
+          "nist-ai-100-1:p036:para800:03",
+          "nist-ai-100-1:p038:para800:00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Framework users can expect to gain a process that includes plans for prioritizing risk, regular monitoring, and improvement after deployment. This process enhances their capacity to manage risks of deployed AI systems and allocate risk management resources based on assessed and prioritized risks. It also involves systematic documentation, mechanisms for assessing emergent risks, and continual improvement, including post-deployment monitoring plans with mechanisms for capturing input from users and other relevant AI actors, incident response, recovery, and change management. This supports informed go/no-go decisions on commissioning and deploying AI systems [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p036:para800:03, nist-ai-100-1:p038:para800:00]. [nist-ai-100-1:p036:para800:02] [nist-ai-100-1:p036:para800:03] [nist-ai-100-1:p038:para800:00]",
+    "citations": [
+      "nist-ai-100-1:p036:para800:02",
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p038:para800:00"
+    ],
+    "usage": {
+      "input": 1450,
+      "output": 245,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "Framework users can expect to gain a process that includes plans for prioritizing risk, regular monitoring, and improvement after deployment. This process enhances their capacity to manage risks of deployed AI systems and allocate risk management resources based on assessed and prioritized risks. It also involves systematic documentation, mechanisms for assessing emergent risks, and continual improvement, including post-deployment monitoring plans with mechanisms for capturing input from users and other relevant AI actors, incident response, recovery, and change management. This supports informed go/no-go decisions on commissioning and deploying AI systems [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p036:para800:03, nist-ai-100-1:p038:para800:00].",
+      "citations": [
+        "nist-ai-100-1:p036:para800:02",
+        "nist-ai-100-1:p036:para800:03",
+        "nist-ai-100-1:p038:para800:00"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p036:para800:02",
+      "nist-ai-100-1:p038:para800:00"
+    ],
+    "context": "[nist-ai-100-1:p036:para800:03 | nist-ai-100-1 | page 36 | 5.4 Manage]\nAfter completing the MANAGE function, plans for prioritizing risk and regular monitoring and improvement will be in place. Framework users will have enhanced capacity to manage the risks of deployed AI systems and to allocate risk management resources based on assessed and prioritized risks. It is incumbent on Framework users to continue to apply the MANAGE function to deployed AI systems as methods, contexts, risks, and needs or expectations from relevant AI actors evolve over time.\n\n[nist-ai-100-1:p036:para800:02 | nist-ai-100-1 | page 36 | 5.4 Manage]\n5.4 Manage The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function. Risk treatment comprises plans to respond to, recover from, and communicate about incidents or events.\n\nContextual information gleaned from expert consultation and input from relevant AI actors – established in GOVERN and carried out in MAP – is utilized in this function to decrease the likelihood of system failures and negative impacts. Systematic documentation practices established in GOVERN and utilized in MAP and MEASURE bolster AI risk management efforts and increase transparency and accountability. Processes for assessing emergent risks are in place, along with mechanisms for continual improvement.\n\n[nist-ai-100-1:p038:para800:00 | nist-ai-100-1 | page 38 | 5.4 Manage]\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\n\nMANAGE 4: Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.\n\nMANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.\n\nMANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.",
+    "context_chars": 2154,
+    "cost_usd": 0.000972,
+    "provider_retries": [],
+    "elapsed_ms": 3932.3,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t06",
+    "question": "Theo AI RMF, khi hậu quả nghiêm trọng (ví dụ tính mạng và tự do bị đe dọa), nhà phát triển và bên triển khai AI nên cân nhắc điều gì?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1117.2,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "serious consequences threat to life and liberty developer and deployer considerations",
+              "function_filter": "MANAGE"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "serious consequences threat to life and liberty developer and deployer considerations",
+        "filter": {
+          "function": "MANAGE"
+        },
+        "model_function_filter": "MANAGE",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 122.1,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p036:para800:03",
+            "page": 36,
+            "rank": 1,
+            "score": 0.310657
+          },
+          {
+            "id": "nist-ai-100-1:p037:para800:01",
+            "page": 37,
+            "rank": 2,
+            "score": 0.300806
+          },
+          {
+            "id": "nist-ai-100-1:p037:para800:02",
+            "page": 37,
+            "rank": 3,
+            "score": 0.293254
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p036:para800:03",
+          "nist-ai-100-1:p037:para800:01",
+          "nist-ai-100-1:p037:para800:02"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2228
+      },
+      {
+        "event": "model_call",
+        "ms": 1133.4,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "serious consequences threat to life and liberty risk management considerations developer deployer",
+              "function_filter": "MANAGE"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "serious consequences threat to life and liberty risk management considerations developer deployer",
+        "filter": {
+          "function": "MANAGE"
+        },
+        "model_function_filter": "MANAGE",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 116.2,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p036:para800:03",
+            "page": 36,
+            "rank": 1,
+            "score": 0.426939
+          },
+          {
+            "id": "nist-ai-100-1:p037:para800:01",
+            "page": 37,
+            "rank": 2,
+            "score": 0.410048
+          },
+          {
+            "id": "nist-ai-100-1:p037:para800:02",
+            "page": 37,
+            "rank": 3,
+            "score": 0.408206
+          }
+        ],
+        "added": [],
+        "repeated": [
+          "nist-ai-100-1:p036:para800:03",
+          "nist-ai-100-1:p037:para800:01",
+          "nist-ai-100-1:p037:para800:02"
+        ],
+        "dropped_budget": [],
+        "context_chars": 2228
+      },
+      {
+        "event": "model_call",
+        "ms": 3291.4,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "Theo AI RMF, khi hậu quả nghiêm trọng như đe dọa tính mạng và tự do, nhà phát triển và bên triển khai AI nên phát triển, lập kế hoạch và ghi lại các phản ứng đối với các rủi ro AI được đánh giá là ưu tiên cao, bao gồm các lựa chọn giảm thiểu, chuyển giao, tránh hoặc chấp nhận rủi ro. Họ cũng cần lập kế hoạch, chuẩn bị, thực hiện và ghi lại các chiến lược để tối đa hóa lợi ích AI và giảm thiểu tác động tiêu cực, đồng thời xem xét các nguồn lực cần thiết để quản lý rủi ro AI và các phương án thay thế không phải AI nhằm giảm thiểu mức độ hoặc khả năng xảy ra các tác động tiềm tàng. Ngoài ra, cần có các cơ chế để duy trì giá trị của hệ thống AI đã triển khai và các thủ tục để phản ứng và phục hồi khi phát hiện rủi ro chưa biết trước đó, cũng như các cơ chế để ngừng hoặc vô hiệu hóa hệ thống AI khi hiệu suất hoặc kết quả không phù hợp với mục đích sử dụng dự kiến [nist-ai-100-1:p036:para800:03, nist-ai-100-1:p037:para800:01, nist-ai-100-1:p037:para800:02].",
+              "citations": [
+                "nist-ai-100-1:p036:para800:03",
+                "nist-ai-100-1:p037:para800:01",
+                "nist-ai-100-1:p037:para800:02"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "citation_markers_appended",
+        "ids": [
+          "nist-ai-100-1:p036:para800:03",
+          "nist-ai-100-1:p037:para800:01",
+          "nist-ai-100-1:p037:para800:02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Theo AI RMF, khi hậu quả nghiêm trọng như đe dọa tính mạng và tự do, nhà phát triển và bên triển khai AI nên phát triển, lập kế hoạch và ghi lại các phản ứng đối với các rủi ro AI được đánh giá là ưu tiên cao, bao gồm các lựa chọn giảm thiểu, chuyển giao, tránh hoặc chấp nhận rủi ro. Họ cũng cần lập kế hoạch, chuẩn bị, thực hiện và ghi lại các chiến lược để tối đa hóa lợi ích AI và giảm thiểu tác động tiêu cực, đồng thời xem xét các nguồn lực cần thiết để quản lý rủi ro AI và các phương án thay thế không phải AI nhằm giảm thiểu mức độ hoặc khả năng xảy ra các tác động tiềm tàng. Ngoài ra, cần có các cơ chế để duy trì giá trị của hệ thống AI đã triển khai và các thủ tục để phản ứng và phục hồi khi phát hiện rủi ro chưa biết trước đó, cũng như các cơ chế để ngừng hoặc vô hiệu hóa hệ thống AI khi hiệu suất hoặc kết quả không phù hợp với mục đích sử dụng dự kiến [nist-ai-100-1:p036:para800:03, nist-ai-100-1:p037:para800:01, nist-ai-100-1:p037:para800:02]. [nist-ai-100-1:p036:para800:03] [nist-ai-100-1:p037:para800:01] [nist-ai-100-1:p037:para800:02]",
+    "citations": [
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p037:para800:02"
+    ],
+    "usage": {
+      "input": 2742,
+      "output": 411,
+      "thinking": 0,
+      "calls": 3
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "Theo AI RMF, khi hậu quả nghiêm trọng như đe dọa tính mạng và tự do, nhà phát triển và bên triển khai AI nên phát triển, lập kế hoạch và ghi lại các phản ứng đối với các rủi ro AI được đánh giá là ưu tiên cao, bao gồm các lựa chọn giảm thiểu, chuyển giao, tránh hoặc chấp nhận rủi ro. Họ cũng cần lập kế hoạch, chuẩn bị, thực hiện và ghi lại các chiến lược để tối đa hóa lợi ích AI và giảm thiểu tác động tiêu cực, đồng thời xem xét các nguồn lực cần thiết để quản lý rủi ro AI và các phương án thay thế không phải AI nhằm giảm thiểu mức độ hoặc khả năng xảy ra các tác động tiềm tàng. Ngoài ra, cần có các cơ chế để duy trì giá trị của hệ thống AI đã triển khai và các thủ tục để phản ứng và phục hồi khi phát hiện rủi ro chưa biết trước đó, cũng như các cơ chế để ngừng hoặc vô hiệu hóa hệ thống AI khi hiệu suất hoặc kết quả không phù hợp với mục đích sử dụng dự kiến [nist-ai-100-1:p036:para800:03, nist-ai-100-1:p037:para800:01, nist-ai-100-1:p037:para800:02].",
+      "citations": [
+        "nist-ai-100-1:p036:para800:03",
+        "nist-ai-100-1:p037:para800:01",
+        "nist-ai-100-1:p037:para800:02"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p036:para800:03",
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p037:para800:02"
+    ],
+    "context": "[nist-ai-100-1:p036:para800:03 | nist-ai-100-1 | page 36 | 5.4 Manage]\nAfter completing the MANAGE function, plans for prioritizing risk and regular monitoring and improvement will be in place. Framework users will have enhanced capacity to manage the risks of deployed AI systems and to allocate risk management resources based on assessed and prioritized risks. It is incumbent on Framework users to continue to apply the MANAGE function to deployed AI systems as methods, contexts, risks, and needs or expectations from relevant AI actors evolve over time.\n\n[nist-ai-100-1:p037:para800:01 | nist-ai-100-1 | page 37 | 5.4 Manage]\nMANAGE 1.3: Responses to the AI risks deemed high priority, as identified by the MAP function, are developed, planned, and documented. Risk response options can include mitigating, transferring, avoiding, or accepting.\n\nMANAGE 1.4: Negative residual risks (defined as the sum of all unmitigated risks) to both downstream acquirers of AI systems and end users are documented.\n\nMANAGE 2: Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors.\n\nMANAGE 2.1: Resources required to manage AI risks are taken into account – along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential impacts.\n\n[nist-ai-100-1:p037:para800:02 | nist-ai-100-1 | page 37 | 5.4 Manage]\nMANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems.\n\nMANAGE 2.3: Procedures are followed to respond to and recover from a previously unknown risk when it is identified.\n\nMANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.\n\nMANAGE 3: AI risks and benefits from third-party entities are managed.\n\nMANAGE 3.1: AI risks and benefits from third-party resources are regularly monitored, and risk controls are applied and documented.\n\nMANAGE 3.2: Pre-trained models which are used for development are monitored as part of AI system regular monitoring and maintenance.",
+    "context_chars": 2228,
+    "cost_usd": 0.001754,
+    "provider_retries": [],
+    "elapsed_ms": 5784.0,
+    "n_searches": 2
+  },
+  {
+    "query_id": "t07",
+    "question": "What do TEVV tasks for operations involve?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1156.4,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "TEVV tasks for operations",
+              "function_filter": "MANAGE"
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "TEVV tasks for operations",
+        "filter": {
+          "function": "MANAGE"
+        },
+        "model_function_filter": "MANAGE",
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 94.4,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p038:para800:00",
+            "page": 38,
+            "rank": 1,
+            "score": 0.27297
+          },
+          {
+            "id": "nist-ai-100-1:p037:para800:02",
+            "page": 37,
+            "rank": 2,
+            "score": 0.25897
+          },
+          {
+            "id": "nist-ai-100-1:p036:para800:02",
+            "page": 36,
+            "rank": 3,
+            "score": 0.248516
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p038:para800:00",
+          "nist-ai-100-1:p037:para800:02",
+          "nist-ai-100-1:p036:para800:02"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2437
+      },
+      {
+        "event": "model_call",
+        "ms": 2748.9,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "TEVV tasks for operations involve post-deployment AI system monitoring plans that include mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management. These tasks also include measurable activities for continual improvements integrated into AI system updates with regular engagement with interested parties, including relevant AI actors. Additionally, mechanisms are in place to sustain the value of deployed AI systems, respond to and recover from previously unknown risks, and deactivate AI systems that demonstrate inconsistent performance or outcomes. Risk treatments include response, recovery, and communication plans for identified and measured AI risks, which are documented and monitored regularly [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p037:para800:02, nist-ai-100-1:p038:para800:00].",
+              "citations": [
+                "nist-ai-100-1:p036:para800:02",
+                "nist-ai-100-1:p037:para800:02",
+                "nist-ai-100-1:p038:para800:00"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "citation_markers_appended",
+        "ids": [
+          "nist-ai-100-1:p036:para800:02",
+          "nist-ai-100-1:p037:para800:02",
+          "nist-ai-100-1:p038:para800:00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "TEVV tasks for operations involve post-deployment AI system monitoring plans that include mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management. These tasks also include measurable activities for continual improvements integrated into AI system updates with regular engagement with interested parties, including relevant AI actors. Additionally, mechanisms are in place to sustain the value of deployed AI systems, respond to and recover from previously unknown risks, and deactivate AI systems that demonstrate inconsistent performance or outcomes. Risk treatments include response, recovery, and communication plans for identified and measured AI risks, which are documented and monitored regularly [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p037:para800:02, nist-ai-100-1:p038:para800:00]. [nist-ai-100-1:p036:para800:02] [nist-ai-100-1:p037:para800:02] [nist-ai-100-1:p038:para800:00]",
+    "citations": [
+      "nist-ai-100-1:p036:para800:02",
+      "nist-ai-100-1:p037:para800:02",
+      "nist-ai-100-1:p038:para800:00"
+    ],
+    "usage": {
+      "input": 1502,
+      "output": 262,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "TEVV tasks for operations involve post-deployment AI system monitoring plans that include mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management. These tasks also include measurable activities for continual improvements integrated into AI system updates with regular engagement with interested parties, including relevant AI actors. Additionally, mechanisms are in place to sustain the value of deployed AI systems, respond to and recover from previously unknown risks, and deactivate AI systems that demonstrate inconsistent performance or outcomes. Risk treatments include response, recovery, and communication plans for identified and measured AI risks, which are documented and monitored regularly [nist-ai-100-1:p036:para800:02, nist-ai-100-1:p037:para800:02, nist-ai-100-1:p038:para800:00].",
+      "citations": [
+        "nist-ai-100-1:p036:para800:02",
+        "nist-ai-100-1:p037:para800:02",
+        "nist-ai-100-1:p038:para800:00"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p038:para800:00",
+      "nist-ai-100-1:p037:para800:02",
+      "nist-ai-100-1:p036:para800:02"
+    ],
+    "context": "[nist-ai-100-1:p038:para800:00 | nist-ai-100-1 | page 38 | 5.4 Manage]\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\n\nMANAGE 4: Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.\n\nMANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.\n\nMANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\n\n[nist-ai-100-1:p037:para800:02 | nist-ai-100-1 | page 37 | 5.4 Manage]\nMANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems.\n\nMANAGE 2.3: Procedures are followed to respond to and recover from a previously unknown risk when it is identified.\n\nMANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.\n\nMANAGE 3: AI risks and benefits from third-party entities are managed.\n\nMANAGE 3.1: AI risks and benefits from third-party resources are regularly monitored, and risk controls are applied and documented.\n\nMANAGE 3.2: Pre-trained models which are used for development are monitored as part of AI system regular monitoring and maintenance.\n\n[nist-ai-100-1:p036:para800:02 | nist-ai-100-1 | page 36 | 5.4 Manage]\n5.4 Manage The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function. Risk treatment comprises plans to respond to, recover from, and communicate about incidents or events.\n\nContextual information gleaned from expert consultation and input from relevant AI actors – established in GOVERN and carried out in MAP – is utilized in this function to decrease the likelihood of system failures and negative impacts. Systematic documentation practices established in GOVERN and utilized in MAP and MEASURE bolster AI risk management efforts and increase transparency and accountability. Processes for assessing emergent risks are in place, along with mechanisms for continual improvement.",
+    "context_chars": 2437,
+    "cost_usd": 0.00102,
+    "provider_retries": [],
+    "elapsed_ms": 4008.0,
+    "n_searches": 1
+  },
+  {
+    "query_id": "t08",
+    "question": "Apart from adopting the AI RMF itself, what does effective AI risk management require from an organization?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1078.4,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "effective AI risk management requirements beyond adopting AI RMF",
+              "function_filter": null
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "effective AI risk management requirements beyond adopting AI RMF",
+        "filter": null,
+        "model_function_filter": null,
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 122.8,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p014:para800:00",
+            "page": 14,
+            "rank": 1,
+            "score": 0.711878
+          },
+          {
+            "id": "nist-ai-100-1:p015:para800:01",
+            "page": 15,
+            "rank": 2,
+            "score": 0.672663
+          },
+          {
+            "id": "nist-ai-100-1:p047:para800:02",
+            "page": 47,
+            "rank": 3,
+            "score": 0.669286
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p014:para800:00",
+          "nist-ai-100-1:p015:para800:01",
+          "nist-ai-100-1:p047:para800:02"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2161
+      },
+      {
+        "event": "model_call",
+        "ms": 2063.2,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "answered",
+              "answer": "Effective AI risk management requires organizations to establish and maintain appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures beyond just adopting the AI RMF. It also requires organizational commitment at senior levels and may involve cultural change within the organization or industry. Additionally, successful risk management depends on a sense of collective responsibility among diverse AI actors, involving diverse perspectives, disciplines, professions, and experiences to surface problems and identify risks. These elements are necessary because use of the AI RMF alone will not lead to these changes or provide the appropriate incentives [nist-ai-100-1:p014:para800:00][nist-ai-100-1:p015:para800:01].",
+              "citations": [
+                "nist-ai-100-1:p014:para800:00",
+                "nist-ai-100-1:p015:para800:01"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "status": "answered",
+    "answer": "Effective AI risk management requires organizations to establish and maintain appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures beyond just adopting the AI RMF. It also requires organizational commitment at senior levels and may involve cultural change within the organization or industry. Additionally, successful risk management depends on a sense of collective responsibility among diverse AI actors, involving diverse perspectives, disciplines, professions, and experiences to surface problems and identify risks. These elements are necessary because use of the AI RMF alone will not lead to these changes or provide the appropriate incentives [nist-ai-100-1:p014:para800:00][nist-ai-100-1:p015:para800:01].",
+    "citations": [
+      "nist-ai-100-1:p014:para800:00",
+      "nist-ai-100-1:p015:para800:01"
+    ],
+    "usage": {
+      "input": 1426,
+      "output": 213,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "answered",
+      "answer": "Effective AI risk management requires organizations to establish and maintain appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures beyond just adopting the AI RMF. It also requires organizational commitment at senior levels and may involve cultural change within the organization or industry. Additionally, successful risk management depends on a sense of collective responsibility among diverse AI actors, involving diverse perspectives, disciplines, professions, and experiences to surface problems and identify risks. These elements are necessary because use of the AI RMF alone will not lead to these changes or provide the appropriate incentives [nist-ai-100-1:p014:para800:00][nist-ai-100-1:p015:para800:01].",
+      "citations": [
+        "nist-ai-100-1:p014:para800:00",
+        "nist-ai-100-1:p015:para800:01"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p014:para800:00",
+      "nist-ai-100-1:p015:para800:01",
+      "nist-ai-100-1:p047:para800:02"
+    ],
+    "context": "[nist-ai-100-1:p014:para800:00 | nist-ai-100-1 | page 14 | 1.2.4 Organizational Integration and Management of Risk]\nOrganizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective. Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry. In addition, small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depending on their capabilities and resources.\n\n[nist-ai-100-1:p015:para800:01 | nist-ai-100-1 | page 15 | 2. Audience]\n• designate boundaries for AI operation (technical, societal, legal, and ethical); and\n\n• promote discussion of the tradeoffs needed to balance societal values and priorities related to civil liberties and rights, equity, the environment and the planet, and the economy.\n\nSuccessful risk management depends upon a sense of collective responsibility among AI actors shown in Figure 3. The AI RMF functions, described in Section 5, require diverse perspectives, disciplines, professions, and experiences. Diverse teams contribute to more open sharing of ideas and assumptions about the purposes and functions of technology – making these implicit aspects more explicit. This broader collective perspective creates opportunities for surfacing problems and identifying existing and emergent risks.\n\n[nist-ai-100-1:p047:para800:02 | nist-ai-100-1 | page 47 | Appendix D:]\n5. Be easily usable and fit well with other aspects of risk management. Use of the Framework should be intuitive and readily adaptable as part of an organization’s broader risk management strategy and processes. It should be consistent or aligned with other approaches to managing AI risks.\n\n6. Be useful to a wide range of perspectives, sectors, and technology domains. The AI RMF should be universally applicable to any AI technology and to context-specific use cases.",
+    "context_chars": 2161,
+    "cost_usd": 0.000911,
+    "provider_retries": [],
+    "elapsed_ms": 3270.0,
+    "n_searches": 1
+  },
+  {
+    "query_id": "u04",
+    "question": "What fines does the AI RMF set out under the EU AI Act for non-compliant high-risk AI systems?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1085.3,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "fines under EU AI Act for non-compliant high-risk AI systems",
+              "function_filter": null
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "fines under EU AI Act for non-compliant high-risk AI systems",
+        "filter": null,
+        "model_function_filter": null,
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 106.6,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p037:para800:01",
+            "page": 37,
+            "rank": 1,
+            "score": 0.435844
+          },
+          {
+            "id": "nist-ai-100-1:p029:para800:01",
+            "page": 29,
+            "rank": 2,
+            "score": 0.428766
+          },
+          {
+            "id": "nist-ai-100-1:p007:para800:02",
+            "page": 7,
+            "rank": 3,
+            "score": 0.423029
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p037:para800:01",
+          "nist-ai-100-1:p029:para800:01",
+          "nist-ai-100-1:p007:para800:02"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2240
+      },
+      {
+        "event": "model_call",
+        "ms": 1241.2,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "insufficient_evidence",
+              "answer": "The retrieved document sections do not specify the fines set out under the EU AI Act for non-compliant high-risk AI systems. More specific information about penalties or fines is missing.",
+              "citations": []
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "The retrieved document sections do not specify the fines set out under the EU AI Act for non-compliant high-risk AI systems. More specific information about penalties or fines is missing.",
+    "citations": [],
+    "usage": {
+      "input": 1520,
+      "output": 90,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "insufficient_evidence",
+      "answer": "The retrieved document sections do not specify the fines set out under the EU AI Act for non-compliant high-risk AI systems. More specific information about penalties or fines is missing.",
+      "citations": []
+    },
+    "context_ids": [
+      "nist-ai-100-1:p037:para800:01",
+      "nist-ai-100-1:p029:para800:01",
+      "nist-ai-100-1:p007:para800:02"
+    ],
+    "context": "[nist-ai-100-1:p037:para800:01 | nist-ai-100-1 | page 37 | 5.4 Manage]\nMANAGE 1.3: Responses to the AI risks deemed high priority, as identified by the MAP function, are developed, planned, and documented. Risk response options can include mitigating, transferring, avoiding, or accepting.\n\nMANAGE 1.4: Negative residual risks (defined as the sum of all unmitigated risks) to both downstream acquirers of AI systems and end users are documented.\n\nMANAGE 2: Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors.\n\nMANAGE 2.1: Resources required to manage AI risks are taken into account – along with viable non-AI alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential impacts.\n\n[nist-ai-100-1:p029:para800:01 | nist-ai-100-1 | page 29 | 5.1 Govern]\nGOVERN 5.2: Mechanisms are established to enable the team that developed or deployed AI systems to regularly incorporate adjudicated feedback from relevant AI actors into system design and implementation.\n\nGOVERN 6: Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues.\n\nGOVERN 6.1: Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights.\n\nGOVERN 6.2: Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk.\n\n[nist-ai-100-1:p007:para800:02 | nist-ai-100-1 | page 7 | Executive Summary]\nAs directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283), the goal of the AI RMF is to offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework.",
+    "context_chars": 2240,
+    "cost_usd": 0.000752,
+    "provider_retries": [],
+    "elapsed_ms": 2440.0,
+    "n_searches": 1
+  },
+  {
+    "query_id": "u05",
+    "question": "Which specific large language models did NIST evaluate when developing the AI RMF?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1083.8,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "large language models evaluated by NIST for AI RMF development",
+              "function_filter": null
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "large language models evaluated by NIST for AI RMF development",
+        "filter": null,
+        "model_function_filter": null,
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 132.1,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p024:para800:00",
+            "page": 24,
+            "rank": 1,
+            "score": 0.614614
+          },
+          {
+            "id": "nist-ai-100-1:p008:para800:02",
+            "page": 8,
+            "rank": 2,
+            "score": 0.6065
+          },
+          {
+            "id": "nist-ai-100-1:p047:para800:00",
+            "page": 47,
+            "rank": 3,
+            "score": 0.559931
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p024:para800:00",
+          "nist-ai-100-1:p008:para800:02",
+          "nist-ai-100-1:p047:para800:00"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 2327
+      },
+      {
+        "event": "model_call",
+        "ms": 1184.7,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "insufficient_evidence",
+              "answer": "The retrieved document excerpts do not specify which specific large language models NIST evaluated when developing the AI RMF.",
+              "citations": []
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "The retrieved document excerpts do not specify which specific large language models NIST evaluated when developing the AI RMF.",
+    "citations": [],
+    "usage": {
+      "input": 1483,
+      "output": 75,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "insufficient_evidence",
+      "answer": "The retrieved document excerpts do not specify which specific large language models NIST evaluated when developing the AI RMF.",
+      "citations": []
+    },
+    "context_ids": [
+      "nist-ai-100-1:p024:para800:00",
+      "nist-ai-100-1:p008:para800:02",
+      "nist-ai-100-1:p047:para800:00"
+    ],
+    "context": "[nist-ai-100-1:p024:para800:00 | nist-ai-100-1 | page 24 | 4. Effectiveness of the AI RMF]\n4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:\n\n[nist-ai-100-1:p008:para800:02 | nist-ai-100-1 | page 8 | Executive Summary]\nDevelopment of the AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recommendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools. Engagement with the AI community during this Framework’s development – via responses to a formal Request for Information, three widely attended workshops, public comments on a concept paper and two drafts of the Framework, discussions at multiple public forums, and many small group meetings – has informed development of the AI RMF 1.0 as well as AI research and development and evaluation conducted by NIST and others.\n\n[nist-ai-100-1:p047:para800:00 | nist-ai-100-1 | page 47 | Appendix D:]\nAppendix D: Attributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. They are provided here as a reference.\n\nThe AI RMF strives to: 1. Be risk-based, resource-efficient, pro-innovation, and voluntary.\n\n2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+    "context_chars": 2327,
+    "cost_usd": 0.000713,
+    "provider_retries": [],
+    "elapsed_ms": 2403.7,
+    "n_searches": 1
+  },
+  {
+    "query_id": "u06",
+    "question": "Theo AI RMF, chi phí trung bình để một doanh nghiệp vừa và nhỏ triển khai khung này là bao nhiêu?",
+    "user_filter": null,
+    "config": {
+      "name": "A0_dense",
+      "retrieval": "dense",
+      "index": "para800",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "thinking_budget": 512,
+      "temperature": 0.0,
+      "model_filter": true,
+      "seed_original": false
+    },
+    "retriever": "dense[para800]",
+    "events": [
+      {
+        "event": "model_call",
+        "ms": 1027.5,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "search_documents",
+            "args": {
+              "query": "average cost for small and medium businesses to implement AI RMF",
+              "function_filter": null
+            }
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "average cost for small and medium businesses to implement AI RMF",
+        "filter": null,
+        "model_function_filter": null,
+        "method": "dense[para800]",
+        "top_k": 3,
+        "ms": 106.9,
+        "results": [
+          {
+            "id": "nist-ai-100-1:p014:para800:00",
+            "page": 14,
+            "rank": 1,
+            "score": 0.547693
+          },
+          {
+            "id": "nist-ai-100-1:p007:para800:02",
+            "page": 7,
+            "rank": 2,
+            "score": 0.460634
+          },
+          {
+            "id": "nist-ai-100-1:p007:para800:04",
+            "page": 7,
+            "rank": 3,
+            "score": 0.444069
+          }
+        ],
+        "added": [
+          "nist-ai-100-1:p014:para800:00",
+          "nist-ai-100-1:p007:para800:02",
+          "nist-ai-100-1:p007:para800:04"
+        ],
+        "repeated": [],
+        "dropped_budget": [],
+        "context_chars": 1745
+      },
+      {
+        "event": "model_call",
+        "ms": 1408.6,
+        "allowed": [
+          "search_documents",
+          "submit_answer"
+        ],
+        "finish_reason": "tool_calls",
+        "tool_calls": [
+          {
+            "name": "submit_answer",
+            "args": {
+              "status": "insufficient_evidence",
+              "answer": "The document mentions that small to medium-sized organizations may face different challenges in managing AI risks or implementing the AI RMF depending on their capabilities and resources, but it does not specify the average cost for these businesses to implement the AI RMF.",
+              "citations": [
+                "nist-ai-100-1:p014:para800:00"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "status": "abstain",
+    "answer": "The document mentions that small to medium-sized organizations may face different challenges in managing AI risks or implementing the AI RMF depending on their capabilities and resources, but it does not specify the average cost for these businesses to implement the AI RMF.",
+    "citations": [],
+    "usage": {
+      "input": 1369,
+      "output": 115,
+      "thinking": 0,
+      "calls": 2
+    },
+    "raw_final": {
+      "status": "insufficient_evidence",
+      "answer": "The document mentions that small to medium-sized organizations may face different challenges in managing AI risks or implementing the AI RMF depending on their capabilities and resources, but it does not specify the average cost for these businesses to implement the AI RMF.",
+      "citations": [
+        "nist-ai-100-1:p014:para800:00"
+      ]
+    },
+    "context_ids": [
+      "nist-ai-100-1:p014:para800:00",
+      "nist-ai-100-1:p007:para800:02",
+      "nist-ai-100-1:p007:para800:04"
+    ],
+    "context": "[nist-ai-100-1:p014:para800:00 | nist-ai-100-1 | page 14 | 1.2.4 Organizational Integration and Management of Risk]\nOrganizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective. Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry. In addition, small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depending on their capabilities and resources.\n\n[nist-ai-100-1:p007:para800:02 | nist-ai-100-1 | page 7 | Executive Summary]\nAs directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283), the goal of the AI RMF is to offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework.\n\n[nist-ai-100-1:p007:para800:04 | nist-ai-100-1 | page 7 | Executive Summary]\nThe AI RMF is intended to be practical, to adapt to the AI landscape as AI technologies continue to develop, and to be operationalized by organizations in varying degrees and capacities so society can benefit from AI while also being protected from its potential harms.",
+    "context_chars": 1745,
+    "cost_usd": 0.000732,
+    "provider_retries": [],
+    "elapsed_ms": 2552.1,
+    "n_searches": 1
+  }
+]

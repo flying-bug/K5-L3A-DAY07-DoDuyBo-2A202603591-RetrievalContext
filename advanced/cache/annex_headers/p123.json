@@ -1,0 +1,21 @@
+{
+ "columns": [
+  "6.2 | Proportion of population using a hand-washing facility with soap and water (%) | Comparable estimates | 2020",
+  "6.3 | Proportion of safely treated domestic wastewater flows (%) | Comparable estimate | 2022",
+  "6.a | Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan (constant 2020 US$ millions) | Primary data | 2021",
+  "7.1 | Proportion of population with primary reliance on clean fuels and technology (%) | Comparable estimates | 2021",
+  "11.6 | Annual mean concentrations of fine particulate matter (PM2.5) in urban areas (µg/m3) | Comparable estimates | 2019",
+  "16.1 | Mortality rate due to homicide (per 100 000 population) | Comparable estimates | 2019",
+  "GPW 13 | Number of cases of poliomyelitis caused by wild poliovirus (WPV) | Primary data | 2022",
+  "GPW 13 | Percentage of total antibiotic consumption being from the AWaRe “Access” antibiotics category (%) | Primary data | 2018–2020",
+  "GPW 13 | Age-standardized prevalence of hypertension among adults aged 30–79 years (%) | Comparable estimates | 2019",
+  "GPW 13 | Prevalence of obesity among children and adolescents (5–19 years) (%) | Comparable estimates | 2016",
+  "GPW 13 | Age-standardized prevalence of obesity among adults (18+ years) (%) | Comparable estimates | 2016"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 3.33,
+  "input_tokens": 1806,
+  "output_tokens": 336
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "kind": "mixed",
+ "axes_units": "Left Y-axis: Average annual rate of reduction (ARR), % from -4.0% to 8.0%. Right Y-axis: Maternal mortality ratio (MMR), maternal deaths per 100,000 live births, scale from 0 to 800. X-axis: WHO regions (European Region, Western Pacific Region, Region of the Americas, South-East Asia Region, Eastern Mediterranean Region, African Region).",
+ "legend": [
+  "ARR, 2000–2015 (blue bars)",
+  "ARR, 2016–2020 (orange bars)",
+  "MMR, 2000 (green dots)",
+  "MMR, 2020 (purple dots)"
+ ],
+ "values": [
+  "ARR, 2000–2015 | European Region : ~4.8%",
+  "ARR, 2016–2020 | European Region : ~-2.3%",
+  "MMR, 2000 | European Region : ~20",
+  "MMR, 2020 | European Region : ~10",
+  "ARR, 2000–2015 | Western Pacific Region : ~4.0%",
+  "ARR, 2016–2020 | Western Pacific Region : ~-2.8%",
+  "MMR, 2000 | Western Pacific Region : ~50",
+  "MMR, 2020 | Western Pacific Region : ~30",
+  "ARR, 2000–2015 | Region of the Americas : ~1.0%",
+  "ARR, 2016–2020 | Region of the Americas : ~-3.5%",
+  "MMR, 2000 | Region of the Americas : ~60",
+  "MMR, 2020 | Region of the Americas : ~40",
+  "ARR, 2000–2015 | South-East Asia Region : ~6.0%",
+  "ARR, 2016–2020 | South-East Asia Region : ~4.5%",
+  "MMR, 2000 | South-East Asia Region : ~370",
+  "MMR, 2020 | South-East Asia Region : ~120",
+  "ARR, 2000–2015 | Eastern Mediterranean Region : ~3.8%",
+  "ARR, 2016–2020 | Eastern Mediterranean Region : ~2.0%",
+  "MMR, 2000 | Eastern Mediterranean Region : ~350",
+  "MMR, 2020 | Eastern Mediterranean Region : ~150",
+  "ARR, 2000–2015 | African Region : ~2.0%",
+  "ARR, 2016–2020 | African Region : ~2.0%",
+  "MMR, 2000 | African Region : ~790",
+  "MMR, 2020 | African Region : ~550"
+ ],
+ "summary": "The figure compares the maternal mortality ratio (MMR) in 2000 and 2020 and the average annual rate of reduction (ARR) in maternal mortality for two periods (2000–2015 and 2016–2020) across WHO regions. The African Region has the highest MMR in both years but shows a positive ARR in both periods, indicating reduction. The South-East Asia Region shows the highest ARR in 2000–2015 and a strong reduction continuing into 2016–2020. European, Western Pacific, and Region of the Americas show negative ARR in 2016–2020, indicating a slowdown or increase in maternal mortality reduction. Overall, MMR decreased in all regions from 2000 to 2020.",
+ "text_in_image": "Figure 1.1 Maternal mortality ratio and the average annual rate of reduction by WHO region, 2000–2020\n8.0%\nMMR (maternal deaths per 100 000 live births)\nAverage annual rate of reduction (ARR), %\n6.0%\n4.0%\n2.0%\n0.0%\n-2.0%\n-4.0%\nAfrican Region\nEuropean Region\nWestern Pacific Region\nRegion of the Americas\nSouth-East Asia Region\nEastern Mediterranean Region\nARR, 2000–2015\nARR 2016–2020\nMMR, 2000\nMMR, 2020\nNote: ARR = average annual rate of reduction; MMR = maternal mortality ratio.\nSource: Ref. (1).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 7.95,
+  "input_tokens": 3425,
+  "output_tokens": 938
+ }
+}

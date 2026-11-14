@@ -1,0 +1,182 @@
+[
+  {
+    "id": "T01",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: 614 per 100 000 (2021) = ô Lesotho/TB incidence, Table 1 p97 (dòng ghép từ p96)."
+  },
+  {
+    "id": "T02",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: 22.1% = Table 3 p116, Thailand, tobacco use 2020."
+  },
+  {
+    "id": "T03",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: 58% = Table 3 p110, Chad, DTP3 2021."
+  },
+  {
+    "id": "T04",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: 67.4 − 63.4 = 4.0 năm, Table 1 p94 Brazil HALE 2019; phép tính đúng."
+  },
+  {
+    "id": "T05",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: hạng 19 = Figure 2.12 p61, hàng 50–59, Suicide/Female (đối chiếu ảnh)."
+  },
+  {
+    "id": "T06",
+    "group": "table",
+    "pass": true,
+    "reason": "Đạt: Viet Nam 30.6 (Table 2 p108) và toàn cầu 16.7 per 100 000 (text p60 '…to 16.7 per 100 000') — cả hai có căn cứ; nêu rõ cao hơn."
+  },
+  {
+    "id": "T07",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: 6.1 triệu (UI 4.7–7.8) tổng vượt mức, 0.7 triệu được báo cáo — đọc đúng nhãn tổng và đoạn xanh của cột SEA, Figure 1.13 p28."
+  },
+  {
+    "id": "T08",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: European Region 92%, Figure 2.13 p64."
+  },
+  {
+    "id": "T09",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: Eastern Mediterranean 24%, Figure 2.20b p73."
+  },
+  {
+    "id": "T10",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: 148.1 triệu, 22.3%, Figure 2.7 p55 (hai panel, đúng đơn vị)."
+  },
+  {
+    "id": "T11",
+    "group": "chart",
+    "pass": true,
+    "reason": "Đạt: Nigeria 26.6%, DRC 12.3%, Figure 2.5a p51."
+  },
+  {
+    "id": "T12",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: 1988, Figure 3.4 p86."
+  },
+  {
+    "id": "T13",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: 17 nước, Figure 2.10 p59 (vùng giao stunting–anaemia)."
+  },
+  {
+    "id": "T14",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: đủ 6 lớp chú giải, Figure 1.16 p36."
+  },
+  {
+    "id": "T15",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: Zambia, Mozambique, Botswana, South Africa — đúng nhãn trên bản đồ Figure 2.2 p46."
+  },
+  {
+    "id": "T16",
+    "group": "image",
+    "pass": true,
+    "reason": "Đạt: lớp cao nhất >35; ký hiệu tròn = nông thôn cao hơn thị trấn (vòng) / thành phố (chấm), Figure 2.15 p67."
+  },
+  {
+    "id": "T17",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: 4.4 triệu (UI 3.9–5.0) năm 2020, 10.4 triệu (UI 9.1–12.1) năm 2021, text p28."
+  },
+  {
+    "id": "T18",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: EENC năm 2014; mổ lấy thai 29% (2022), Box 1.1 p19."
+  },
+  {
+    "id": "T19",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: MMR 46 (Table 1 p100–101) và thấp còi 19.3% (Table 4 p124), hai bảng khác nhau."
+  },
+  {
+    "id": "T20",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: 84.3 − 59.6 = 24.7 năm (Table 1 p96 Japan, p94 Chad)."
+  },
+  {
+    "id": "T21",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: 111 (Table 1 p98–99) / 38 = 2.92 lần; giá trị toàn cầu 38 trích từ text p16 ('global U5MR in 2021 was 38') — evidence thay thế hợp lệ cho dòng Global p101."
+  },
+  {
+    "id": "T22",
+    "group": "multihop",
+    "pass": true,
+    "reason": "Đạt: 11/46 nước (text p36) + rào cản tài chính 70% (Figure 1.17 p37)."
+  },
+  {
+    "id": "T23",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: 13.5% năm 2019, xấu đi trung bình 0.2 điểm %/năm từ 2015, text p69."
+  },
+  {
+    "id": "T24",
+    "group": "text",
+    "pass": true,
+    "reason": "Đạt: >22 năm/ca tử vong, 336.8 triệu năm sống mất, Key messages p9."
+  },
+  {
+    "id": "T25",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối; nêu đúng chỉ có số 2020 (4) cho Japan."
+  },
+  {
+    "id": "T26",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối; nêu đúng chỉ có trung vị theo học vấn/thu nhập, không có số của Viet Nam."
+  },
+  {
+    "id": "T27",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối; không có chỉ số vật lý trị liệu."
+  },
+  {
+    "id": "T28",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối; nêu đúng bảng ghi '-' cho HPV của Viet Nam."
+  },
+  {
+    "id": "T29",
+    "group": "unanswerable",
+    "pass": false,
+    "reason": "Không đạt (chấm chặt): từ chối đúng nhưng thêm khẳng định sai 'as indicated by \"-\" for missing data in the annex tables' — phụ lục không có cột giường bệnh."
+  },
+  {
+    "id": "T30",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Đạt: từ chối; không có số tử vong do sởi."
+  }
+]

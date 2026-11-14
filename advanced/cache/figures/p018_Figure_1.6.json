@@ -1,0 +1,44 @@
+{
+ "kind": "map",
+ "axes_units": "",
+ "legend": [
+  "Under-five mortality rate (per 1000 live births): >75 (dark purple), 51-75 (purple), 26-50 (pink), ≤25 (light peach), No data available (light grey), Not applicable (dark grey)",
+  "Neonatal mortality rate (per 1000 live births): 40 (largest red circle), 29, 18, 12, 1 (smallest green circle)"
+ ],
+ "values": [
+  "Under-five mortality rate | Africa (many countries): >75",
+  "Under-five mortality rate | parts of Africa: 51-75",
+  "Under-five mortality rate | parts of Africa, Asia: 26-50",
+  "Under-five mortality rate | most of Americas, Europe, Australia, parts of Asia: ≤25",
+  "Under-five mortality rate | Greenland, Western Sahara: No data available",
+  "Under-five mortality rate | Antarctica: Not applicable",
+  "Neonatal mortality rate | many African countries: large red circles (~40)",
+  "Neonatal mortality rate | many countries worldwide: smaller red circles (29, 18, 12)",
+  "Neonatal mortality rate | many countries worldwide: small green circles (1)"
+ ],
+ "summary": "The figure shows a world map illustrating under-five mortality rates by country using color shading and neonatal mortality rates using circle sizes and colors. The highest under-five mortality rates (>75 per 1000 live births) are concentrated in many African countries, with lower rates in the Americas, Europe, and parts of Asia. Neonatal mortality rates are represented by red and green circles of varying sizes, with the largest circles mostly in African countries, indicating higher neonatal mortality. Some regions have no data or are marked as not applicable.",
+ "text_in_image": [
+  "Figure 1.6 Under-five mortality rate and neonatal mortality rate, by country/area, 2021",
+  "Under-five mortality rate (per 1000 live births)",
+  "Neonatal mortality rate (per 1000 live births)",
+  ">75",
+  "51-75",
+  "26-50",
+  "≤25",
+  "No data available",
+  "Not applicable",
+  "40",
+  "29",
+  "18",
+  "12",
+  "1",
+  "Source: Ref. (4).",
+  "0 1000 2000 4000 km"
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.4,
+  "input_tokens": 2307,
+  "output_tokens": 527
+ }
+}

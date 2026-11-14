@@ -1,0 +1,25 @@
+{
+ "kind": "bar_chart",
+ "axes_units": "Horizontal axis: Percentage of countries (%) from 0 to 80",
+ "legend": [],
+ "values": [
+  "Main barriers | Insufficient finance/budget : 70",
+  "Main barriers | Insufficient human resource capacity : 54",
+  "Main barriers | Constraints related to COVID-19 : 52",
+  "Main barriers | Insufficient research and evidence : 46",
+  "Main barriers | Insufficient technologies, tools and methods : 43",
+  "Main barriers | Insufficient prioritization or competing priorities : 39",
+  "Main barriers | Insufficient multisectorall collaboration : 35",
+  "Main barriers | Incomplete or lack of comprehensive plan or strategy : 9",
+  "Main barriers | Lack of endorsement by Ministry of Health : 7",
+  "Main barriers | Other : 7"
+ ],
+ "summary": "The figure shows the main barriers to implementation of national health and climate change plans or strategies in 2021, measured by the percentage of countries reporting each barrier. The most common barrier is insufficient finance/budget at 70%, followed by insufficient human resource capacity (54%) and constraints related to COVID-19 (52%). The least common barriers are lack of endorsement by Ministry of Health and other reasons, both at 7%.",
+ "text_in_image": "Figure 1.17 Main barriers to implementation of national health and climate change plans or strategies, 2021; Insufficient finance/budget 70; Insufficient human resource capacity 54; Constraints related to COVID-19 52; Insufficient research and evidence 46; Insufficient technologies, tools and methods 43; Insufficient prioritization or competing priorities 39; Insufficient multisectorall collaboration 35; Incomplete or lack of comprehensive plan or strategy 9; Lack of endorsement by Ministry of Health 7; Other 7; Percentage of countries (%)",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.23,
+  "input_tokens": 2575,
+  "output_tokens": 404
+ }
+}

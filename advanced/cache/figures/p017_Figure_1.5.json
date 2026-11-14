@@ -1,0 +1,39 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "X-axis: Years from 2000 to 2021; Y-axis: Deaths (millions)",
+ "legend": [
+  "African Region (red)",
+  "South-East Asia Region (purple)",
+  "Eastern Mediterranean Region (green)",
+  "Western Pacific Region (yellow)",
+  "Region of the Americas (blue)",
+  "European Region (orange)",
+  "Global under-five deaths (solid purple line)",
+  "Global neonatal deaths (dashed purple line)"
+ ],
+ "values": [
+  "~9.9 million | 2000 : total deaths",
+  "~9.0 million | 2003 : total deaths",
+  "~5.0 million | 2021 : total deaths",
+  "African Region | 2000 : ~4.0 million deaths",
+  "African Region | 2021 : ~2.5 million deaths",
+  "South-East Asia Region | 2000 : ~2.0 million deaths",
+  "South-East Asia Region | 2021 : ~0.7 million deaths",
+  "Eastern Mediterranean Region | 2000 : ~1.0 million deaths",
+  "Eastern Mediterranean Region | 2021 : ~0.5 million deaths",
+  "Western Pacific Region | 2000 : ~0.5 million deaths",
+  "Western Pacific Region | 2021 : ~0.2 million deaths",
+  "Region of the Americas | 2000 : ~0.3 million deaths",
+  "Region of the Americas | 2021 : ~0.1 million deaths",
+  "European Region | 2000 : ~0.1 million deaths",
+  "European Region | 2021 : <0.1 million deaths"
+ ],
+ "summary": "The figure shows a declining trend in both neonatal deaths (0–28 days) and post-neonatal under-five deaths (1–59 months) across all WHO regions from 2000 to 2021. The African Region consistently has the highest number of deaths, followed by the South-East Asia Region. Global under-five deaths and neonatal deaths have both decreased significantly over the period. The stacked areas represent the contribution of each WHO region to the total deaths, with the African and South-East Asia regions contributing the largest shares.",
+ "text_in_image": "Figure 1.5 Trends in neonatal deaths and post-neonatal under-five deaths, by WHO region, 2000–2021\nPost-neonatal under-five deaths (1–59 months)\nNeonatal deaths (0–28 days)\nDeaths (millions)\nAfrican Region\nSouth-East Asia Region\nWestern Pacific Region\nEastern Mediterranean Region\nRegion of the Americas\nEuropean Region\nGlobal under-five deaths\nGlobal neonatal deaths\nSource: Ref. (4).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.67,
+  "input_tokens": 2968,
+  "output_tokens": 588
+ }
+}

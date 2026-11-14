@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hỏi đáp AI RMF</title>
+<style>
+:root {
+  --bg: #f6f6f3; --surface: #ffffff; --surface-2: #f0efea; --text: #1d1d1b; --muted: #6b6a64;
+  --border: #e0ded6; --accent: #2f5d50; --accent-ink: #ffffff; --accent-soft: #e3eee9;
+  --ok: #2f6b3a; --ok-soft: #e4f1e6; --warn: #8a5a12; --warn-soft: #f6ecd9; --err: #9b2c2c; --err-soft: #f7e3e3;
+  --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161715; --surface: #1f201d; --surface-2: #272824; --text: #ecebe6; --muted: #a09f97;
+    --border: #34352f; --accent: #7fb8a4; --accent-ink: #10201a; --accent-soft: #23332d;
+    --ok: #8fcf9b; --ok-soft: #1f3324; --warn: #e2b66a; --warn-soft: #3a2f1c; --err: #f09a9a; --err-soft: #3b2222;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 28px 16px 64px; }
+header h1 { margin: 0 0 4px; font-size: 24px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--muted); font-size: 13.5px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 16px; }
+textarea { width: 100%; min-height: 84px; resize: vertical; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; }
+textarea:focus, select:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-top: 10px; }
+label { font-size: 12.5px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+select { padding: 7px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface);
+  color: var(--text); font: inherit; font-size: 14px; max-width: 100%; }
+button.primary { margin-left: auto; padding: 9px 20px; border: 0; border-radius: 8px; background: var(--accent);
+  color: var(--accent-ink); font: inherit; font-weight: 600; cursor: pointer; }
+button.primary:disabled { opacity: .55; cursor: progress; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.chip { border: 1px solid var(--border); background: var(--surface-2); color: var(--text); border-radius: 999px;
+  padding: 4px 10px; font-size: 12.5px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.status { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; }
+.s-answered { background: var(--ok-soft); color: var(--ok); }
+.s-abstain { background: var(--warn-soft); color: var(--warn); }
+.s-error { background: var(--err-soft); color: var(--err); }
+.q { font-weight: 600; margin: 8px 0 6px; }
+.answer { font-size: 15.5px; white-space: pre-wrap; }
+.cite { font-family: var(--mono); font-size: 11.5px; background: var(--accent-soft); color: var(--accent);
+  border-radius: 5px; padding: 1px 5px; text-decoration: none; white-space: nowrap; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 16px; color: var(--muted); font-size: 12.5px; margin-top: 10px; }
+h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 18px 0 8px; }
+.src { border-left: 3px solid var(--accent); background: var(--surface-2); border-radius: 0 8px 8px 0;
+  padding: 10px 12px; margin-bottom: 8px; font-size: 13.5px; }
+.src .h { font-family: var(--mono); font-size: 11.5px; color: var(--muted); margin-bottom: 4px; overflow-wrap: anywhere; }
+.src.flash { outline: 2px solid var(--accent); }
+details { margin-top: 6px; }
+summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+.step { font-size: 13px; padding: 8px 0; border-top: 1px dashed var(--border); }
+.step code, .mono { font-family: var(--mono); font-size: 12px; overflow-wrap: anywhere; }
+.err { color: var(--err); }
+.note { margin-top: 10px; padding: 8px 12px; border-radius: 8px; background: var(--surface-2); color: var(--muted); font-size: 13px; }
+.note.warn { background: var(--warn-soft); color: var(--warn); }
+.note .answer { font-size: 13.5px; color: var(--text); margin-top: 6px; }
+.history { list-style: none; padding: 0; margin: 0; }
+.history li { padding: 6px 0; border-top: 1px solid var(--border); font-size: 13.5px; cursor: pointer; }
+.history li:first-child { border-top: 0; }
+.spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; vertical-align: -2px; margin-right: 6px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (max-width: 560px) { button.primary { margin-left: 0; width: 100%; } label { flex: 1 1 140px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Hỏi đáp AI RMF</h1>
+    <p>NIST AI 100-1 (AI RMF 1.0) · vector store pgvector Day 6 · agent <span id="model">…</span>, trả lời có trích dẫn nguồn</p>
+  </header>
+
+  <form class="card" id="f">
+    <textarea id="question" placeholder="Nhập câu hỏi (tiếng Việt hoặc tiếng Anh)… Ctrl+Enter để gửi" required maxlength="1000"></textarea>
+    <div class="row">
+      <label>Cấu hình agent
+        <select id="config"></select>
+      </label>
+      <label>Giới hạn theo function
+        <select id="func">
+          <option value="">Không lọc</option>
+          <option>GOVERN</option><option>MAP</option><option>MEASURE</option><option>MANAGE</option>
+        </select>
+      </label>
+      <button class="primary" id="ask" type="submit">Hỏi</button>
+    </div>
+    <div class="chips" id="examples"></div>
+  </form>
+
+  <div id="out"></div>
+
+  <div class="card" id="histCard" hidden>
+    <h3 style="margin-top:0">Đã hỏi trong phiên này</h3>
+    <ul class="history" id="hist"></ul>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const EXAMPLES = [
+  ["How does the AI RMF define risk?", ""],
+  ["Theo AI RMF, transparency và explainability khác nhau thế nào?", ""],
+  ["Who should take part in regular assessments and updates of the AI system?", "MEASURE"],
+  ["What fines does the AI RMF set for non-compliant systems?", ""],
+];
+const STATUS = { answered: ["Có trả lời", "s-answered"], abstain: ["Không đủ bằng chứng", "s-abstain"], error: ["Lỗi", "s-error"] };
+const history = [];
+
+async function loadConfigs() {
+  const res = await fetch("/api/configs");
+  const list = await res.json();
+  $("config").innerHTML = list.map((c) =>
+    `<option value="${esc(c.name)}" ${c.name === "A6_seed_category_lookup" ? "selected" : ""}>${esc(c.name)} — ${esc(c.retrieval)}, top-${c.top_k}, ${c.max_searches} lượt</option>`).join("");
+  if (list[0]) $("model").textContent = `${list[0].provider} · ${list[0].model}`;
+}
+
+function renderAnswer(text) {
+  return esc(text).replace(/\[([A-Za-z0-9_.:-]+)\]/g, (m, id) =>
+    `<a class="cite" href="#src-${encodeURIComponent(id)}" data-id="${esc(id)}">${esc(id.split(":").slice(1).join(":") || id)}</a>`);
+}
+
+const REASONS = {
+  no_citations: "model trả lời nhưng không trích dẫn đoạn nào",
+  citation_not_in_context: "model trích ID không có trong context đã tìm được",
+  empty_answer: "câu trả lời rỗng",
+};
+function rejectionNote(t) {
+  const ev = t.events || [];
+  const appended = ev.find((e) => e.event === "citation_markers_appended");
+  if (t.rejection) {
+    const raw = t.raw_final || {};
+    return `<div class="note warn"><b>Câu trả lời của model bị chặn:</b> ${esc(REASONS[t.rejection.reason] || t.rejection.reason)}
+      ${t.rejection.not_in_context?.length ? `<div class="mono">ID không có trong context: ${esc(t.rejection.not_in_context.join(", "))}</div>` : ""}
+      <details><summary>Câu trả lời gốc của model</summary><div class="answer">${esc(raw.answer)}</div>
+      <div class="mono">citations: ${esc(JSON.stringify(raw.citations || []))}</div></details></div>`;
+  }
+  if (t.status === "abstain" && t.raw_final?.status === "insufficient_evidence") {
+    return `<div class="note">Model tự kết luận tài liệu không đủ bằng chứng cho câu hỏi này.</div>`;
+  }
+  if (appended) {
+    return `<div class="note">Model liệt kê citation nhưng quên chèn vào văn bản; hệ thống đã gắn dấu ${esc(appended.ids.length)} citation vào cuối câu trả lời.</div>`;
+  }
+  return "";
+}
+
+function render(q, t) {
+  if (t.error && !t.status) {
+    return `<div class="card"><div class="q">${esc(q)}</div><p class="err">${esc(t.error)}</p></div>`;
+  }
+  const [label, cls] = STATUS[t.status] || [t.status, "s-error"];
+  const u = t.usage || {};
+  const steps = (t.events || []).filter((e) => e.event === "search").map((e, i) => `
+    <div class="step"><b>Lượt ${i + 1}</b> · <code>${esc(e.query)}</code>
+      ${e.filter ? ` · filter <code>${esc(JSON.stringify(e.filter))}</code>` : ""} · ${e.ms} ms
+      <div class="mono">${e.results.map((r) => `#${r.rank} ${esc(r.id.split(":").slice(1).join(":"))} (p${r.page}, ${r.score.toFixed(3)})`).join(" · ") || "không có kết quả"}</div>
+      <div style="color:var(--muted)">thêm vào context: ${e.added.length} · trùng: ${e.repeated.length} · bỏ do budget: ${e.dropped_budget.length} · context ${e.context_chars} ký tự</div>
+    </div>`).join("");
+  const cited = (t.cited_chunks || []).map((c) => `
+    <div class="src" id="src-${encodeURIComponent(c.id)}">
+      <div class="h">${esc(c.id)} · trang ${esc(c.page)}${c.section ? " · " + esc(c.section) : ""}</div>${esc(c.text)}</div>`).join("");
+  const others = (t.context_chunks || []).filter((c) => !(t.citations || []).includes(c.id)).map((c) => `
+    <div class="src" style="border-left-color:var(--border)"><div class="h">${esc(c.id)} · trang ${esc(c.page)}${c.section ? " · " + esc(c.section) : ""}</div>${esc(c.text)}</div>`).join("");
+  return `<div class="card">
+    <span class="status ${cls}">${label}</span>
+    <div class="q">${esc(q)}</div>
+    <div class="answer">${renderAnswer(t.answer || t.error || "")}</div>
+    ${t.error ? `<p class="err">${esc(t.error)}</p>` : ""}
+    ${rejectionNote(t)}
+    <div class="meta">
+      <span>${t.n_searches} lượt tìm</span><span>${(t.elapsed_ms / 1000).toFixed(1)} s</span>
+      <span>${u.input || 0} token vào · ${(u.output || 0) + (u.thinking || 0)} token ra</span>
+      <span>≈ $${(t.cost_usd || 0).toFixed(4)} (giá niêm yết)</span><span>${esc(t.retriever || "")}</span>
+    </div>
+    ${cited ? `<h3>Nguồn được trích dẫn</h3>${cited}` : ""}
+    <details><summary>Trace: các lượt tìm kiếm (${t.n_searches})</summary>${steps || "<p>Không có lượt tìm.</p>"}</details>
+    ${others ? `<details><summary>Đoạn khác trong context nhưng không được trích (${(t.context_chunks.length - (t.cited_chunks || []).length)})</summary>${others}</details>` : ""}
+  </div>`;
+}
+
+async function ask(ev) {
+  ev?.preventDefault();
+  const q = $("question").value.trim();
+  if (!q) return;
+  $("ask").disabled = true;
+  $("out").innerHTML = `<div class="card"><span class="spinner"></span>Agent đang tìm bằng chứng và soạn câu trả lời…</div>`;
+  let t;
+  try {
+    const res = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question: q, config: $("config").value, function: $("func").value || null }) });
+    t = await res.json();
+  } catch (e) { t = { error: "Không kết nối được server: " + e.message }; }
+  $("ask").disabled = false;
+  $("out").innerHTML = render(q, t);
+  history.unshift({ q, t });
+  $("histCard").hidden = false;
+  $("hist").innerHTML = history.map((h, i) => `<li data-i="${i}"><span class="status ${(STATUS[h.t.status] || ["", "s-error"])[1]}">${(STATUS[h.t.status] || ["Lỗi"])[0]}</span> ${esc(h.q)}</li>`).join("");
+}
+
+$("f").addEventListener("submit", ask);
+$("question").addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) ask(e); });
+$("hist").addEventListener("click", (e) => {
+  const li = e.target.closest("li"); if (!li) return;
+  const h = history[+li.dataset.i]; $("out").innerHTML = render(h.q, h.t); window.scrollTo({ top: 0, behavior: "smooth" });
+});
+$("out").addEventListener("click", (e) => {
+  const a = e.target.closest("a.cite"); if (!a) return;
+  const el = document.getElementById("src-" + encodeURIComponent(a.dataset.id));
+  if (el) { e.preventDefault(); el.scrollIntoView({ behavior: "smooth", block: "center" }); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1200); }
+});
+$("examples").innerHTML = EXAMPLES.map(([q, f], i) => `<button type="button" class="chip" data-i="${i}">${esc(q)}</button>`).join("");
+$("examples").addEventListener("click", (e) => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const [q, f] = EXAMPLES[+b.dataset.i]; $("question").value = q; $("func").value = f; $("question").focus();
+});
+loadConfigs();
+</script>
+</body>
+</html>

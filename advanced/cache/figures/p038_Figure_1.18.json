@@ -1,0 +1,33 @@
+{
+ "kind": "line_chart",
+ "axes_units": "X-axis: Year (1900 to 2100), Y-axis: Percentage of hot days (%) from 0 to 120",
+ "legend": [
+  "Blue lines: annual and smoothed observed record",
+  "Orange lines: high-emission scenario (Representative Concentration Pathway 8.5, RCP8.5)",
+  "Green lines: low-emission scenario (RCP2.6)",
+  "Shaded area: 90% model range"
+ ],
+ "values": [
+  "Observed record | 1900 : ~10%",
+  "Observed record | 1950 : ~20%",
+  "Observed record | 2000 : ~40%",
+  "Observed record | 2020 : ~60%",
+  "RCP8.5 average | 2050 : ~95%",
+  "RCP8.5 average | 2100 : 100%",
+  "RCP2.6 average | 2050 : ~60%",
+  "RCP2.6 average | 2100 : ~55%"
+ ],
+ "summary": "The figure shows the percentage of hot days in Saint Lucia from 1900 to 2100, with observed data until around 2020 and projections thereafter. Observed hot days have increased steadily over the 20th century. Under the high-emission scenario (RCP8.5), the percentage of hot days is projected to rise sharply to nearly 100% by 2100. Under the low-emission scenario (RCP2.6), the increase is more moderate, stabilizing around 55-60%. The chart includes multiple climate model projections with their average and 90% model range.",
+ "text_in_image": [
+  "Figure 1.18 Percentage of hot days (\"heat stress\"), Saint Lucia, 1900–2100*",
+  "Percentage of hot days (%)",
+  "Year",
+  "Note: * The figure presents climate model projections for the percentage of “hot days”. A “hot day” is a day when the maximum temperature exceeds the 90th percentile threshold for the time of the year. The blue lines represent annual and smoothed observed record. The orange lines represent a high-emission scenario (Representative Concentration Pathway 8.5, RCP8.5) and the green lines represent a low-emission scenario (RCP2.6). The scenarios are presented across some 20 global climate models. The figure shows each model individually, as well as their average and the 90% model range (shaded)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.72,
+  "input_tokens": 3555,
+  "output_tokens": 547
+ }
+}

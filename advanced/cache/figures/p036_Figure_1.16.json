@@ -1,0 +1,46 @@
+{
+ "kind": "map",
+ "axes_units": "",
+ "legend": [
+  {
+   "category": "Yes",
+   "colour": "dark red"
+  },
+  {
+   "category": "Under development",
+   "colour": "pink"
+  },
+  {
+   "category": "No",
+   "colour": "dark blue"
+  },
+  {
+   "category": "Unknown",
+   "colour": "cyan"
+  },
+  {
+   "category": "Not a participant",
+   "colour": "light grey"
+  },
+  {
+   "category": "Not applicable",
+   "colour": "medium grey"
+  }
+ ],
+ "values": [
+  "Yes: Brazil, China, India, South Africa, Egypt, Nigeria, Kenya, Tanzania, Ethiopia, Morocco, Ghana, Senegal, Uganda, Zimbabwe, Mozambique, Sudan, Algeria, Tunisia, Libya, Saudi Arabia, Iran, Turkey, Russia, Germany, France, Italy, Spain, Sweden, Norway, Finland, Poland, Ukraine, Belarus, Czechia, Slovakia, Hungary, Romania, Bulgaria, Greece, Portugal, Croatia, Serbia, Bosnia and Herzegovina, North Macedonia, Montenegro, Albania, Kosovo, Moldova, Armenia, Georgia, Azerbaijan, Myanmar, Thailand, Vietnam, Philippines, Malaysia, Indonesia, Papua New Guinea",
+  "Under development: United States, Mexico, Argentina, Colombia, Peru, Chile, Bolivia, Paraguay, Uruguay, Venezuela, Cuba, Dominican Republic, Haiti, Jamaica, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, Botswana, Namibia, Lesotho, Eswatini, Malawi, Zambia, Madagascar, Democratic Republic of the Congo, Central African Republic, Chad, Niger, Mali, Burkina Faso, Mauritania, Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Togo, Benin, Cameroon, Gabon, Equatorial Guinea, Congo, Angola, Yemen, Oman, United Arab Emirates, Qatar, Bahrain, Kuwait, Jordan, Lebanon, Syria, Iraq, Afghanistan, Pakistan, Nepal, Bangladesh, Sri Lanka, Mongolia, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, North Korea, South Korea, Japan, Taiwan, New Zealand, Australia, Fiji, Solomon Islands, Vanuatu, Samoa, Tonga, Micronesia, Palau, Marshall Islands, Nauru, Kiribati, Tuvalu",
+  "No: Canada, Greenland, Bolivia, Paraguay, Uruguay, Ecuador, Costa Rica, Cuba, Belize, El Salvador, Honduras, Nicaragua, Panama, Botswana, Namibia, Lesotho, Eswatini, Malawi, Zambia, Madagascar, Democratic Republic of the Congo, Central African Republic, Chad, Niger, Mali, Burkina Faso, Mauritania, Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Togo, Benin, Cameroon, Gabon, Equatorial Guinea, Congo, Angola, Yemen, Oman, United Arab Emirates, Qatar, Bahrain, Kuwait, Jordan, Lebanon, Syria, Iraq, Afghanistan, Pakistan, Nepal, Bangladesh, Sri Lanka, Mongolia, Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, North Korea, South Korea, Japan, Taiwan, New Zealand, Australia, Fiji, Solomon Islands, Vanuatu, Samoa, Tonga, Micronesia, Palau, Marshall Islands, Nauru, Kiribati, Tuvalu",
+  "Unknown: Kazakhstan, Uganda, Papua New Guinea",
+  "Not a participant: Greenland, Western Sahara, Antarctica",
+  "Not applicable: Antarctica"
+ ],
+ "summary": "The figure is a world map showing countries and areas categorized by whether they have a national health and climate change plan or strategy in place as of 2021. Countries are color-coded into six categories: Yes, Under development, No, Unknown, Not a participant, and Not applicable. Many countries in Africa, Asia, and Europe have a plan in place, while several countries in the Americas and Oceania are under development or have no plan. Some countries are marked as unknown or not participants.",
+ "text_in_image": "Figure 1.16 Countries and areas with a national health and climate change plan or strategy in place, 2021 | Yes | Under development | No | Unknown | Not a participant | Not applicable | 0 2000 4000 1000 km | Source: Ref. (37).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 6.7,
+  "input_tokens": 2270,
+  "output_tokens": 869
+ }
+}

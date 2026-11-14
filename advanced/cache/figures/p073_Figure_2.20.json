@@ -1,0 +1,66 @@
+{
+ "kind": "bar_chart",
+ "axes_units": "Y-axis: Percentage (%) from 0 to 100; X-axis: Categories by year (2015, 2021) in part a, and WHO regions in 2021 in part b",
+ "legend": [
+  {
+   "People living with HIV who know their status": "light blue"
+  },
+  {
+   "People living with HIV who are on treatment": "green"
+  },
+  {
+   "People living with HIV who are virally suppressed": "purple"
+  }
+ ],
+ "values": [
+  "People living with HIV who know their status | 2015 : 69",
+  "People living with HIV who are on treatment | 2015 : 50",
+  "People living with HIV who are virally suppressed | 2015 : 40",
+  "People living with HIV who know their status | 2021 : 85",
+  "People living with HIV who are on treatment | 2021 : 75",
+  "People living with HIV who are virally suppressed | 2021 : 68",
+  "People living with HIV who know their status | African Region : 88",
+  "People living with HIV who are on treatment | African Region : 78",
+  "People living with HIV who are virally suppressed | African Region : 72",
+  "People living with HIV who know their status | Region of the Americas : 85",
+  "People living with HIV who are on treatment | Region of the Americas : 74",
+  "People living with HIV who are virally suppressed | Region of the Americas : 66",
+  "People living with HIV who know their status | Eastern Mediterranean Region : 41",
+  "People living with HIV who are on treatment | Eastern Mediterranean Region : 27",
+  "People living with HIV who are virally suppressed | Eastern Mediterranean Region : 24",
+  "People living with HIV who know their status | European Region : 73",
+  "People living with HIV who are on treatment | European Region : 63",
+  "People living with HIV who are virally suppressed | European Region : 60",
+  "People living with HIV who know their status | South-East Asia Region : 74",
+  "People living with HIV who are on treatment | South-East Asia Region : 63",
+  "People living with HIV who are virally suppressed | South-East Asia Region : 55",
+  "People living with HIV who know their status | Western Pacific Region : 88",
+  "People living with HIV who are on treatment | Western Pacific Region : 79",
+  "People living with HIV who are virally suppressed | Western Pacific Region : 76"
+ ],
+ "summary": "The figure shows the HIV testing and treatment cascade globally for 2015 and 2021, and by WHO region in 2021. Globally, the percentages of people living with HIV who know their status, are on treatment, and are virally suppressed all increased from 2015 to 2021. By WHO region in 2021, the African and Western Pacific regions have the highest percentages across all three categories, while the Eastern Mediterranean region has the lowest percentages.",
+ "text_in_image": [
+  "Figure 2.20 HIV testing and treatment cascade",
+  "a. Global, 2015 and 2021",
+  "Percentage (%)",
+  "2015",
+  "2021",
+  "People living with HIV who know their status",
+  "People living with HIV who are on treatment",
+  "People living with HIV who are virally suppressed",
+  "b. By WHO region, 2021",
+  "African Region",
+  "Region of the Americas",
+  "Eastern Mediterranean Region",
+  "European Region",
+  "South-East Asia Region",
+  "Western Pacific Region",
+  "Source: Ref. (2) and (3)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 6.28,
+  "input_tokens": 4590,
+  "output_tokens": 803
+ }
+}

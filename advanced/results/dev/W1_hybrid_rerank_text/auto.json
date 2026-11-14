@@ -1,0 +1,41 @@
+{
+  "config": {
+    "name": "W1_hybrid_rerank_text",
+    "retrieval": "hybrid_rerank",
+    "index": "whs2023",
+    "top_k": 5,
+    "budget_chars": 14000,
+    "max_searches": 3,
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "thinking_budget": 512,
+    "temperature": 0.0,
+    "model_filter": false,
+    "seed_original": true,
+    "category_lookup": false,
+    "attach_images": 0,
+    "image_dpi": 150
+  },
+  "split": "dev",
+  "created_at": "2026-11-14T10:12:13Z",
+  "n": 20,
+  "errors": [],
+  "status": {
+    "answered": 17,
+    "abstain": 3
+  },
+  "context_page_coverage": "15/16",
+  "coverage_misses": [
+    "D10"
+  ],
+  "searches": {
+    "1": 11,
+    "2": 8,
+    "3": 1
+  },
+  "images": 0,
+  "median_latency_s": 5.1,
+  "tokens_in": 108746,
+  "tokens_out": 2314,
+  "cost_usd": 0.0472
+}

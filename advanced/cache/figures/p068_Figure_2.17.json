@@ -1,0 +1,22 @@
+{
+ "kind": "line_chart",
+ "axes_units": "X-axis: Year (2000 to 2019), Y-axis: Mortality rate (per 100,000 population), scale 0 to 2.5",
+ "legend": [
+  "Male | orange line",
+  "Female | purple line"
+ ],
+ "values": [
+  "Male | 2000 : ~2.05",
+  "Male | 2019 : ~1.45",
+  "Female | 2000 : ~1.15",
+  "Female | 2019 : ~0.88"
+ ],
+ "summary": "The figure shows global trends in mortality rates due to unintentional poisoning from 2000 to 2019, separated by sex. Mortality rates for both males and females have declined over this period. Males consistently have higher mortality rates than females throughout the years.",
+ "text_in_image": "Figure 2.17 Global trends in mortality rates due to unintentional poisoning, by sex, 2000–2019\nMortality rate (per 100 000 population)\nMale Female\nSource: Ref. (24).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 2.72,
+  "input_tokens": 2365,
+  "output_tokens": 247
+ }
+}

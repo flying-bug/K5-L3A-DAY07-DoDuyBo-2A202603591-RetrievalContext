@@ -1,0 +1,36 @@
+{
+ "kind": "line_chart",
+ "axes_units": "Left chart: Prevalence (%) of children under 5 years affected by stunting, wasting and overweight, global, 2000–2022; Right chart: Number (millions) of children under 5 years affected by stunting, wasting and overweight, global, 2000–2022",
+ "legend": [
+  "Stunting (yellow line)",
+  "Overweight (blue line)",
+  "Wasting (red line)",
+  "95% confidence interval (colored bands around lines)"
+ ],
+ "values": [
+  "Stunting | 2000 : 33.0%",
+  "Stunting | 2022 : 22.3%",
+  "Overweight | 2000 : 5.3%",
+  "Overweight | 2022 : 5.6%",
+  "Wasting | 2022 : 6.8%",
+  "Stunting | 2000 : 204.2 million",
+  "Stunting | 2005 : 197.1 million",
+  "Stunting | 2010 : 184.8 million",
+  "Stunting | 2015 : 169.1 million",
+  "Stunting | 2022 : 148.1 million",
+  "Overweight | 2000 : 33.0 million",
+  "Overweight | 2005 : 35.5 million",
+  "Overweight | 2010 : 36.2 million",
+  "Overweight | 2015 : 38.0 million",
+  "Overweight | 2022 : 37.0 million",
+  "Wasting | 2022 : 45.0 million"
+ ],
+ "summary": "The figure shows two line charts depicting the global prevalence (%) and number (millions) of children under 5 years affected by stunting, wasting, and overweight from 2000 to 2022. Stunting prevalence and number have steadily decreased over this period, while overweight prevalence and number have slightly increased or remained stable. Wasting prevalence and number are shown only for 2022, with wasting prevalence at 6.8% and 45 million children affected.",
+ "text_in_image": "Figure 2.7 Global percentage and number of children under 5 years of age affected by stunting, wasting and overweight, 2000–2022 | Stunting Overweight Wasting | 95% confidence interval | 33.0 | 204.2 | 197.1 | 184.8 | 169.1 | Number (millions) | 148.1 | Prevalence (%) | 22.3 | 6.8 | 45.0 | 5.6 | 37.0 | 5.3 | 33.0 | 35.5 | 36.2 | 38.0 | 2000 | 2005 | 2010 | 2015 | 2022 | Prevalence of children under 5 years affected by stunting, wasting and overweight, global, 2000–2022 | Number (millions) of children under 5 years affected by stunting, wasting and overweight, global, 2000–2022 | Source: Ref. (22).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 5.17,
+  "input_tokens": 2317,
+  "output_tokens": 691
+ }
+}

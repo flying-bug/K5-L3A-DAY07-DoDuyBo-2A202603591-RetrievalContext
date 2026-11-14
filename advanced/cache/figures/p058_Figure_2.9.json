@@ -1,0 +1,48 @@
+{
+ "kind": "stacked_bar_chart",
+ "axes_units": "x-axis: years from 2000 to 2019; y-axis: Anaemia prevalence (%) from 0 to 50",
+ "legend": [
+  "Severe anaemia (red)",
+  "Moderate anaemia (yellow)",
+  "Mild anaemia (blue)"
+ ],
+ "values": [
+  "Severe anaemia | 2000 : 1.7",
+  "Moderate anaemia | 2000 : 14.1",
+  "Mild anaemia | 2000 : 15.5",
+  "Severe anaemia | 2015 : 1.1",
+  "Moderate anaemia | 2015 : 12.2",
+  "Mild anaemia | 2015 : 15.5",
+  "Severe anaemia | 2019 : 1.0",
+  "Moderate anaemia | 2019 : 12.7",
+  "Mild anaemia | 2019 : 16.2"
+ ],
+ "summary": "The figure shows the global prevalence of anaemia in women aged 15–49 years from 2000 to 2019, broken down by severity levels: severe, moderate, and mild. Mild anaemia has the highest prevalence throughout the period, followed by moderate anaemia, with severe anaemia being the least prevalent. Overall, the total anaemia prevalence remains relatively stable with slight fluctuations, with mild anaemia showing a slight increase towards 2019.",
+ "text_in_image": [
+  "Figure 2.9 Global prevalence of anaemia by severity levels* in women aged 15–49 years, 2000–2019",
+  "Anaemia prevalence (%)",
+  "Severe anaemia",
+  "Moderate anaemia",
+  "Mild anaemia",
+  "15.5",
+  "14.1",
+  "1.7",
+  "1.1",
+  "1.0",
+  "12.2",
+  "12.7",
+  "15.5",
+  "16.2",
+  "2000",
+  "2015",
+  "2019",
+  "Note: *Mild anaemia is defined as haemoglobin concentrations of 110–119 g/L in non-pregnant women, and concentrations of 100–109 g/L in pregnant women; moderate anaemia is defined as haemoglobin concentrations of 80–109 g/L in non-pregnant women and 70–99 g/L in pregnant women; and severe anaemia is defined as haemoglobin concentration below 80 g/L in non-pregnant women and below 70 g/L in pregnant women.",
+  "Source: Ref. (23)."
+ ],
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.72,
+  "input_tokens": 3316,
+  "output_tokens": 581
+ }
+}

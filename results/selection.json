@@ -1,0 +1,98 @@
+{
+  "decided_at": "2026-11-14T08:44:35Z",
+  "rule": "benchmark/SELECTION.md (written before agent dev results and before any test run)",
+  "retrieval_selected": "dense_rerank_f (tied with hybrid_rerank_f on Hit@3/CER/MRR; fewer components, lower latency)",
+  "agent_baseline": "A0_dense",
+  "agent_selected": "A5_dense_rerank_seed",
+  "reason": "A4 and A5 tie on criteria 1-3 (2.00/2; abstention 3/3; false abstention 0/22; CER 21 vs 22 = 1-question difference counts as a tie). Criterion 4: A5 median latency 2.83 s < 3.44 s and cost $0.0175 < $0.0204.",
+  "dev_table": {
+    "A0_dense": {
+      "grounded_mean": 1.3636363636363635,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 6,
+        "N": 22
+      },
+      "context_evidence_rate": "14/22",
+      "median_latency_s": 3.1,
+      "cost_usd": 0.0259
+    },
+    "A1_dense_rerank": {
+      "grounded_mean": 1.5454545454545454,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 3,
+        "N": 22
+      },
+      "context_evidence_rate": "15/22",
+      "median_latency_s": 3.57,
+      "cost_usd": 0.0235
+    },
+    "A2_hybrid_rerank": {
+      "grounded_mean": 1.4545454545454546,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 5,
+        "N": 22
+      },
+      "context_evidence_rate": "14/22",
+      "median_latency_s": 3.58,
+      "cost_usd": 0.0244
+    },
+    "A3_dense_rerank_1shot_k5": {
+      "grounded_mean": 1.3636363636363635,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 5,
+        "N": 22
+      },
+      "context_evidence_rate": "13/22",
+      "median_latency_s": 3.33,
+      "cost_usd": 0.0236
+    },
+    "A4_dense_rerank_userfilter": {
+      "grounded_mean": 2.0,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 22
+      },
+      "context_evidence_rate": "21/22",
+      "median_latency_s": 3.44,
+      "cost_usd": 0.0204
+    },
+    "A5_dense_rerank_seed": {
+      "grounded_mean": 2.0,
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 22
+      },
+      "context_evidence_rate": "22/22",
+      "median_latency_s": 2.83,
+      "cost_usd": 0.0175
+    }
+  },
+  "test_runs_planned": [
+    "retrieval: dense_f, dense_rerank_f",
+    "agent: A0_dense, A5_dense_rerank_seed (once each)"
+  ]
+}

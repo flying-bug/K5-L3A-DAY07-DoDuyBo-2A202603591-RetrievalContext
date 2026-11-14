@@ -1,0 +1,33 @@
+{
+  "decided_at": "2026-11-14T10:21:19Z",
+  "rule": "Chọn cấu hình có tỷ lệ đạt dev cao nhất; hòa thì ít khẳng định sai hơn, rồi chi phí thấp hơn. Ghi sau 2 vòng dev, TRƯỚC khi chạy test.",
+  "dev_pass": {
+    "W0_dense_text": "19/20",
+    "W1_hybrid_rerank_text": "17/20",
+    "W2_hybrid_rerank_images": "16/20",
+    "W3_hybrid_rerank_images_4.1": "19/20",
+    "W4_dense_images_4.1": "20/20",
+    "W5_dense_images_mini": "18/20"
+  },
+  "dev_cost_usd": {
+    "W0_dense_text": 0.0367,
+    "W1_hybrid_rerank_text": 0.0472,
+    "W2_hybrid_rerank_images": 0.0796,
+    "W3_hybrid_rerank_images_4.1": 0.3223,
+    "W4_dense_images_4.1": 0.2628,
+    "W5_dense_images_mini": 0.0479
+  },
+  "dev_median_latency_s": {
+    "W0_dense_text": 2.85,
+    "W1_hybrid_rerank_text": 5.1,
+    "W2_hybrid_rerank_images": 4.59,
+    "W3_hybrid_rerank_images_4.1": 4.46,
+    "W4_dense_images_4.1": 2.92,
+    "W5_dense_images_mini": 3.16
+  },
+  "selected": "W4_dense_images_4.1",
+  "reason": "20/20 dev (duy nhất); W0 và W3 19/20. Chi phí cao hơn (~$0.013/câu so với $0.002 của W0) được chấp nhận vì ngưỡng test 90% chấm đạt/không đạt chặt.",
+  "test_runs_planned": [
+    "W4_dense_images_4.1 (once)"
+  ]
+}

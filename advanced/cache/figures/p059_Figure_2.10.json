@@ -1,0 +1,30 @@
+{
+ "kind": "diagram",
+ "axes_units": "",
+ "legend": [
+  "Wasting (green)",
+  "Overweight (orange)",
+  "Stunting (purple)",
+  "Anaemia (blue)"
+ ],
+ "values": [
+  "Wasting | only wasting threshold : 3",
+  "Overweight | only overweight threshold : 16",
+  "Stunting | only stunting threshold : 21",
+  "Anaemia | only anaemia threshold : 7",
+  "Stunting and wasting | crossed thresholds : 1",
+  "Stunting, overweight and wasting | crossed thresholds : 2",
+  "Stunting and overweight | crossed thresholds : 3",
+  "Stunting, overweight and anaemia | crossed thresholds : 1",
+  "Stunting and anaemia | crossed thresholds : 17",
+  "Stunting, wasting and anaemia | crossed thresholds : 6"
+ ],
+ "summary": "The figure is a Venn diagram showing the number of countries affected by high prevalence of multiple forms of malnutrition in 2022, categorized by wasting, overweight, stunting, and anaemia. The largest number of countries crossed only the stunting threshold (21), followed by only overweight (16) and only anaemia (7). Several countries crossed multiple thresholds, with 17 countries crossing both stunting and anaemia thresholds and smaller numbers crossing combinations of three forms.",
+ "text_in_image": "Figure 2.10 Number of countries affected by high prevalence of multiple forms of malnutrition* in 2022; Wasting; Overweight; Stunting; Anaemia; 3 countries only crossed wasting threshold; 16 countries only crossed overweight threshold; 21 countries only crossed stunting threshold; 7 countries only crossed anaemia threshold; 1 countries crossed stunting and wasting threshold; 2 countries crossed stunting, overweight and wasting thresholds; 3 countries crossed stunting and overweight thresholds; 1 countries crossed stunting, overweight and anaemia thresholds; 17 countries crossed stunting and anaemia thresholds; 6 countries crossed stunting, wasting and anaemia thresholds; Note: *For wasting, only countries with data from 2012 onwards were considered. The thresholds used were ≥ 10% for wasting, ≥ 20% for stunting, ≥ 10% for overweight in children under 5 years of age and ≥ 40% for anaemia in women aged 15–49 years. Source: Refs. (22) and (23).",
+ "_meta": {
+  "model": "gpt-4.1-mini",
+  "seconds": 4.46,
+  "input_tokens": 4388,
+  "output_tokens": 521
+ }
+}
