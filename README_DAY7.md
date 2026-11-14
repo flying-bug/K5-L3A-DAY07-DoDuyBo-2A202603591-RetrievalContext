@@ -1,6 +1,6 @@
 # Day 7 — Bài làm: Agentic RAG trên NIST AI RMF (Day 6 pgvector)
 
-Đỗ Duy Bổ · 2A202603591 · Báo cáo: [report/individual/2A202603591_DoDuyBo.md](report/individual/2A202603591_DoDuyBo.md)
+Đỗ Duy Bộ · 2A202603591 · Báo cáo: [report/individual/2A202603591_DoDuyBo.md](report/individual/2A202603591_DoDuyBo.md)
 
 ## Thành phần
 
